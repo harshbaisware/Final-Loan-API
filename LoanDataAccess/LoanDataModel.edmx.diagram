@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="ee283be79b354d9bb0e8df896307a783" Name="Diagram1" ZoomLevel="89">
+        <EntityTypeShape EntityType="loandbModel.Declar" Width="1.5" PointX="3" PointY="9" IsExpanded="true" />
+        <EntityTypeShape EntityType="loandbModel.EduAppDoc" Width="1.5" PointX="3" PointY="12.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="loandbModel.EduCoDoc" Width="1.5" PointX="3" PointY="45.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="loandbModel.EduCourse" Width="1.5" PointX="3" PointY="34.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="loandbModel.EmpEduHome" Width="1.5" PointX="3" PointY="26" IsExpanded="true" />
+        <EntityTypeShape EntityType="loandbModel.EmpGold" Width="1.5" PointX="3" PointY="31.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="loandbModel.Financial" Width="1.5" PointX="3" PointY="59.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="loandbModel.GoldAppDoc" Width="1.5" PointX="3" PointY="70.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="loandbModel.Gstin" Width="1.5" PointX="3" PointY="65.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="loandbModel.HomeAppDoc" Width="1.5" PointX="3" PointY="91.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="loandbModel.HomeDetail" Width="1.5" PointX="3" PointY="84.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="loandbModel.LoanDetail" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="loandbModel.LoanEdu" Width="1.5" PointX="3" PointY="105.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="loandbModel.LoginDetail" Width="1.5" PointX="0.75" PointY="87.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="loandbModel.Nominee" Width="1.5" PointX="3" PointY="110.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="loandbModel.Nri" Width="1.5" PointX="3" PointY="115.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="loandbModel.Personal" Width="1.5" PointX="3" PointY="119.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="loandbModel.PersonalAppDoc" Width="1.5" PointX="3" PointY="140.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="loandbModel.PropertyDetail" Width="1.5" PointX="3" PointY="128.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="loandbModel.PropGold" Width="1.5" PointX="3" PointY="133.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="loandbModel.PropHome" Width="1.5" PointX="3" PointY="137" IsExpanded="true" />
+        <EntityTypeShape EntityType="loandbModel.PropPersonal" Width="1.5" PointX="3" PointY="154.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="loandbModel.PurpGold" Width="1.5" PointX="3" PointY="157.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="loandbModel.PurpPersonal" Width="1.5" PointX="3" PointY="160.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="loandbModel.Reference" Width="1.5" PointX="3" PointY="162.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="loandbModel.Status" Width="1.5" PointX="3" PointY="168.5" IsExpanded="true" />
+        <AssociationConnector Association="loandbModel.FK__Declar__P_ID__6C190EBB" ManuallyRouted="false" />
+        <AssociationConnector Association="loandbModel.FK__EduAppDoc__P_ID__10566F31" ManuallyRouted="false" />
+        <AssociationConnector Association="loandbModel.FK__EduCoDoc__P_ID__1332DBDC" ManuallyRouted="false" />
+        <AssociationConnector Association="loandbModel.FK__EduCourse__P_ID__412EB0B6" ManuallyRouted="false" />
+        <AssociationConnector Association="loandbModel.FK__EmpEduHome__P_ID__440B1D61" ManuallyRouted="false" />
+        <AssociationConnector Association="loandbModel.FK__EmpGold__P_ID__46E78A0C" ManuallyRouted="false" />
+        <AssociationConnector Association="loandbModel.FK__FinGoldHom__P_ID__4F7CD00D" ManuallyRouted="false" />
+        <AssociationConnector Association="loandbModel.FK__GoldAppDoc__P_ID__0D7A0286" ManuallyRouted="false" />
+        <AssociationConnector Association="loandbModel.FK__Gstin__P_ID__3B75D760" ManuallyRouted="false" />
+        <AssociationConnector Association="loandbModel.FK__HomeAppDoc__P_ID__0A9D95DB" ManuallyRouted="false" />
+        <AssociationConnector Association="loandbModel.FK__Home__P_ID__5812160E" ManuallyRouted="false" />
+        <AssociationConnector Association="loandbModel.FK__LoanEdu__P_ID__52593CB8" ManuallyRouted="false" />
+        <AssociationConnector Association="loandbModel.FK__Nominee__P_ID__693CA210" ManuallyRouted="false" />
+        <AssociationConnector Association="loandbModel.FK__Nri__P_ID__3E52440B" ManuallyRouted="false" />
+        <AssociationConnector Association="loandbModel.FK__Personal__P_ID__38996AB5" ManuallyRouted="false" />
+        <AssociationConnector Association="loandbModel.FK__PersonalAp__P_ID__07C12930" ManuallyRouted="false" />
+        <AssociationConnector Association="loandbModel.FK__Property__P_ID__5AEE82B9" ManuallyRouted="false" />
+        <AssociationConnector Association="loandbModel.FK__PropGold__P_ID__49C3F6B7" ManuallyRouted="false" />
+        <AssociationConnector Association="loandbModel.FK__PropHome__P_ID__5535A963" ManuallyRouted="false" />
+        <AssociationConnector Association="loandbModel.FK__PropPerson__P_ID__5DCAEF64" ManuallyRouted="false" />
+        <AssociationConnector Association="loandbModel.FK__PurpGold__P_ID__4CA06362" ManuallyRouted="false" />
+        <AssociationConnector Association="loandbModel.FK__PurpPerson__P_ID__6383C8BA" ManuallyRouted="false" />
+        <AssociationConnector Association="loandbModel.FK__Reference__P_ID__66603565" ManuallyRouted="false" />
+        <AssociationConnector Association="loandbModel.FK__Status__P_ID__7D439ABD" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

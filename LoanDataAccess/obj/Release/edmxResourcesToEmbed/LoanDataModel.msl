@@ -1,0 +1,800 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="loandbModelStoreContainer" CdmEntityContainer="loandbEntities">
+    <EntitySetMapping Name="Declars">
+      <EntityTypeMapping TypeName="loandbModel.Declar">
+        <MappingFragment StoreEntitySet="Declar">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="P_ID" ColumnName="P_ID" />
+          <ScalarProperty Name="Dec_Place" ColumnName="Dec_Place" />
+          <ScalarProperty Name="Dec_Date" ColumnName="Dec_Date" />
+          <ScalarProperty Name="Dec_App_Photo" ColumnName="Dec_App_Photo" />
+          <ScalarProperty Name="Dec_App_Sign" ColumnName="Dec_App_Sign" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EduAppDocs">
+      <EntityTypeMapping TypeName="loandbModel.EduAppDoc">
+        <MappingFragment StoreEntitySet="EduAppDoc">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="P_ID" ColumnName="P_ID" />
+          <ScalarProperty Name="Doc1_Name" ColumnName="Doc1_Name" />
+          <ScalarProperty Name="Doc1" ColumnName="Doc1" />
+          <ScalarProperty Name="Doc1_Status" ColumnName="Doc1_Status" />
+          <ScalarProperty Name="Doc2_Name" ColumnName="Doc2_Name" />
+          <ScalarProperty Name="Doc2" ColumnName="Doc2" />
+          <ScalarProperty Name="Doc2_Status" ColumnName="Doc2_Status" />
+          <ScalarProperty Name="Doc3_Name" ColumnName="Doc3_Name" />
+          <ScalarProperty Name="Doc3" ColumnName="Doc3" />
+          <ScalarProperty Name="Doc3_Status" ColumnName="Doc3_Status" />
+          <ScalarProperty Name="Doc4_Name" ColumnName="Doc4_Name" />
+          <ScalarProperty Name="Doc4" ColumnName="Doc4" />
+          <ScalarProperty Name="Doc4_Status" ColumnName="Doc4_Status" />
+          <ScalarProperty Name="Doc5_Name" ColumnName="Doc5_Name" />
+          <ScalarProperty Name="Doc5" ColumnName="Doc5" />
+          <ScalarProperty Name="Doc5_Status" ColumnName="Doc5_Status" />
+          <ScalarProperty Name="Doc6_Name" ColumnName="Doc6_Name" />
+          <ScalarProperty Name="Doc6" ColumnName="Doc6" />
+          <ScalarProperty Name="Doc6_Status" ColumnName="Doc6_Status" />
+          <ScalarProperty Name="Doc7_Name" ColumnName="Doc7_Name" />
+          <ScalarProperty Name="Doc7" ColumnName="Doc7" />
+          <ScalarProperty Name="Doc7_Status" ColumnName="Doc7_Status" />
+          <ScalarProperty Name="Doc8_Name" ColumnName="Doc8_Name" />
+          <ScalarProperty Name="Doc8" ColumnName="Doc8" />
+          <ScalarProperty Name="Doc8_Status" ColumnName="Doc8_Status" />
+          <ScalarProperty Name="Doc9_Name" ColumnName="Doc9_Name" />
+          <ScalarProperty Name="Doc9" ColumnName="Doc9" />
+          <ScalarProperty Name="Doc9_Status" ColumnName="Doc9_Status" />
+          <ScalarProperty Name="Doc10_Name" ColumnName="Doc10_Name" />
+          <ScalarProperty Name="Doc10" ColumnName="Doc10" />
+          <ScalarProperty Name="Doc10_Status" ColumnName="Doc10_Status" />
+          <ScalarProperty Name="Doc11_Name" ColumnName="Doc11_Name" />
+          <ScalarProperty Name="Doc11" ColumnName="Doc11" />
+          <ScalarProperty Name="Doc11_Status" ColumnName="Doc11_Status" />
+          <ScalarProperty Name="Doc12_Name" ColumnName="Doc12_Name" />
+          <ScalarProperty Name="Doc12" ColumnName="Doc12" />
+          <ScalarProperty Name="Doc12_Status" ColumnName="Doc12_Status" />
+          <ScalarProperty Name="Doc13_Name" ColumnName="Doc13_Name" />
+          <ScalarProperty Name="Doc13" ColumnName="Doc13" />
+          <ScalarProperty Name="Doc13_Status" ColumnName="Doc13_Status" />
+          <ScalarProperty Name="Doc14_Name" ColumnName="Doc14_Name" />
+          <ScalarProperty Name="Doc14" ColumnName="Doc14" />
+          <ScalarProperty Name="Doc14_Status" ColumnName="Doc14_Status" />
+          <ScalarProperty Name="Doc15_Name" ColumnName="Doc15_Name" />
+          <ScalarProperty Name="Doc15" ColumnName="Doc15" />
+          <ScalarProperty Name="Doc15_Status" ColumnName="Doc15_Status" />
+          <ScalarProperty Name="Doc16_Name" ColumnName="Doc16_Name" />
+          <ScalarProperty Name="Doc16" ColumnName="Doc16" />
+          <ScalarProperty Name="Doc16_Status" ColumnName="Doc16_Status" />
+          <ScalarProperty Name="Doc17_Name" ColumnName="Doc17_Name" />
+          <ScalarProperty Name="Doc17" ColumnName="Doc17" />
+          <ScalarProperty Name="Doc17_Status" ColumnName="Doc17_Status" />
+          <ScalarProperty Name="Doc18_Name" ColumnName="Doc18_Name" />
+          <ScalarProperty Name="Doc18" ColumnName="Doc18" />
+          <ScalarProperty Name="Doc18_Status" ColumnName="Doc18_Status" />
+          <ScalarProperty Name="Doc19_Name" ColumnName="Doc19_Name" />
+          <ScalarProperty Name="Doc19" ColumnName="Doc19" />
+          <ScalarProperty Name="Doc19_Status" ColumnName="Doc19_Status" />
+          <ScalarProperty Name="Doc20_Name" ColumnName="Doc20_Name" />
+          <ScalarProperty Name="Doc20" ColumnName="Doc20" />
+          <ScalarProperty Name="Doc20_Status" ColumnName="Doc20_Status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EduCoDocs">
+      <EntityTypeMapping TypeName="loandbModel.EduCoDoc">
+        <MappingFragment StoreEntitySet="EduCoDoc">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="P_ID" ColumnName="P_ID" />
+          <ScalarProperty Name="Doc1_Name" ColumnName="Doc1_Name" />
+          <ScalarProperty Name="Doc1" ColumnName="Doc1" />
+          <ScalarProperty Name="Doc1_Status" ColumnName="Doc1_Status" />
+          <ScalarProperty Name="Doc2_Name" ColumnName="Doc2_Name" />
+          <ScalarProperty Name="Doc2" ColumnName="Doc2" />
+          <ScalarProperty Name="Doc2_Status" ColumnName="Doc2_Status" />
+          <ScalarProperty Name="Doc3_Name" ColumnName="Doc3_Name" />
+          <ScalarProperty Name="Doc3" ColumnName="Doc3" />
+          <ScalarProperty Name="Doc3_Status" ColumnName="Doc3_Status" />
+          <ScalarProperty Name="Doc4_Name" ColumnName="Doc4_Name" />
+          <ScalarProperty Name="Doc4" ColumnName="Doc4" />
+          <ScalarProperty Name="Doc4_Status" ColumnName="Doc4_Status" />
+          <ScalarProperty Name="Doc5_Name" ColumnName="Doc5_Name" />
+          <ScalarProperty Name="Doc5" ColumnName="Doc5" />
+          <ScalarProperty Name="Doc5_Status" ColumnName="Doc5_Status" />
+          <ScalarProperty Name="Doc6_Name" ColumnName="Doc6_Name" />
+          <ScalarProperty Name="Doc6" ColumnName="Doc6" />
+          <ScalarProperty Name="Doc6_Status" ColumnName="Doc6_Status" />
+          <ScalarProperty Name="Doc7_Name" ColumnName="Doc7_Name" />
+          <ScalarProperty Name="Doc7" ColumnName="Doc7" />
+          <ScalarProperty Name="Doc7_Status" ColumnName="Doc7_Status" />
+          <ScalarProperty Name="Doc8_Name" ColumnName="Doc8_Name" />
+          <ScalarProperty Name="Doc8" ColumnName="Doc8" />
+          <ScalarProperty Name="Doc8_Status" ColumnName="Doc8_Status" />
+          <ScalarProperty Name="Doc9_Name" ColumnName="Doc9_Name" />
+          <ScalarProperty Name="Doc9" ColumnName="Doc9" />
+          <ScalarProperty Name="Doc9_Status" ColumnName="Doc9_Status" />
+          <ScalarProperty Name="Doc10_Name" ColumnName="Doc10_Name" />
+          <ScalarProperty Name="Doc10" ColumnName="Doc10" />
+          <ScalarProperty Name="Doc10_Status" ColumnName="Doc10_Status" />
+          <ScalarProperty Name="Doc11_Name" ColumnName="Doc11_Name" />
+          <ScalarProperty Name="Doc11" ColumnName="Doc11" />
+          <ScalarProperty Name="Doc11_Status" ColumnName="Doc11_Status" />
+          <ScalarProperty Name="Doc12_Name" ColumnName="Doc12_Name" />
+          <ScalarProperty Name="Doc12" ColumnName="Doc12" />
+          <ScalarProperty Name="Doc12_Status" ColumnName="Doc12_Status" />
+          <ScalarProperty Name="Doc13_Name" ColumnName="Doc13_Name" />
+          <ScalarProperty Name="Doc13" ColumnName="Doc13" />
+          <ScalarProperty Name="Doc13_Status" ColumnName="Doc13_Status" />
+          <ScalarProperty Name="Doc14_Name" ColumnName="Doc14_Name" />
+          <ScalarProperty Name="Doc14" ColumnName="Doc14" />
+          <ScalarProperty Name="Doc14_Status" ColumnName="Doc14_Status" />
+          <ScalarProperty Name="Doc15_Name" ColumnName="Doc15_Name" />
+          <ScalarProperty Name="Doc15" ColumnName="Doc15" />
+          <ScalarProperty Name="Doc15_Status" ColumnName="Doc15_Status" />
+          <ScalarProperty Name="Doc16_Name" ColumnName="Doc16_Name" />
+          <ScalarProperty Name="Doc16" ColumnName="Doc16" />
+          <ScalarProperty Name="Doc16_Status" ColumnName="Doc16_Status" />
+          <ScalarProperty Name="Doc17_Name" ColumnName="Doc17_Name" />
+          <ScalarProperty Name="Doc17" ColumnName="Doc17" />
+          <ScalarProperty Name="Doc17_Status" ColumnName="Doc17_Status" />
+          <ScalarProperty Name="Doc18_Name" ColumnName="Doc18_Name" />
+          <ScalarProperty Name="Doc18" ColumnName="Doc18" />
+          <ScalarProperty Name="Doc18_Status" ColumnName="Doc18_Status" />
+          <ScalarProperty Name="Doc19_Name" ColumnName="Doc19_Name" />
+          <ScalarProperty Name="Doc19" ColumnName="Doc19" />
+          <ScalarProperty Name="Doc19_Status" ColumnName="Doc19_Status" />
+          <ScalarProperty Name="Doc20_Name" ColumnName="Doc20_Name" />
+          <ScalarProperty Name="Doc20" ColumnName="Doc20" />
+          <ScalarProperty Name="Doc20_Status" ColumnName="Doc20_Status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EduCourses">
+      <EntityTypeMapping TypeName="loandbModel.EduCourse">
+        <MappingFragment StoreEntitySet="EduCourse">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="P_ID" ColumnName="P_ID" />
+          <ScalarProperty Name="St_Ssc_Inst" ColumnName="St_Ssc_Inst" />
+          <ScalarProperty Name="St_Ssc_Year" ColumnName="St_Ssc_Year" />
+          <ScalarProperty Name="St_Ssc_Per" ColumnName="St_Ssc_Per" />
+          <ScalarProperty Name="St_Ssc_Class" ColumnName="St_Ssc_Class" />
+          <ScalarProperty Name="St_Ssc_Money_Won" ColumnName="St_Ssc_Money_Won" />
+          <ScalarProperty Name="St_Hsc_Inst" ColumnName="St_Hsc_Inst" />
+          <ScalarProperty Name="St_Hsc_Year" ColumnName="St_Hsc_Year" />
+          <ScalarProperty Name="St_Hsc_Per" ColumnName="St_Hsc_Per" />
+          <ScalarProperty Name="St_Hsc_Class" ColumnName="St_Hsc_Class" />
+          <ScalarProperty Name="St_Hsc_Money_Won" ColumnName="St_Hsc_Money_Won" />
+          <ScalarProperty Name="St_LD_Inst" ColumnName="St_LD_Inst" />
+          <ScalarProperty Name="St_LD_Year" ColumnName="St_LD_Year" />
+          <ScalarProperty Name="St_LD_Per" ColumnName="St_LD_Per" />
+          <ScalarProperty Name="St_LD_Class" ColumnName="St_LD_Class" />
+          <ScalarProperty Name="St_LD_Money_Won" ColumnName="St_LD_Money_Won" />
+          <ScalarProperty Name="St_Exam_Score" ColumnName="St_Exam_Score" />
+          <ScalarProperty Name="St_College_Details" ColumnName="St_College_Details" />
+          <ScalarProperty Name="St_City" ColumnName="St_City" />
+          <ScalarProperty Name="St_State" ColumnName="St_State" />
+          <ScalarProperty Name="St_District" ColumnName="St_District" />
+          <ScalarProperty Name="St_Pin_Code" ColumnName="St_Pin_Code" />
+          <ScalarProperty Name="St_Country" ColumnName="St_Country" />
+          <ScalarProperty Name="St_Admission_Status" ColumnName="St_Admission_Status" />
+          <ScalarProperty Name="St_Univ_Name" ColumnName="St_Univ_Name" />
+          <ScalarProperty Name="St_Univ_Person" ColumnName="St_Univ_Person" />
+          <ScalarProperty Name="St_Course_Name" ColumnName="St_Course_Name" />
+          <ScalarProperty Name="St_Course_Appr" ColumnName="St_Course_Appr" />
+          <ScalarProperty Name="St_Admsn" ColumnName="St_Admsn" />
+          <ScalarProperty Name="St_Course_Cat" ColumnName="St_Course_Cat" />
+          <ScalarProperty Name="St_Course_Type" ColumnName="St_Course_Type" />
+          <ScalarProperty Name="St_Course_Start" ColumnName="St_Course_Start" />
+          <ScalarProperty Name="St_Course_End" ColumnName="St_Course_End" />
+          <ScalarProperty Name="St_Morat1" ColumnName="St_Morat1" />
+          <ScalarProperty Name="St_Morat2" ColumnName="St_Morat2" />
+          <ScalarProperty Name="St_Total_Morat" ColumnName="St_Total_Morat" />
+          <ScalarProperty Name="St_Emi_Repay" ColumnName="St_Emi_Repay" />
+          <ScalarProperty Name="St_Loan_Period" ColumnName="St_Loan_Period" />
+          <ScalarProperty Name="St_Int_Serv" ColumnName="St_Int_Serv" />
+          <ScalarProperty Name="St_Exp_Income" ColumnName="St_Exp_Income" />
+          <ScalarProperty Name="St_Clg_Name" ColumnName="St_Clg_Name" />
+          <ScalarProperty Name="St_Course_Persuid" ColumnName="St_Course_Persuid" />
+          <ScalarProperty Name="St_Compl_Date" ColumnName="St_Compl_Date" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EmpEduHomes">
+      <EntityTypeMapping TypeName="loandbModel.EmpEduHome">
+        <MappingFragment StoreEntitySet="EmpEduHome">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="P_ID" ColumnName="P_ID" />
+          <ScalarProperty Name="Org_Res_Own" ColumnName="Org_Res_Own" />
+          <ScalarProperty Name="Org_Employment_Nat" ColumnName="Org_Employment_Nat" />
+          <ScalarProperty Name="Org_Nat" ColumnName="Org_Nat" />
+          <ScalarProperty Name="Org_Emp_Busi_Nat" ColumnName="Org_Emp_Busi_Nat" />
+          <ScalarProperty Name="Org_Designation" ColumnName="Org_Designation" />
+          <ScalarProperty Name="Org_Current_Year" ColumnName="Org_Current_Year" />
+          <ScalarProperty Name="Org_Total_Year" ColumnName="Org_Total_Year" />
+          <ScalarProperty Name="Org_Name" ColumnName="Org_Name" />
+          <ScalarProperty Name="Org_Address" ColumnName="Org_Address" />
+          <ScalarProperty Name="Org_Pin" ColumnName="Org_Pin" />
+          <ScalarProperty Name="Org_City" ColumnName="Org_City" />
+          <ScalarProperty Name="Org_State" ColumnName="Org_State" />
+          <ScalarProperty Name="Org_Country" ColumnName="Org_Country" />
+          <ScalarProperty Name="Org_Phone" ColumnName="Org_Phone" />
+          <ScalarProperty Name="Org_UAN" ColumnName="Org_UAN" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EmpGolds">
+      <EntityTypeMapping TypeName="loandbModel.EmpGold">
+        <MappingFragment StoreEntitySet="EmpGold">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="P_ID" ColumnName="P_ID" />
+          <ScalarProperty Name="Ge_Occ_Type" ColumnName="Ge_Occ_Type" />
+          <ScalarProperty Name="Ge_Org_Type" ColumnName="Ge_Org_Type" />
+          <ScalarProperty Name="Ge_Emp_Buss_Name" ColumnName="Ge_Emp_Buss_Name" />
+          <ScalarProperty Name="Ge_Designation" ColumnName="Ge_Designation" />
+          <ScalarProperty Name="Ge_Curr_Work_Years" ColumnName="Ge_Curr_Work_Years" />
+          <ScalarProperty Name="Ge_Total_work_Years" ColumnName="Ge_Total_work_Years" />
+          <ScalarProperty Name="Ge_Net_Ann_Inc" ColumnName="Ge_Net_Ann_Inc" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Financials">
+      <EntityTypeMapping TypeName="loandbModel.Financial">
+        <MappingFragment StoreEntitySet="Financial">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="P_ID" ColumnName="P_ID" />
+          <ScalarProperty Name="Fin_Status" ColumnName="Fin_Status" />
+          <ScalarProperty Name="Fin_Inc_Gross" ColumnName="Fin_Inc_Gross" />
+          <ScalarProperty Name="Fin_Inc_Net" ColumnName="Fin_Inc_Net" />
+          <ScalarProperty Name="Fin_Inc_Othr" ColumnName="Fin_Inc_Othr" />
+          <ScalarProperty Name="Fin_Inc_Total" ColumnName="Fin_Inc_Total" />
+          <ScalarProperty Name="Fin_Bank1_Name" ColumnName="Fin_Bank1_Name" />
+          <ScalarProperty Name="Fin_Bank1_Branch" ColumnName="Fin_Bank1_Branch" />
+          <ScalarProperty Name="Fin_Bank1_Ac_Type" ColumnName="Fin_Bank1_Ac_Type" />
+          <ScalarProperty Name="Fin_Bank1_Ac_No" ColumnName="Fin_Bank1_Ac_No" />
+          <ScalarProperty Name="Fin_Bank2_Name" ColumnName="Fin_Bank2_Name" />
+          <ScalarProperty Name="Fin_Bank2_Branch" ColumnName="Fin_Bank2_Branch" />
+          <ScalarProperty Name="Fin_Bank2_Ac_Type" ColumnName="Fin_Bank2_Ac_Type" />
+          <ScalarProperty Name="Fin_Bank2_Ac_No" ColumnName="Fin_Bank2_Ac_No" />
+          <ScalarProperty Name="Fin_Loan1_Bank" ColumnName="Fin_Loan1_Bank" />
+          <ScalarProperty Name="Fin_Loan1_Type" ColumnName="Fin_Loan1_Type" />
+          <ScalarProperty Name="Fin_Loan1_Amount" ColumnName="Fin_Loan1_Amount" />
+          <ScalarProperty Name="Fin_Deposits_Inv" ColumnName="Fin_Deposits_Inv" />
+          <ScalarProperty Name="Fin_Shares_Inv" ColumnName="Fin_Shares_Inv" />
+          <ScalarProperty Name="Fin_Insurance_Inv" ColumnName="Fin_Insurance_Inv" />
+          <ScalarProperty Name="Fin_Mutual_Funds_Inv" ColumnName="Fin_Mutual_Funds_Inv" />
+          <ScalarProperty Name="Fin_Others_Inv" ColumnName="Fin_Others_Inv" />
+          <ScalarProperty Name="Fin_Total_Inv" ColumnName="Fin_Total_Inv" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GoldAppDocs">
+      <EntityTypeMapping TypeName="loandbModel.GoldAppDoc">
+        <MappingFragment StoreEntitySet="GoldAppDoc">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="P_ID" ColumnName="P_ID" />
+          <ScalarProperty Name="Doc1_Name" ColumnName="Doc1_Name" />
+          <ScalarProperty Name="Doc1" ColumnName="Doc1" />
+          <ScalarProperty Name="Doc1_Status" ColumnName="Doc1_Status" />
+          <ScalarProperty Name="Doc2_Name" ColumnName="Doc2_Name" />
+          <ScalarProperty Name="Doc2" ColumnName="Doc2" />
+          <ScalarProperty Name="Doc2_Status" ColumnName="Doc2_Status" />
+          <ScalarProperty Name="Doc3_Name" ColumnName="Doc3_Name" />
+          <ScalarProperty Name="Doc3" ColumnName="Doc3" />
+          <ScalarProperty Name="Doc3_Status" ColumnName="Doc3_Status" />
+          <ScalarProperty Name="Doc4_Name" ColumnName="Doc4_Name" />
+          <ScalarProperty Name="Doc4" ColumnName="Doc4" />
+          <ScalarProperty Name="Doc4_Status" ColumnName="Doc4_Status" />
+          <ScalarProperty Name="Doc5_Name" ColumnName="Doc5_Name" />
+          <ScalarProperty Name="Doc5" ColumnName="Doc5" />
+          <ScalarProperty Name="Doc5_Status" ColumnName="Doc5_Status" />
+          <ScalarProperty Name="Doc6_Name" ColumnName="Doc6_Name" />
+          <ScalarProperty Name="Doc6" ColumnName="Doc6" />
+          <ScalarProperty Name="Doc6_Status" ColumnName="Doc6_Status" />
+          <ScalarProperty Name="Doc7_Name" ColumnName="Doc7_Name" />
+          <ScalarProperty Name="Doc7" ColumnName="Doc7" />
+          <ScalarProperty Name="Doc7_Status" ColumnName="Doc7_Status" />
+          <ScalarProperty Name="Doc8_Name" ColumnName="Doc8_Name" />
+          <ScalarProperty Name="Doc8" ColumnName="Doc8" />
+          <ScalarProperty Name="Doc8_Status" ColumnName="Doc8_Status" />
+          <ScalarProperty Name="Doc9_Name" ColumnName="Doc9_Name" />
+          <ScalarProperty Name="Doc9" ColumnName="Doc9" />
+          <ScalarProperty Name="Doc9_Status" ColumnName="Doc9_Status" />
+          <ScalarProperty Name="Doc10_Name" ColumnName="Doc10_Name" />
+          <ScalarProperty Name="Doc10" ColumnName="Doc10" />
+          <ScalarProperty Name="Doc10_Status" ColumnName="Doc10_Status" />
+          <ScalarProperty Name="Doc11_Name" ColumnName="Doc11_Name" />
+          <ScalarProperty Name="Doc11" ColumnName="Doc11" />
+          <ScalarProperty Name="Doc11_Status" ColumnName="Doc11_Status" />
+          <ScalarProperty Name="Doc12_Name" ColumnName="Doc12_Name" />
+          <ScalarProperty Name="Doc12" ColumnName="Doc12" />
+          <ScalarProperty Name="Doc12_Status" ColumnName="Doc12_Status" />
+          <ScalarProperty Name="Doc13_Name" ColumnName="Doc13_Name" />
+          <ScalarProperty Name="Doc13" ColumnName="Doc13" />
+          <ScalarProperty Name="Doc13_Status" ColumnName="Doc13_Status" />
+          <ScalarProperty Name="Doc14_Name" ColumnName="Doc14_Name" />
+          <ScalarProperty Name="Doc14" ColumnName="Doc14" />
+          <ScalarProperty Name="Doc14_Status" ColumnName="Doc14_Status" />
+          <ScalarProperty Name="Doc15_Name" ColumnName="Doc15_Name" />
+          <ScalarProperty Name="Doc15" ColumnName="Doc15" />
+          <ScalarProperty Name="Doc15_Status" ColumnName="Doc15_Status" />
+          <ScalarProperty Name="Doc16_Name" ColumnName="Doc16_Name" />
+          <ScalarProperty Name="Doc16" ColumnName="Doc16" />
+          <ScalarProperty Name="Doc16_Status" ColumnName="Doc16_Status" />
+          <ScalarProperty Name="Doc17_Name" ColumnName="Doc17_Name" />
+          <ScalarProperty Name="Doc17" ColumnName="Doc17" />
+          <ScalarProperty Name="Doc17_Status" ColumnName="Doc17_Status" />
+          <ScalarProperty Name="Doc18_Name" ColumnName="Doc18_Name" />
+          <ScalarProperty Name="Doc18" ColumnName="Doc18" />
+          <ScalarProperty Name="Doc18_Status" ColumnName="Doc18_Status" />
+          <ScalarProperty Name="Doc19_Name" ColumnName="Doc19_Name" />
+          <ScalarProperty Name="Doc19" ColumnName="Doc19" />
+          <ScalarProperty Name="Doc19_Status" ColumnName="Doc19_Status" />
+          <ScalarProperty Name="Doc20_Name" ColumnName="Doc20_Name" />
+          <ScalarProperty Name="Doc20" ColumnName="Doc20" />
+          <ScalarProperty Name="Doc20_Status" ColumnName="Doc20_Status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Gstins">
+      <EntityTypeMapping TypeName="loandbModel.Gstin">
+        <MappingFragment StoreEntitySet="Gstin">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="P_ID" ColumnName="P_ID" />
+          <ScalarProperty Name="Gst_Reg" ColumnName="Gst_Reg" />
+          <ScalarProperty Name="Gst_Exem" ColumnName="Gst_Exem" />
+          <ScalarProperty Name="Gst_Exem_Reason" ColumnName="Gst_Exem_Reason" />
+          <ScalarProperty Name="Gst_Exem_date" ColumnName="Gst_Exem_date" />
+          <ScalarProperty Name="Gst_Reg_Date" ColumnName="Gst_Reg_Date" />
+          <ScalarProperty Name="Gst_Reg_Type" ColumnName="Gst_Reg_Type" />
+          <ScalarProperty Name="Gst_Eco_Zone" ColumnName="Gst_Eco_Zone" />
+          <ScalarProperty Name="Gst_default" ColumnName="Gst_default" />
+          <ScalarProperty Name="Gstin_Addr" ColumnName="Gstin_Addr" />
+          <ScalarProperty Name="Gst_Pin" ColumnName="Gst_Pin" />
+          <ScalarProperty Name="Gst_City" ColumnName="Gst_City" />
+          <ScalarProperty Name="Gst_State" ColumnName="Gst_State" />
+          <ScalarProperty Name="Gst_Country" ColumnName="Gst_Country" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="HomeAppDocs">
+      <EntityTypeMapping TypeName="loandbModel.HomeAppDoc">
+        <MappingFragment StoreEntitySet="HomeAppDoc">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="P_ID" ColumnName="P_ID" />
+          <ScalarProperty Name="Doc1_Name" ColumnName="Doc1_Name" />
+          <ScalarProperty Name="Doc1" ColumnName="Doc1" />
+          <ScalarProperty Name="Doc1_Status" ColumnName="Doc1_Status" />
+          <ScalarProperty Name="Doc2_Name" ColumnName="Doc2_Name" />
+          <ScalarProperty Name="Doc2" ColumnName="Doc2" />
+          <ScalarProperty Name="Doc2_Status" ColumnName="Doc2_Status" />
+          <ScalarProperty Name="Doc3_Name" ColumnName="Doc3_Name" />
+          <ScalarProperty Name="Doc3" ColumnName="Doc3" />
+          <ScalarProperty Name="Doc3_Status" ColumnName="Doc3_Status" />
+          <ScalarProperty Name="Doc4_Name" ColumnName="Doc4_Name" />
+          <ScalarProperty Name="Doc4" ColumnName="Doc4" />
+          <ScalarProperty Name="Doc4_Status" ColumnName="Doc4_Status" />
+          <ScalarProperty Name="Doc5_Name" ColumnName="Doc5_Name" />
+          <ScalarProperty Name="Doc5" ColumnName="Doc5" />
+          <ScalarProperty Name="Doc5_Status" ColumnName="Doc5_Status" />
+          <ScalarProperty Name="Doc6_Name" ColumnName="Doc6_Name" />
+          <ScalarProperty Name="Doc6" ColumnName="Doc6" />
+          <ScalarProperty Name="Doc6_Status" ColumnName="Doc6_Status" />
+          <ScalarProperty Name="Doc7_Name" ColumnName="Doc7_Name" />
+          <ScalarProperty Name="Doc7" ColumnName="Doc7" />
+          <ScalarProperty Name="Doc7_Status" ColumnName="Doc7_Status" />
+          <ScalarProperty Name="Doc8_Name" ColumnName="Doc8_Name" />
+          <ScalarProperty Name="Doc8" ColumnName="Doc8" />
+          <ScalarProperty Name="Doc8_Status" ColumnName="Doc8_Status" />
+          <ScalarProperty Name="Doc9_Name" ColumnName="Doc9_Name" />
+          <ScalarProperty Name="Doc9" ColumnName="Doc9" />
+          <ScalarProperty Name="Doc9_Status" ColumnName="Doc9_Status" />
+          <ScalarProperty Name="Doc10_Name" ColumnName="Doc10_Name" />
+          <ScalarProperty Name="Doc10" ColumnName="Doc10" />
+          <ScalarProperty Name="Doc10_Status" ColumnName="Doc10_Status" />
+          <ScalarProperty Name="Doc11_Name" ColumnName="Doc11_Name" />
+          <ScalarProperty Name="Doc11" ColumnName="Doc11" />
+          <ScalarProperty Name="Doc11_Status" ColumnName="Doc11_Status" />
+          <ScalarProperty Name="Doc12_Name" ColumnName="Doc12_Name" />
+          <ScalarProperty Name="Doc12" ColumnName="Doc12" />
+          <ScalarProperty Name="Doc12_Status" ColumnName="Doc12_Status" />
+          <ScalarProperty Name="Doc13_Name" ColumnName="Doc13_Name" />
+          <ScalarProperty Name="Doc13" ColumnName="Doc13" />
+          <ScalarProperty Name="Doc13_Status" ColumnName="Doc13_Status" />
+          <ScalarProperty Name="Doc14_Name" ColumnName="Doc14_Name" />
+          <ScalarProperty Name="Doc14" ColumnName="Doc14" />
+          <ScalarProperty Name="Doc14_Status" ColumnName="Doc14_Status" />
+          <ScalarProperty Name="Doc15_Name" ColumnName="Doc15_Name" />
+          <ScalarProperty Name="Doc15" ColumnName="Doc15" />
+          <ScalarProperty Name="Doc15_Status" ColumnName="Doc15_Status" />
+          <ScalarProperty Name="Doc16_Name" ColumnName="Doc16_Name" />
+          <ScalarProperty Name="Doc16" ColumnName="Doc16" />
+          <ScalarProperty Name="Doc16_Status" ColumnName="Doc16_Status" />
+          <ScalarProperty Name="Doc17_Name" ColumnName="Doc17_Name" />
+          <ScalarProperty Name="Doc17" ColumnName="Doc17" />
+          <ScalarProperty Name="Doc17_Status" ColumnName="Doc17_Status" />
+          <ScalarProperty Name="Doc18_Name" ColumnName="Doc18_Name" />
+          <ScalarProperty Name="Doc18" ColumnName="Doc18" />
+          <ScalarProperty Name="Doc18_Status" ColumnName="Doc18_Status" />
+          <ScalarProperty Name="Doc19_Name" ColumnName="Doc19_Name" />
+          <ScalarProperty Name="Doc19" ColumnName="Doc19" />
+          <ScalarProperty Name="Doc19_Status" ColumnName="Doc19_Status" />
+          <ScalarProperty Name="Doc20_Name" ColumnName="Doc20_Name" />
+          <ScalarProperty Name="Doc20" ColumnName="Doc20" />
+          <ScalarProperty Name="Doc20_Status" ColumnName="Doc20_Status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="HomeDetails">
+      <EntityTypeMapping TypeName="loandbModel.HomeDetail">
+        <MappingFragment StoreEntitySet="HomeDetails">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="P_ID" ColumnName="P_ID" />
+          <ScalarProperty Name="Prop_Type" ColumnName="Prop_Type" />
+          <ScalarProperty Name="Prop_Trans_Type" ColumnName="Prop_Trans_Type" />
+          <ScalarProperty Name="Prop_Builder_Name" ColumnName="Prop_Builder_Name" />
+          <ScalarProperty Name="Prop_Project_Name" ColumnName="Prop_Project_Name" />
+          <ScalarProperty Name="Prop_Building_Name" ColumnName="Prop_Building_Name" />
+          <ScalarProperty Name="Prop_Land_Area" ColumnName="Prop_Land_Area" />
+          <ScalarProperty Name="Prop_Cost" ColumnName="Prop_Cost" />
+          <ScalarProperty Name="Prop_Addr" ColumnName="Prop_Addr" />
+          <ScalarProperty Name="Prop_Landmark" ColumnName="Prop_Landmark" />
+          <ScalarProperty Name="Prop_Pin" ColumnName="Prop_Pin" />
+          <ScalarProperty Name="Prop_City" ColumnName="Prop_City" />
+          <ScalarProperty Name="Prop_State" ColumnName="Prop_State" />
+          <ScalarProperty Name="Prop_Country" ColumnName="Prop_Country" />
+          <ScalarProperty Name="Prop_Ownership" ColumnName="Prop_Ownership" />
+          <ScalarProperty Name="Prop_Seller_Name" ColumnName="Prop_Seller_Name" />
+          <ScalarProperty Name="Prop_Seller_Addr" ColumnName="Prop_Seller_Addr" />
+          <ScalarProperty Name="Prop_Const_Stage" ColumnName="Prop_Const_Stage" />
+          <ScalarProperty Name="Prop_Pur_Con_Cost" ColumnName="Prop_Pur_Con_Cost" />
+          <ScalarProperty Name="Prop_Reg_Cost" ColumnName="Prop_Reg_Cost" />
+          <ScalarProperty Name="Prop_Total_Cost" ColumnName="Prop_Total_Cost" />
+          <ScalarProperty Name="Prop_Stamp_Cost" ColumnName="Prop_Stamp_Cost" />
+          <ScalarProperty Name="Prop_Other_Cost" ColumnName="Prop_Other_Cost" />
+          <ScalarProperty Name="Prop_Own_Contrib" ColumnName="Prop_Own_Contrib" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LoanDetails">
+      <EntityTypeMapping TypeName="loandbModel.LoanDetail">
+        <MappingFragment StoreEntitySet="LoanDetails">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Personal_Interest_Rate" ColumnName="Personal_Interest_Rate" />
+          <ScalarProperty Name="Personal_Loan_Tenure" ColumnName="Personal_Loan_Tenure" />
+          <ScalarProperty Name="Personal_Loan_Amount" ColumnName="Personal_Loan_Amount" />
+          <ScalarProperty Name="Personal_Processing_Fees" ColumnName="Personal_Processing_Fees" />
+          <ScalarProperty Name="Education_Interest_Rate" ColumnName="Education_Interest_Rate" />
+          <ScalarProperty Name="Education_Loan_Type" ColumnName="Education_Loan_Type" />
+          <ScalarProperty Name="Education_Loan_Amount" ColumnName="Education_Loan_Amount" />
+          <ScalarProperty Name="Education_Concession" ColumnName="Education_Concession" />
+          <ScalarProperty Name="Home_InterestRate_1" ColumnName="Home_InterestRate_1" />
+          <ScalarProperty Name="Home_InterestRate_2" ColumnName="Home_InterestRate_2" />
+          <ScalarProperty Name="Home_InterestRate_3" ColumnName="Home_InterestRate_3" />
+          <ScalarProperty Name="Home_Processing_Fees" ColumnName="Home_Processing_Fees" />
+          <ScalarProperty Name="Gold_Min_Loan" ColumnName="Gold_Min_Loan" />
+          <ScalarProperty Name="Gold_Max_Loan" ColumnName="Gold_Max_Loan" />
+          <ScalarProperty Name="Gold_Margin" ColumnName="Gold_Margin" />
+          <ScalarProperty Name="Gold_Processing_Fees" ColumnName="Gold_Processing_Fees" />
+          <ScalarProperty Name="Clients" ColumnName="Clients" />
+          <ScalarProperty Name="Loan_Approved" ColumnName="Loan_Approved" />
+          <ScalarProperty Name="Hours_Support" ColumnName="Hours_Support" />
+          <ScalarProperty Name="Hard_Workers" ColumnName="Hard_Workers" />
+          <ScalarProperty Name="Trusty_City" ColumnName="Trusty_City" />
+          <ScalarProperty Name="Trusty_State" ColumnName="Trusty_State" />
+          <ScalarProperty Name="Trusty_Country" ColumnName="Trusty_Country" />
+          <ScalarProperty Name="Trusty_Mail" ColumnName="Trusty_Mail" />
+          <ScalarProperty Name="Trusty_Phone" ColumnName="Trusty_Phone" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LoanEdus">
+      <EntityTypeMapping TypeName="loandbModel.LoanEdu">
+        <MappingFragment StoreEntitySet="LoanEdu">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="P_ID" ColumnName="P_ID" />
+          <ScalarProperty Name="Edu_Tut_Fees" ColumnName="Edu_Tut_Fees" />
+          <ScalarProperty Name="Edu_Living_Expen" ColumnName="Edu_Living_Expen" />
+          <ScalarProperty Name="Edu_Travel_Expen" ColumnName="Edu_Travel_Expen" />
+          <ScalarProperty Name="Edu_Other_Expen" ColumnName="Edu_Other_Expen" />
+          <ScalarProperty Name="Edu_Total_Expen" ColumnName="Edu_Total_Expen" />
+          <ScalarProperty Name="Edu_Own_Inc" ColumnName="Edu_Own_Inc" />
+          <ScalarProperty Name="Edu_Scholar_Inc" ColumnName="Edu_Scholar_Inc" />
+          <ScalarProperty Name="Edu_Other_Inc" ColumnName="Edu_Other_Inc" />
+          <ScalarProperty Name="Edu_Loan_Required" ColumnName="Edu_Loan_Required" />
+          <ScalarProperty Name="Edu_Disburs_Details" ColumnName="Edu_Disburs_Details" />
+          <ScalarProperty Name="Edu_Mode" ColumnName="Edu_Mode" />
+          <ScalarProperty Name="Edu_Dd_In_Favour_Of" ColumnName="Edu_Dd_In_Favour_Of" />
+          <ScalarProperty Name="Edu_Payable_At_For" ColumnName="Edu_Payable_At_For" />
+          <ScalarProperty Name="Edu_DD_Amount" ColumnName="Edu_DD_Amount" />
+          <ScalarProperty Name="Edu_Tt_Swift_Code" ColumnName="Edu_Tt_Swift_Code" />
+          <ScalarProperty Name="Edu_Rtgs_Neft" ColumnName="Edu_Rtgs_Neft" />
+          <ScalarProperty Name="Edu_University_Ac" ColumnName="Edu_University_Ac" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LoginDetails">
+      <EntityTypeMapping TypeName="loandbModel.LoginDetail">
+        <MappingFragment StoreEntitySet="LoginDetails">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Mail" ColumnName="Mail" />
+          <ScalarProperty Name="Pan" ColumnName="Pan" />
+          <ScalarProperty Name="Pass" ColumnName="Pass" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Nominees">
+      <EntityTypeMapping TypeName="loandbModel.Nominee">
+        <MappingFragment StoreEntitySet="Nominee">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="P_ID" ColumnName="P_ID" />
+          <ScalarProperty Name="Nom_App_Name" ColumnName="Nom_App_Name" />
+          <ScalarProperty Name="Nom_App_Addr" ColumnName="Nom_App_Addr" />
+          <ScalarProperty Name="Nom_Name" ColumnName="Nom_Name" />
+          <ScalarProperty Name="Nom_Addr" ColumnName="Nom_Addr" />
+          <ScalarProperty Name="Nom_Relation" ColumnName="Nom_Relation" />
+          <ScalarProperty Name="Nom_Age" ColumnName="Nom_Age" />
+          <ScalarProperty Name="Nom_Dob" ColumnName="Nom_Dob" />
+          <ScalarProperty Name="Nom_Guar_Name" ColumnName="Nom_Guar_Name" />
+          <ScalarProperty Name="Nom_Guar_Age" ColumnName="Nom_Guar_Age" />
+          <ScalarProperty Name="Nom_Guar_Addr" ColumnName="Nom_Guar_Addr" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Nris">
+      <EntityTypeMapping TypeName="loandbModel.Nri">
+        <MappingFragment StoreEntitySet="Nri">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="P_ID" ColumnName="P_ID" />
+          <ScalarProperty Name="Nri_Country_Name" ColumnName="Nri_Country_Name" />
+          <ScalarProperty Name="Nri_Country_Code" ColumnName="Nri_Country_Code" />
+          <ScalarProperty Name="Nri_Tax_Resid" ColumnName="Nri_Tax_Resid" />
+          <ScalarProperty Name="Nri_Jurid_Resid" ColumnName="Nri_Jurid_Resid" />
+          <ScalarProperty Name="Nri_Tin" ColumnName="Nri_Tin" />
+          <ScalarProperty Name="Nri_Birth_Country" ColumnName="Nri_Birth_Country" />
+          <ScalarProperty Name="Nri_Birth_City" ColumnName="Nri_Birth_City" />
+          <ScalarProperty Name="Nri_Jur_Addr" ColumnName="Nri_Jur_Addr" />
+          <ScalarProperty Name="Nri_City" ColumnName="Nri_City" />
+          <ScalarProperty Name="Nri_State" ColumnName="Nri_State" />
+          <ScalarProperty Name="Nri_Zip_Post_Code" ColumnName="Nri_Zip_Post_Code" />
+          <ScalarProperty Name="Nri_Iso" ColumnName="Nri_Iso" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Personals">
+      <EntityTypeMapping TypeName="loandbModel.Personal">
+        <MappingFragment StoreEntitySet="Personal">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="P_ID" ColumnName="P_ID" />
+          <ScalarProperty Name="App_Name" ColumnName="App_Name" />
+          <ScalarProperty Name="App_Fath_Spou_Name" ColumnName="App_Fath_Spou_Name" />
+          <ScalarProperty Name="App_Mother_Name" ColumnName="App_Mother_Name" />
+          <ScalarProperty Name="App_Status" ColumnName="App_Status" />
+          <ScalarProperty Name="App_Pan" ColumnName="App_Pan" />
+          <ScalarProperty Name="App_Doc_Type" ColumnName="App_Doc_Type" />
+          <ScalarProperty Name="App_Doc_No" ColumnName="App_Doc_No" />
+          <ScalarProperty Name="App_Doc_Exp" ColumnName="App_Doc_Exp" />
+          <ScalarProperty Name="App_Ckyc_No" ColumnName="App_Ckyc_No" />
+          <ScalarProperty Name="App_Dob" ColumnName="App_Dob" />
+          <ScalarProperty Name="App_Gender" ColumnName="App_Gender" />
+          <ScalarProperty Name="App_Nationality" ColumnName="App_Nationality" />
+          <ScalarProperty Name="App_Religion" ColumnName="App_Religion" />
+          <ScalarProperty Name="App_Category" ColumnName="App_Category" />
+          <ScalarProperty Name="App_Disability" ColumnName="App_Disability" />
+          <ScalarProperty Name="App_Education" ColumnName="App_Education" />
+          <ScalarProperty Name="App_Marital_Status" ColumnName="App_Marital_Status" />
+          <ScalarProperty Name="App_Dependants_No" ColumnName="App_Dependants_No" />
+          <ScalarProperty Name="App_Email" ColumnName="App_Email" />
+          <ScalarProperty Name="App_Off_Email" ColumnName="App_Off_Email" />
+          <ScalarProperty Name="App_Telephone" ColumnName="App_Telephone" />
+          <ScalarProperty Name="App_Mobile" ColumnName="App_Mobile" />
+          <ScalarProperty Name="App_Pre_Addr" ColumnName="App_Pre_Addr" />
+          <ScalarProperty Name="App_Pre_Landmark" ColumnName="App_Pre_Landmark" />
+          <ScalarProperty Name="App_Pre_Pin" ColumnName="App_Pre_Pin" />
+          <ScalarProperty Name="App_Pre_City" ColumnName="App_Pre_City" />
+          <ScalarProperty Name="App_Pre_State" ColumnName="App_Pre_State" />
+          <ScalarProperty Name="App_Per_Addr" ColumnName="App_Per_Addr" />
+          <ScalarProperty Name="App_Per_Landmark" ColumnName="App_Per_Landmark" />
+          <ScalarProperty Name="App_Per_Pin" ColumnName="App_Per_Pin" />
+          <ScalarProperty Name="App_Per_City" ColumnName="App_Per_City" />
+          <ScalarProperty Name="App_Per_State" ColumnName="App_Per_State" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PersonalAppDocs">
+      <EntityTypeMapping TypeName="loandbModel.PersonalAppDoc">
+        <MappingFragment StoreEntitySet="PersonalAppDoc">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="P_ID" ColumnName="P_ID" />
+          <ScalarProperty Name="Doc1_Name" ColumnName="Doc1_Name" />
+          <ScalarProperty Name="Doc1" ColumnName="Doc1" />
+          <ScalarProperty Name="Doc1_Status" ColumnName="Doc1_Status" />
+          <ScalarProperty Name="Doc2_Name" ColumnName="Doc2_Name" />
+          <ScalarProperty Name="Doc2" ColumnName="Doc2" />
+          <ScalarProperty Name="Doc2_Status" ColumnName="Doc2_Status" />
+          <ScalarProperty Name="Doc3_Name" ColumnName="Doc3_Name" />
+          <ScalarProperty Name="Doc3" ColumnName="Doc3" />
+          <ScalarProperty Name="Doc3_Status" ColumnName="Doc3_Status" />
+          <ScalarProperty Name="Doc4_Name" ColumnName="Doc4_Name" />
+          <ScalarProperty Name="Doc4" ColumnName="Doc4" />
+          <ScalarProperty Name="Doc4_Status" ColumnName="Doc4_Status" />
+          <ScalarProperty Name="Doc5_Name" ColumnName="Doc5_Name" />
+          <ScalarProperty Name="Doc5" ColumnName="Doc5" />
+          <ScalarProperty Name="Doc5_Status" ColumnName="Doc5_Status" />
+          <ScalarProperty Name="Doc6_Name" ColumnName="Doc6_Name" />
+          <ScalarProperty Name="Doc6" ColumnName="Doc6" />
+          <ScalarProperty Name="Doc6_Status" ColumnName="Doc6_Status" />
+          <ScalarProperty Name="Doc7_Name" ColumnName="Doc7_Name" />
+          <ScalarProperty Name="Doc7" ColumnName="Doc7" />
+          <ScalarProperty Name="Doc7_Status" ColumnName="Doc7_Status" />
+          <ScalarProperty Name="Doc8_Name" ColumnName="Doc8_Name" />
+          <ScalarProperty Name="Doc8" ColumnName="Doc8" />
+          <ScalarProperty Name="Doc8_Status" ColumnName="Doc8_Status" />
+          <ScalarProperty Name="Doc9_Name" ColumnName="Doc9_Name" />
+          <ScalarProperty Name="Doc9" ColumnName="Doc9" />
+          <ScalarProperty Name="Doc9_Status" ColumnName="Doc9_Status" />
+          <ScalarProperty Name="Doc10_Name" ColumnName="Doc10_Name" />
+          <ScalarProperty Name="Doc10" ColumnName="Doc10" />
+          <ScalarProperty Name="Doc10_Status" ColumnName="Doc10_Status" />
+          <ScalarProperty Name="Doc11_Name" ColumnName="Doc11_Name" />
+          <ScalarProperty Name="Doc11" ColumnName="Doc11" />
+          <ScalarProperty Name="Doc11_Status" ColumnName="Doc11_Status" />
+          <ScalarProperty Name="Doc12_Name" ColumnName="Doc12_Name" />
+          <ScalarProperty Name="Doc12" ColumnName="Doc12" />
+          <ScalarProperty Name="Doc12_Status" ColumnName="Doc12_Status" />
+          <ScalarProperty Name="Doc13_Name" ColumnName="Doc13_Name" />
+          <ScalarProperty Name="Doc13" ColumnName="Doc13" />
+          <ScalarProperty Name="Doc13_Status" ColumnName="Doc13_Status" />
+          <ScalarProperty Name="Doc14_Name" ColumnName="Doc14_Name" />
+          <ScalarProperty Name="Doc14" ColumnName="Doc14" />
+          <ScalarProperty Name="Doc14_Status" ColumnName="Doc14_Status" />
+          <ScalarProperty Name="Doc15_Name" ColumnName="Doc15_Name" />
+          <ScalarProperty Name="Doc15" ColumnName="Doc15" />
+          <ScalarProperty Name="Doc15_Status" ColumnName="Doc15_Status" />
+          <ScalarProperty Name="Doc16_Name" ColumnName="Doc16_Name" />
+          <ScalarProperty Name="Doc16" ColumnName="Doc16" />
+          <ScalarProperty Name="Doc16_Status" ColumnName="Doc16_Status" />
+          <ScalarProperty Name="Doc17_Name" ColumnName="Doc17_Name" />
+          <ScalarProperty Name="Doc17" ColumnName="Doc17" />
+          <ScalarProperty Name="Doc17_Status" ColumnName="Doc17_Status" />
+          <ScalarProperty Name="Doc18_Name" ColumnName="Doc18_Name" />
+          <ScalarProperty Name="Doc18" ColumnName="Doc18" />
+          <ScalarProperty Name="Doc18_Status" ColumnName="Doc18_Status" />
+          <ScalarProperty Name="Doc19_Name" ColumnName="Doc19_Name" />
+          <ScalarProperty Name="Doc19" ColumnName="Doc19" />
+          <ScalarProperty Name="Doc19_Status" ColumnName="Doc19_Status" />
+          <ScalarProperty Name="Doc20_Name" ColumnName="Doc20_Name" />
+          <ScalarProperty Name="Doc20" ColumnName="Doc20" />
+          <ScalarProperty Name="Doc20_Status" ColumnName="Doc20_Status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PropertyDetails">
+      <EntityTypeMapping TypeName="loandbModel.PropertyDetail">
+        <MappingFragment StoreEntitySet="PropertyDetails">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="P_ID" ColumnName="P_ID" />
+          <ScalarProperty Name="Ag_Prop_Type" ColumnName="Ag_Prop_Type" />
+          <ScalarProperty Name="Ag_Prop_Classif" ColumnName="Ag_Prop_Classif" />
+          <ScalarProperty Name="Ag_Building_Age" ColumnName="Ag_Building_Age" />
+          <ScalarProperty Name="Ag_Market_Value" ColumnName="Ag_Market_Value" />
+          <ScalarProperty Name="Ag_Regis_Value" ColumnName="Ag_Regis_Value" />
+          <ScalarProperty Name="Ag_Prop_Land_Area" ColumnName="Ag_Prop_Land_Area" />
+          <ScalarProperty Name="Ag_Buildup_Area" ColumnName="Ag_Buildup_Area" />
+          <ScalarProperty Name="Ag_Prop_Addr" ColumnName="Ag_Prop_Addr" />
+          <ScalarProperty Name="Ag_Landmark" ColumnName="Ag_Landmark" />
+          <ScalarProperty Name="Ag_Pin" ColumnName="Ag_Pin" />
+          <ScalarProperty Name="Ag_City" ColumnName="Ag_City" />
+          <ScalarProperty Name="Ag_State" ColumnName="Ag_State" />
+          <ScalarProperty Name="Ag_Country" ColumnName="Ag_Country" />
+          <ScalarProperty Name="Ag_Rev_Mortage" ColumnName="Ag_Rev_Mortage" />
+          <ScalarProperty Name="Ag_Lumpsum_Amount" ColumnName="Ag_Lumpsum_Amount" />
+          <ScalarProperty Name="Ag_Annuity_Periodicity" ColumnName="Ag_Annuity_Periodicity" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PropGolds">
+      <EntityTypeMapping TypeName="loandbModel.PropGold">
+        <MappingFragment StoreEntitySet="PropGold">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="P_ID" ColumnName="P_ID" />
+          <ScalarProperty Name="Gpr_Loan_Amount" ColumnName="Gpr_Loan_Amount" />
+          <ScalarProperty Name="Gpr_Tenure_Months" ColumnName="Gpr_Tenure_Months" />
+          <ScalarProperty Name="Gpr_Payment_Date" ColumnName="Gpr_Payment_Date" />
+          <ScalarProperty Name="Gpr_Int_Pay_Mode" ColumnName="Gpr_Int_Pay_Mode" />
+          <ScalarProperty Name="Gpr_Disburs_Mode" ColumnName="Gpr_Disburs_Mode" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PropHomes">
+      <EntityTypeMapping TypeName="loandbModel.PropHome">
+        <MappingFragment StoreEntitySet="PropHome">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="P_ID" ColumnName="P_ID" />
+          <ScalarProperty Name="Pr_Loan_For" ColumnName="Pr_Loan_For" />
+          <ScalarProperty Name="Pr_Amount" ColumnName="Pr_Amount" />
+          <ScalarProperty Name="Pr_Terms" ColumnName="Pr_Terms" />
+          <ScalarProperty Name="Pr_Loan_Purpose" ColumnName="Pr_Loan_Purpose" />
+          <ScalarProperty Name="Pr_Loan_Prod_Categ" ColumnName="Pr_Loan_Prod_Categ" />
+          <ScalarProperty Name="Pr_Repay_Mode" ColumnName="Pr_Repay_Mode" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PropPersonals">
+      <EntityTypeMapping TypeName="loandbModel.PropPersonal">
+        <MappingFragment StoreEntitySet="PropPersonal">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="P_ID" ColumnName="P_ID" />
+          <ScalarProperty Name="Ppr_Amount" ColumnName="Ppr_Amount" />
+          <ScalarProperty Name="Ppr_Terms" ColumnName="Ppr_Terms" />
+          <ScalarProperty Name="Ppr_Proces_Fee" ColumnName="Ppr_Proces_Fee" />
+          <ScalarProperty Name="Ppr_Roi" ColumnName="Ppr_Roi" />
+          <ScalarProperty Name="Ppr_Repayt_Mode" ColumnName="Ppr_Repayt_Mode" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PurpGolds">
+      <EntityTypeMapping TypeName="loandbModel.PurpGold">
+        <MappingFragment StoreEntitySet="PurpGold">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="P_ID" ColumnName="P_ID" />
+          <ScalarProperty Name="Gpu_Purpose" ColumnName="Gpu_Purpose" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PurpPersonals">
+      <EntityTypeMapping TypeName="loandbModel.PurpPersonal">
+        <MappingFragment StoreEntitySet="PurpPersonal">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="P_ID" ColumnName="P_ID" />
+          <ScalarProperty Name="Ppu_Reason" ColumnName="Ppu_Reason" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="References">
+      <EntityTypeMapping TypeName="loandbModel.Reference">
+        <MappingFragment StoreEntitySet="Reference">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="P_ID" ColumnName="P_ID" />
+          <ScalarProperty Name="Ref_Name1" ColumnName="Ref_Name1" />
+          <ScalarProperty Name="Ref_Relat1" ColumnName="Ref_Relat1" />
+          <ScalarProperty Name="Ref_Addr1" ColumnName="Ref_Addr1" />
+          <ScalarProperty Name="Ref_Pin1" ColumnName="Ref_Pin1" />
+          <ScalarProperty Name="Ref_City1" ColumnName="Ref_City1" />
+          <ScalarProperty Name="Ref_State1" ColumnName="Ref_State1" />
+          <ScalarProperty Name="Ref_Country1" ColumnName="Ref_Country1" />
+          <ScalarProperty Name="Ref_Mob_Tel1" ColumnName="Ref_Mob_Tel1" />
+          <ScalarProperty Name="Ref_Email1" ColumnName="Ref_Email1" />
+          <ScalarProperty Name="Ref_Name2" ColumnName="Ref_Name2" />
+          <ScalarProperty Name="Ref_Relat2" ColumnName="Ref_Relat2" />
+          <ScalarProperty Name="Ref_Addr2" ColumnName="Ref_Addr2" />
+          <ScalarProperty Name="Ref_Pin2" ColumnName="Ref_Pin2" />
+          <ScalarProperty Name="Ref_City2" ColumnName="Ref_City2" />
+          <ScalarProperty Name="Ref_State2" ColumnName="Ref_State2" />
+          <ScalarProperty Name="Ref_Country2" ColumnName="Ref_Country2" />
+          <ScalarProperty Name="Ref_Mob_Tel2" ColumnName="Ref_Mob_Tel2" />
+          <ScalarProperty Name="Ref_Email2" ColumnName="Ref_Email2" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Status">
+      <EntityTypeMapping TypeName="loandbModel.Status">
+        <MappingFragment StoreEntitySet="Status">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="P_ID" ColumnName="P_ID" />
+          <ScalarProperty Name="Personal_Applied" ColumnName="Personal_Applied" />
+          <ScalarProperty Name="Personal_Status" ColumnName="Personal_Status" />
+          <ScalarProperty Name="Personal_Correction" ColumnName="Personal_Correction" />
+          <ScalarProperty Name="Home_Applied" ColumnName="Home_Applied" />
+          <ScalarProperty Name="Home_Status" ColumnName="Home_Status" />
+          <ScalarProperty Name="Home_Correction" ColumnName="Home_Correction" />
+          <ScalarProperty Name="Education_Applied" ColumnName="Education_Applied" />
+          <ScalarProperty Name="Education_Status" ColumnName="Education_Status" />
+          <ScalarProperty Name="Education_Correction" ColumnName="Education_Correction" />
+          <ScalarProperty Name="Gold_Applied" ColumnName="Gold_Applied" />
+          <ScalarProperty Name="Gold_Status" ColumnName="Gold_Status" />
+          <ScalarProperty Name="Gold_Correction" ColumnName="Gold_Correction" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

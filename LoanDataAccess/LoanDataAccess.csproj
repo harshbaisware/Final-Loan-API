@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FA423BF9-D60A-4EE5-B338-C4CBD5DC4328}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LoanDataAccess</RootNamespace>
+    <AssemblyName>LoanDataAccess</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Declar.cs">
+      <DependentUpon>LoanDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EduAppDoc.cs">
+      <DependentUpon>LoanDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EduCoDoc.cs">
+      <DependentUpon>LoanDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EduCourse.cs">
+      <DependentUpon>LoanDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EmpEduHome.cs">
+      <DependentUpon>LoanDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EmpGold.cs">
+      <DependentUpon>LoanDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Financial.cs">
+      <DependentUpon>LoanDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GoldAppDoc.cs">
+      <DependentUpon>LoanDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gstin.cs">
+      <DependentUpon>LoanDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="HomeAppDoc.cs">
+      <DependentUpon>LoanDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="HomeDetail.cs">
+      <DependentUpon>LoanDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LoanDataModel.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LoanDataModel.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LoanDataModel.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LoanDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LoanDataModel.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LoanDataModel.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="LoanDetail.cs">
+      <DependentUpon>LoanDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LoanEdu.cs">
+      <DependentUpon>LoanDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LoginDetail.cs">
+      <DependentUpon>LoanDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Nominee.cs">
+      <DependentUpon>LoanDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Nri.cs">
+      <DependentUpon>LoanDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Personal.cs">
+      <DependentUpon>LoanDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PersonalAppDoc.cs">
+      <DependentUpon>LoanDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PropertyDetail.cs">
+      <DependentUpon>LoanDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PropGold.cs">
+      <DependentUpon>LoanDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PropHome.cs">
+      <DependentUpon>LoanDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PropPersonal.cs">
+      <DependentUpon>LoanDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PurpGold.cs">
+      <DependentUpon>LoanDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PurpPersonal.cs">
+      <DependentUpon>LoanDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Reference.cs">
+      <DependentUpon>LoanDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Status.cs">
+      <DependentUpon>LoanDataModel.tt</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EntityDeploy Include="LoanDataModel.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>LoanDataModel.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.Config" />
+    <None Include="LoanDataModel.edmx.diagram">
+      <DependentUpon>LoanDataModel.edmx</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="LoanDataModel.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>LoanDataModel.Context.cs</LastGenOutput>
+      <DependentUpon>LoanDataModel.edmx</DependentUpon>
+    </Content>
+    <Content Include="LoanDataModel.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>LoanDataModel.edmx</DependentUpon>
+      <LastGenOutput>LoanDataModel.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

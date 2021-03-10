@@ -1,0 +1,1184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="loandbModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Declar">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="P_ID" Type="int" />
+    <Property Name="Dec_Place" Type="varchar" MaxLength="20" />
+    <Property Name="Dec_Date" Type="date" />
+    <Property Name="Dec_App_Photo" Type="varbinary(max)" />
+    <Property Name="Dec_App_Sign" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="EduAppDoc">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="P_ID" Type="int" Nullable="false" />
+    <Property Name="Doc1_Name" Type="varchar" MaxLength="50" />
+    <Property Name="Doc1" Type="varbinary(max)" />
+    <Property Name="Doc1_Status" Type="varchar" MaxLength="50" />
+    <Property Name="Doc2_Name" Type="varchar" MaxLength="50" />
+    <Property Name="Doc2" Type="varbinary(max)" />
+    <Property Name="Doc2_Status" Type="varchar" MaxLength="50" />
+    <Property Name="Doc3_Name" Type="varchar" MaxLength="50" />
+    <Property Name="Doc3" Type="varbinary(max)" />
+    <Property Name="Doc3_Status" Type="varchar" MaxLength="50" />
+    <Property Name="Doc4_Name" Type="varchar" MaxLength="50" />
+    <Property Name="Doc4" Type="varbinary(max)" />
+    <Property Name="Doc4_Status" Type="varchar" MaxLength="50" />
+    <Property Name="Doc5_Name" Type="varchar" MaxLength="50" />
+    <Property Name="Doc5" Type="varbinary(max)" />
+    <Property Name="Doc5_Status" Type="varchar" MaxLength="50" />
+    <Property Name="Doc6_Name" Type="varchar" MaxLength="50" />
+    <Property Name="Doc6" Type="varbinary(max)" />
+    <Property Name="Doc6_Status" Type="varchar" MaxLength="50" />
+    <Property Name="Doc7_Name" Type="varchar" MaxLength="50" />
+    <Property Name="Doc7" Type="varbinary(max)" />
+    <Property Name="Doc7_Status" Type="varchar" MaxLength="50" />
+    <Property Name="Doc8_Name" Type="varchar" MaxLength="50" />
+    <Property Name="Doc8" Type="varbinary(max)" />
+    <Property Name="Doc8_Status" Type="varchar" MaxLength="50" />
+    <Property Name="Doc9_Name" Type="varchar" MaxLength="50" />
+    <Property Name="Doc9" Type="varbinary(max)" />
+    <Property Name="Doc9_Status" Type="varchar" MaxLength="50" />
+    <Property Name="Doc10_Name" Type="varchar" MaxLength="50" />
+    <Property Name="Doc10" Type="varbinary(max)" />
+    <Property Name="Doc10_Status" Type="varchar" MaxLength="50" />
+    <Property Name="Doc11_Name" Type="varchar" MaxLength="50" />
+    <Property Name="Doc11" Type="varbinary(max)" />
+    <Property Name="Doc11_Status" Type="varchar" MaxLength="50" />
+    <Property Name="Doc12_Name" Type="varchar" MaxLength="50" />
+    <Property Name="Doc12" Type="varbinary(max)" />
+    <Property Name="Doc12_Status" Type="varchar" MaxLength="50" />
+    <Property Name="Doc13_Name" Type="varchar" MaxLength="50" />
+    <Property Name="Doc13" Type="varbinary(max)" />
+    <Property Name="Doc13_Status" Type="varchar" MaxLength="50" />
+    <Property Name="Doc14_Name" Type="varchar" MaxLength="50" />
+    <Property Name="Doc14" Type="varbinary(max)" />
+    <Property Name="Doc14_Status" Type="varchar" MaxLength="50" />
+    <Property Name="Doc15_Name" Type="varchar" MaxLength="50" />
+    <Property Name="Doc15" Type="varbinary(max)" />
+    <Property Name="Doc15_Status" Type="varchar" MaxLength="50" />
+    <Property Name="Doc16_Name" Type="varchar" MaxLength="50" />
+    <Property Name="Doc16" Type="varbinary(max)" />
+    <Property Name="Doc16_Status" Type="varchar" MaxLength="50" />
+    <Property Name="Doc17_Name" Type="varchar" MaxLength="50" />
+    <Property Name="Doc17" Type="varbinary(max)" />
+    <Property Name="Doc17_Status" Type="varchar" MaxLength="50" />
+    <Property Name="Doc18_Name" Type="varchar" MaxLength="50" />
+    <Property Name="Doc18" Type="varbinary(max)" />
+    <Property Name="Doc18_Status" Type="varchar" MaxLength="50" />
+    <Property Name="Doc19_Name" Type="varchar" MaxLength="50" />
+    <Property Name="Doc19" Type="varbinary(max)" />
+    <Property Name="Doc19_Status" Type="varchar" MaxLength="50" />
+    <Property Name="Doc20_Name" Type="varchar" MaxLength="50" />
+    <Property Name="Doc20" Type="varbinary(max)" />
+    <Property Name="Doc20_Status" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="EduCoDoc">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="P_ID" Type="int" Nullable="false" />
+    <Property Name="Doc1_Name" Type="varchar" MaxLength="50" />
+    <Property Name="Doc1" Type="varbinary(max)" />
+    <Property Name="Doc1_Status" Type="varchar" MaxLength="50" />
+    <Property Name="Doc2_Name" Type="varchar" MaxLength="50" />
+    <Property Name="Doc2" Type="varbinary(max)" />
+    <Property Name="Doc2_Status" Type="varchar" MaxLength="50" />
+    <Property Name="Doc3_Name" Type="varchar" MaxLength="50" />
+    <Property Name="Doc3" Type="varbinary(max)" />
+    <Property Name="Doc3_Status" Type="varchar" MaxLength="50" />
+    <Property Name="Doc4_Name" Type="varchar" MaxLength="50" />
+    <Property Name="Doc4" Type="varbinary(max)" />
+    <Property Name="Doc4_Status" Type="varchar" MaxLength="50" />
+    <Property Name="Doc5_Name" Type="varchar" MaxLength="50" />
+    <Property Name="Doc5" Type="varbinary(max)" />
+    <Property Name="Doc5_Status" Type="varchar" MaxLength="50" />
+    <Property Name="Doc6_Name" Type="varchar" MaxLength="50" />
+    <Property Name="Doc6" Type="varbinary(max)" />
+    <Property Name="Doc6_Status" Type="varchar" MaxLength="50" />
+    <Property Name="Doc7_Name" Type="varchar" MaxLength="50" />
+    <Property Name="Doc7" Type="varbinary(max)" />
+    <Property Name="Doc7_Status" Type="varchar" MaxLength="50" />
+    <Property Name="Doc8_Name" Type="varchar" MaxLength="50" />
+    <Property Name="Doc8" Type="varbinary(max)" />
+    <Property Name="Doc8_Status" Type="varchar" MaxLength="50" />
+    <Property Name="Doc9_Name" Type="varchar" MaxLength="50" />
+    <Property Name="Doc9" Type="varbinary(max)" />
+    <Property Name="Doc9_Status" Type="varchar" MaxLength="50" />
+    <Property Name="Doc10_Name" Type="varchar" MaxLength="50" />
+    <Property Name="Doc10" Type="varbinary(max)" />
+    <Property Name="Doc10_Status" Type="varchar" MaxLength="50" />
+    <Property Name="Doc11_Name" Type="varchar" MaxLength="50" />
+    <Property Name="Doc11" Type="varbinary(max)" />
+    <Property Name="Doc11_Status" Type="varchar" MaxLength="50" />
+    <Property Name="Doc12_Name" Type="varchar" MaxLength="50" />
+    <Property Name="Doc12" Type="varbinary(max)" />
+    <Property Name="Doc12_Status" Type="varchar" MaxLength="50" />
+    <Property Name="Doc13_Name" Type="varchar" MaxLength="50" />
+    <Property Name="Doc13" Type="varbinary(max)" />
+    <Property Name="Doc13_Status" Type="varchar" MaxLength="50" />
+    <Property Name="Doc14_Name" Type="varchar" MaxLength="50" />
+    <Property Name="Doc14" Type="varbinary(max)" />
+    <Property Name="Doc14_Status" Type="varchar" MaxLength="50" />
+    <Property Name="Doc15_Name" Type="varchar" MaxLength="50" />
+    <Property Name="Doc15" Type="varbinary(max)" />
+    <Property Name="Doc15_Status" Type="varchar" MaxLength="50" />
+    <Property Name="Doc16_Name" Type="varchar" MaxLength="50" />
+    <Property Name="Doc16" Type="varbinary(max)" />
+    <Property Name="Doc16_Status" Type="varchar" MaxLength="50" />
+    <Property Name="Doc17_Name" Type="varchar" MaxLength="50" />
+    <Property Name="Doc17" Type="varbinary(max)" />
+    <Property Name="Doc17_Status" Type="varchar" MaxLength="50" />
+    <Property Name="Doc18_Name" Type="varchar" MaxLength="50" />
+    <Property Name="Doc18" Type="varbinary(max)" />
+    <Property Name="Doc18_Status" Type="varchar" MaxLength="50" />
+    <Property Name="Doc19_Name" Type="varchar" MaxLength="50" />
+    <Property Name="Doc19" Type="varbinary(max)" />
+    <Property Name="Doc19_Status" Type="varchar" MaxLength="50" />
+    <Property Name="Doc20_Name" Type="varchar" MaxLength="50" />
+    <Property Name="Doc20" Type="varbinary(max)" />
+    <Property Name="Doc20_Status" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="EduCourse">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="P_ID" Type="int" />
+    <Property Name="St_Ssc_Inst" Type="varchar" MaxLength="20" />
+    <Property Name="St_Ssc_Year" Type="int" />
+    <Property Name="St_Ssc_Per" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="St_Ssc_Class" Type="varchar" MaxLength="10" />
+    <Property Name="St_Ssc_Money_Won" Type="varchar" MaxLength="20" />
+    <Property Name="St_Hsc_Inst" Type="varchar" MaxLength="20" />
+    <Property Name="St_Hsc_Year" Type="int" />
+    <Property Name="St_Hsc_Per" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="St_Hsc_Class" Type="varchar" MaxLength="10" />
+    <Property Name="St_Hsc_Money_Won" Type="varchar" MaxLength="20" />
+    <Property Name="St_LD_Inst" Type="varchar" MaxLength="20" />
+    <Property Name="St_LD_Year" Type="int" />
+    <Property Name="St_LD_Per" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="St_LD_Class" Type="varchar" MaxLength="10" />
+    <Property Name="St_LD_Money_Won" Type="varchar" MaxLength="20" />
+    <Property Name="St_Exam_Score" Type="int" />
+    <Property Name="St_College_Details" Type="varchar" MaxLength="70" />
+    <Property Name="St_City" Type="varchar" MaxLength="20" />
+    <Property Name="St_State" Type="varchar" MaxLength="20" />
+    <Property Name="St_District" Type="varchar" MaxLength="20" />
+    <Property Name="St_Pin_Code" Type="int" />
+    <Property Name="St_Country" Type="varchar" MaxLength="20" />
+    <Property Name="St_Admission_Status" Type="varchar" MaxLength="15" />
+    <Property Name="St_Univ_Name" Type="varchar" MaxLength="30" />
+    <Property Name="St_Univ_Person" Type="varchar" MaxLength="20" />
+    <Property Name="St_Course_Name" Type="varchar" MaxLength="30" />
+    <Property Name="St_Course_Appr" Type="varchar" MaxLength="15" />
+    <Property Name="St_Admsn" Type="varchar" MaxLength="20" />
+    <Property Name="St_Course_Cat" Type="varchar" MaxLength="20" />
+    <Property Name="St_Course_Type" Type="varchar" MaxLength="10" />
+    <Property Name="St_Course_Start" Type="date" />
+    <Property Name="St_Course_End" Type="date" />
+    <Property Name="St_Morat1" Type="int" />
+    <Property Name="St_Morat2" Type="int" />
+    <Property Name="St_Total_Morat" Type="int" />
+    <Property Name="St_Emi_Repay" Type="int" />
+    <Property Name="St_Loan_Period" Type="int" />
+    <Property Name="St_Int_Serv" Type="varchar" MaxLength="3" />
+    <Property Name="St_Exp_Income" Type="int" />
+    <Property Name="St_Clg_Name" Type="varchar" MaxLength="30" />
+    <Property Name="St_Course_Persuid" Type="varchar" MaxLength="20" />
+    <Property Name="St_Compl_Date" Type="date" />
+  </EntityType>
+  <EntityType Name="EmpEduHome">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="P_ID" Type="int" />
+    <Property Name="Org_Res_Own" Type="varchar" MaxLength="30" />
+    <Property Name="Org_Employment_Nat" Type="varchar" MaxLength="30" />
+    <Property Name="Org_Nat" Type="varchar" MaxLength="30" />
+    <Property Name="Org_Emp_Busi_Nat" Type="varchar" MaxLength="30" />
+    <Property Name="Org_Designation" Type="varchar" MaxLength="20" />
+    <Property Name="Org_Current_Year" Type="varchar" MaxLength="20" />
+    <Property Name="Org_Total_Year" Type="varchar" MaxLength="20" />
+    <Property Name="Org_Name" Type="varchar" MaxLength="50" />
+    <Property Name="Org_Address" Type="varchar" MaxLength="30" />
+    <Property Name="Org_Pin" Type="int" />
+    <Property Name="Org_City" Type="varchar" MaxLength="30" />
+    <Property Name="Org_State" Type="varchar" MaxLength="30" />
+    <Property Name="Org_Country" Type="varchar" MaxLength="30" />
+    <Property Name="Org_Phone" Type="int" />
+    <Property Name="Org_UAN" Type="varchar" MaxLength="30" />
+  </EntityType>
+  <EntityType Name="EmpGold">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="P_ID" Type="int" />
+    <Property Name="Ge_Occ_Type" Type="varchar" MaxLength="30" />
+    <Property Name="Ge_Org_Type" Type="varchar" MaxLength="40" />
+    <Property Name="Ge_Emp_Buss_Name" Type="varchar" MaxLength="40" />
+    <Property Name="Ge_Designation" Type="varchar" MaxLength="30" />
+    <Property Name="Ge_Curr_Work_Years" Type="int" />
+    <Property Name="Ge_Total_work_Years" Type="int" />
+    <Property Name="Ge_Net_Ann_Inc" Type="decimal" Precision="18" Scale="0" />
+  </EntityType>
+  <EntityType Name="Financial">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="P_ID" Type="int" />
+    <Property Name="Fin_Status" Type="varchar" MaxLength="20" />
+    <Property Name="Fin_Inc_Gross" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="Fin_Inc_Net" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="Fin_Inc_Othr" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="Fin_Inc_Total" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="Fin_Bank1_Name" Type="varchar" MaxLength="30" />
+    <Property Name="Fin_Bank1_Branch" Type="varchar" MaxLength="30" />
+    <Property Name="Fin_Bank1_Ac_Type" Type="varchar" MaxLength="20" />
+    <Property Name="Fin_Bank1_Ac_No" Type="varchar" MaxLength="20" />
+    <Property Name="Fin_Bank2_Name" Type="varchar" MaxLength="30" />
+    <Property Name="Fin_Bank2_Branch" Type="varchar" MaxLength="30" />
+    <Property Name="Fin_Bank2_Ac_Type" Type="varchar" MaxLength="20" />
+    <Property Name="Fin_Bank2_Ac_No" Type="varchar" MaxLength="20" />
+    <Property Name="Fin_Loan1_Bank" Type="varchar" MaxLength="30" />
+    <Property Name="Fin_Loan1_Type" Type="varchar" MaxLength="20" />
+    <Property Name="Fin_Loan1_Amount" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="Fin_Deposits_Inv" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="Fin_Shares_Inv" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="Fin_Insurance_Inv" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="Fin_Mutual_Funds_Inv" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="Fin_Others_Inv" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="Fin_Total_Inv" Type="decimal" Precision="18" Scale="0" />
+  </EntityType>
+  <EntityType Name="GoldAppDoc">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="P_ID" Type="int" Nullable="false" />
+    <Property Name="Doc1_Name" Type="varchar" MaxLength="50" />
+    <Property Name="Doc1" Type="varbinary(max)" />
+    <Property Name="Doc1_Status" Type="varchar" MaxLength="50" />
+    <Property Name="Doc2_Name" Type="varchar" MaxLength="50" />
+    <Property Name="Doc2" Type="varbinary(max)" />
+    <Property Name="Doc2_Status" Type="varchar" MaxLength="50" />
+    <Property Name="Doc3_Name" Type="varchar" MaxLength="50" />
+    <Property Name="Doc3" Type="varbinary(max)" />
+    <Property Name="Doc3_Status" Type="varchar" MaxLength="50" />
+    <Property Name="Doc4_Name" Type="varchar" MaxLength="50" />
+    <Property Name="Doc4" Type="varbinary(max)" />
+    <Property Name="Doc4_Status" Type="varchar" MaxLength="50" />
+    <Property Name="Doc5_Name" Type="varchar" MaxLength="50" />
+    <Property Name="Doc5" Type="varbinary(max)" />
+    <Property Name="Doc5_Status" Type="varchar" MaxLength="50" />
+    <Property Name="Doc6_Name" Type="varchar" MaxLength="50" />
+    <Property Name="Doc6" Type="varbinary(max)" />
+    <Property Name="Doc6_Status" Type="varchar" MaxLength="50" />
+    <Property Name="Doc7_Name" Type="varchar" MaxLength="50" />
+    <Property Name="Doc7" Type="varbinary(max)" />
+    <Property Name="Doc7_Status" Type="varchar" MaxLength="50" />
+    <Property Name="Doc8_Name" Type="varchar" MaxLength="50" />
+    <Property Name="Doc8" Type="varbinary(max)" />
+    <Property Name="Doc8_Status" Type="varchar" MaxLength="50" />
+    <Property Name="Doc9_Name" Type="varchar" MaxLength="50" />
+    <Property Name="Doc9" Type="varbinary(max)" />
+    <Property Name="Doc9_Status" Type="varchar" MaxLength="50" />
+    <Property Name="Doc10_Name" Type="varchar" MaxLength="50" />
+    <Property Name="Doc10" Type="varbinary(max)" />
+    <Property Name="Doc10_Status" Type="varchar" MaxLength="50" />
+    <Property Name="Doc11_Name" Type="varchar" MaxLength="50" />
+    <Property Name="Doc11" Type="varbinary(max)" />
+    <Property Name="Doc11_Status" Type="varchar" MaxLength="50" />
+    <Property Name="Doc12_Name" Type="varchar" MaxLength="50" />
+    <Property Name="Doc12" Type="varbinary(max)" />
+    <Property Name="Doc12_Status" Type="varchar" MaxLength="50" />
+    <Property Name="Doc13_Name" Type="varchar" MaxLength="50" />
+    <Property Name="Doc13" Type="varbinary(max)" />
+    <Property Name="Doc13_Status" Type="varchar" MaxLength="50" />
+    <Property Name="Doc14_Name" Type="varchar" MaxLength="50" />
+    <Property Name="Doc14" Type="varbinary(max)" />
+    <Property Name="Doc14_Status" Type="varchar" MaxLength="50" />
+    <Property Name="Doc15_Name" Type="varchar" MaxLength="50" />
+    <Property Name="Doc15" Type="varbinary(max)" />
+    <Property Name="Doc15_Status" Type="varchar" MaxLength="50" />
+    <Property Name="Doc16_Name" Type="varchar" MaxLength="50" />
+    <Property Name="Doc16" Type="varbinary(max)" />
+    <Property Name="Doc16_Status" Type="varchar" MaxLength="50" />
+    <Property Name="Doc17_Name" Type="varchar" MaxLength="50" />
+    <Property Name="Doc17" Type="varbinary(max)" />
+    <Property Name="Doc17_Status" Type="varchar" MaxLength="50" />
+    <Property Name="Doc18_Name" Type="varchar" MaxLength="50" />
+    <Property Name="Doc18" Type="varbinary(max)" />
+    <Property Name="Doc18_Status" Type="varchar" MaxLength="50" />
+    <Property Name="Doc19_Name" Type="varchar" MaxLength="50" />
+    <Property Name="Doc19" Type="varbinary(max)" />
+    <Property Name="Doc19_Status" Type="varchar" MaxLength="50" />
+    <Property Name="Doc20_Name" Type="varchar" MaxLength="50" />
+    <Property Name="Doc20" Type="varbinary(max)" />
+    <Property Name="Doc20_Status" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Gstin">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="P_ID" Type="int" />
+    <Property Name="Gst_Reg" Type="varchar" MaxLength="3" />
+    <Property Name="Gst_Exem" Type="varchar" MaxLength="3" />
+    <Property Name="Gst_Exem_Reason" Type="varchar" MaxLength="30" />
+    <Property Name="Gst_Exem_date" Type="date" />
+    <Property Name="Gst_Reg_Date" Type="date" />
+    <Property Name="Gst_Reg_Type" Type="varchar" MaxLength="20" />
+    <Property Name="Gst_Eco_Zone" Type="varchar" MaxLength="50" />
+    <Property Name="Gst_default" Type="varchar" MaxLength="50" />
+    <Property Name="Gstin_Addr" Type="varchar" MaxLength="50" />
+    <Property Name="Gst_Pin" Type="int" />
+    <Property Name="Gst_City" Type="varchar" MaxLength="30" />
+    <Property Name="Gst_State" Type="varchar" MaxLength="30" />
+    <Property Name="Gst_Country" Type="varchar" MaxLength="30" />
+  </EntityType>
+  <EntityType Name="HomeAppDoc">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="P_ID" Type="int" Nullable="false" />
+    <Property Name="Doc1_Name" Type="varchar" MaxLength="50" />
+    <Property Name="Doc1" Type="varbinary(max)" />
+    <Property Name="Doc1_Status" Type="varchar" MaxLength="50" />
+    <Property Name="Doc2_Name" Type="varchar" MaxLength="50" />
+    <Property Name="Doc2" Type="varbinary(max)" />
+    <Property Name="Doc2_Status" Type="varchar" MaxLength="50" />
+    <Property Name="Doc3_Name" Type="varchar" MaxLength="50" />
+    <Property Name="Doc3" Type="varbinary(max)" />
+    <Property Name="Doc3_Status" Type="varchar" MaxLength="50" />
+    <Property Name="Doc4_Name" Type="varchar" MaxLength="50" />
+    <Property Name="Doc4" Type="varbinary(max)" />
+    <Property Name="Doc4_Status" Type="varchar" MaxLength="50" />
+    <Property Name="Doc5_Name" Type="varchar" MaxLength="50" />
+    <Property Name="Doc5" Type="varbinary(max)" />
+    <Property Name="Doc5_Status" Type="varchar" MaxLength="50" />
+    <Property Name="Doc6_Name" Type="varchar" MaxLength="50" />
+    <Property Name="Doc6" Type="varbinary(max)" />
+    <Property Name="Doc6_Status" Type="varchar" MaxLength="50" />
+    <Property Name="Doc7_Name" Type="varchar" MaxLength="50" />
+    <Property Name="Doc7" Type="varbinary(max)" />
+    <Property Name="Doc7_Status" Type="varchar" MaxLength="50" />
+    <Property Name="Doc8_Name" Type="varchar" MaxLength="50" />
+    <Property Name="Doc8" Type="varbinary(max)" />
+    <Property Name="Doc8_Status" Type="varchar" MaxLength="50" />
+    <Property Name="Doc9_Name" Type="varchar" MaxLength="50" />
+    <Property Name="Doc9" Type="varbinary(max)" />
+    <Property Name="Doc9_Status" Type="varchar" MaxLength="50" />
+    <Property Name="Doc10_Name" Type="varchar" MaxLength="50" />
+    <Property Name="Doc10" Type="varbinary(max)" />
+    <Property Name="Doc10_Status" Type="varchar" MaxLength="50" />
+    <Property Name="Doc11_Name" Type="varchar" MaxLength="50" />
+    <Property Name="Doc11" Type="varbinary(max)" />
+    <Property Name="Doc11_Status" Type="varchar" MaxLength="50" />
+    <Property Name="Doc12_Name" Type="varchar" MaxLength="50" />
+    <Property Name="Doc12" Type="varbinary(max)" />
+    <Property Name="Doc12_Status" Type="varchar" MaxLength="50" />
+    <Property Name="Doc13_Name" Type="varchar" MaxLength="50" />
+    <Property Name="Doc13" Type="varbinary(max)" />
+    <Property Name="Doc13_Status" Type="varchar" MaxLength="50" />
+    <Property Name="Doc14_Name" Type="varchar" MaxLength="50" />
+    <Property Name="Doc14" Type="varbinary(max)" />
+    <Property Name="Doc14_Status" Type="varchar" MaxLength="50" />
+    <Property Name="Doc15_Name" Type="varchar" MaxLength="50" />
+    <Property Name="Doc15" Type="varbinary(max)" />
+    <Property Name="Doc15_Status" Type="varchar" MaxLength="50" />
+    <Property Name="Doc16_Name" Type="varchar" MaxLength="50" />
+    <Property Name="Doc16" Type="varbinary(max)" />
+    <Property Name="Doc16_Status" Type="varchar" MaxLength="50" />
+    <Property Name="Doc17_Name" Type="varchar" MaxLength="50" />
+    <Property Name="Doc17" Type="varbinary(max)" />
+    <Property Name="Doc17_Status" Type="varchar" MaxLength="50" />
+    <Property Name="Doc18_Name" Type="varchar" MaxLength="50" />
+    <Property Name="Doc18" Type="varbinary(max)" />
+    <Property Name="Doc18_Status" Type="varchar" MaxLength="50" />
+    <Property Name="Doc19_Name" Type="varchar" MaxLength="50" />
+    <Property Name="Doc19" Type="varbinary(max)" />
+    <Property Name="Doc19_Status" Type="varchar" MaxLength="50" />
+    <Property Name="Doc20_Name" Type="varchar" MaxLength="50" />
+    <Property Name="Doc20" Type="varbinary(max)" />
+    <Property Name="Doc20_Status" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="HomeDetails">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="P_ID" Type="int" />
+    <Property Name="Prop_Type" Type="varchar" MaxLength="30" />
+    <Property Name="Prop_Trans_Type" Type="varchar" MaxLength="20" />
+    <Property Name="Prop_Builder_Name" Type="varchar" MaxLength="50" />
+    <Property Name="Prop_Project_Name" Type="varchar" MaxLength="50" />
+    <Property Name="Prop_Building_Name" Type="varchar" MaxLength="50" />
+    <Property Name="Prop_Land_Area" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="Prop_Cost" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="Prop_Addr" Type="varchar" MaxLength="50" />
+    <Property Name="Prop_Landmark" Type="varchar" MaxLength="50" />
+    <Property Name="Prop_Pin" Type="int" />
+    <Property Name="Prop_City" Type="varchar" MaxLength="20" />
+    <Property Name="Prop_State" Type="varchar" MaxLength="20" />
+    <Property Name="Prop_Country" Type="varchar" MaxLength="20" />
+    <Property Name="Prop_Ownership" Type="varchar" MaxLength="20" />
+    <Property Name="Prop_Seller_Name" Type="varchar" MaxLength="50" />
+    <Property Name="Prop_Seller_Addr" Type="varchar" MaxLength="70" />
+    <Property Name="Prop_Const_Stage" Type="varchar" MaxLength="30" />
+    <Property Name="Prop_Pur_Con_Cost" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="Prop_Reg_Cost" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="Prop_Total_Cost" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="Prop_Stamp_Cost" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="Prop_Other_Cost" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="Prop_Own_Contrib" Type="decimal" Precision="18" Scale="0" />
+  </EntityType>
+  <EntityType Name="LoanDetails">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Personal_Interest_Rate" Type="varchar" MaxLength="50" />
+    <Property Name="Personal_Loan_Tenure" Type="varchar" MaxLength="50" />
+    <Property Name="Personal_Loan_Amount" Type="varchar" MaxLength="50" />
+    <Property Name="Personal_Processing_Fees" Type="varchar" MaxLength="50" />
+    <Property Name="Education_Interest_Rate" Type="varchar" MaxLength="50" />
+    <Property Name="Education_Loan_Type" Type="varchar" MaxLength="50" />
+    <Property Name="Education_Loan_Amount" Type="varchar" MaxLength="50" />
+    <Property Name="Education_Concession" Type="varchar" MaxLength="50" />
+    <Property Name="Home_InterestRate_1" Type="varchar" MaxLength="50" />
+    <Property Name="Home_InterestRate_2" Type="varchar" MaxLength="50" />
+    <Property Name="Home_InterestRate_3" Type="varchar" MaxLength="50" />
+    <Property Name="Home_Processing_Fees" Type="varchar" MaxLength="50" />
+    <Property Name="Gold_Min_Loan" Type="varchar" MaxLength="50" />
+    <Property Name="Gold_Max_Loan" Type="varchar" MaxLength="50" />
+    <Property Name="Gold_Margin" Type="varchar" MaxLength="50" />
+    <Property Name="Gold_Processing_Fees" Type="varchar" MaxLength="50" />
+    <Property Name="Clients" Type="varchar" MaxLength="50" />
+    <Property Name="Loan_Approved" Type="varchar" MaxLength="50" />
+    <Property Name="Hours_Support" Type="varchar" MaxLength="50" />
+    <Property Name="Hard_Workers" Type="varchar" MaxLength="50" />
+    <Property Name="Trusty_City" Type="varchar" MaxLength="50" />
+    <Property Name="Trusty_State" Type="varchar" MaxLength="50" />
+    <Property Name="Trusty_Country" Type="varchar" MaxLength="50" />
+    <Property Name="Trusty_Mail" Type="varchar" MaxLength="50" />
+    <Property Name="Trusty_Phone" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="LoanEdu">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="P_ID" Type="int" />
+    <Property Name="Edu_Tut_Fees" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="Edu_Living_Expen" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="Edu_Travel_Expen" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="Edu_Other_Expen" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="Edu_Total_Expen" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="Edu_Own_Inc" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="Edu_Scholar_Inc" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="Edu_Other_Inc" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="Edu_Loan_Required" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="Edu_Disburs_Details" Type="varchar" MaxLength="20" />
+    <Property Name="Edu_Mode" Type="varchar" MaxLength="20" />
+    <Property Name="Edu_Dd_In_Favour_Of" Type="varchar" MaxLength="100" />
+    <Property Name="Edu_Payable_At_For" Type="varchar" MaxLength="100" />
+    <Property Name="Edu_DD_Amount" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="Edu_Tt_Swift_Code" Type="varchar" MaxLength="30" />
+    <Property Name="Edu_Rtgs_Neft" Type="varchar" MaxLength="50" />
+    <Property Name="Edu_University_Ac" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="LoginDetails">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Mail" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="Pan" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="Pass" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Nominee">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="P_ID" Type="int" />
+    <Property Name="Nom_App_Name" Type="varchar" MaxLength="50" />
+    <Property Name="Nom_App_Addr" Type="varchar" MaxLength="50" />
+    <Property Name="Nom_Name" Type="varchar" MaxLength="50" />
+    <Property Name="Nom_Addr" Type="varchar" MaxLength="50" />
+    <Property Name="Nom_Relation" Type="varchar" MaxLength="20" />
+    <Property Name="Nom_Age" Type="int" />
+    <Property Name="Nom_Dob" Type="date" />
+    <Property Name="Nom_Guar_Name" Type="varchar" MaxLength="50" />
+    <Property Name="Nom_Guar_Age" Type="int" />
+    <Property Name="Nom_Guar_Addr" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Nri">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="P_ID" Type="int" />
+    <Property Name="Nri_Country_Name" Type="varchar" MaxLength="20" />
+    <Property Name="Nri_Country_Code" Type="int" />
+    <Property Name="Nri_Tax_Resid" Type="varchar" MaxLength="3" />
+    <Property Name="Nri_Jurid_Resid" Type="varchar" MaxLength="20" />
+    <Property Name="Nri_Tin" Type="varchar" MaxLength="30" />
+    <Property Name="Nri_Birth_Country" Type="varchar" MaxLength="20" />
+    <Property Name="Nri_Birth_City" Type="varchar" MaxLength="20" />
+    <Property Name="Nri_Jur_Addr" Type="varchar" MaxLength="30" />
+    <Property Name="Nri_City" Type="varchar" MaxLength="20" />
+    <Property Name="Nri_State" Type="varchar" MaxLength="20" />
+    <Property Name="Nri_Zip_Post_Code" Type="int" />
+    <Property Name="Nri_Iso" Type="int" />
+  </EntityType>
+  <EntityType Name="Personal">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="P_ID" Type="int" />
+    <Property Name="App_Name" Type="varchar" MaxLength="50" />
+    <Property Name="App_Fath_Spou_Name" Type="varchar" MaxLength="50" />
+    <Property Name="App_Mother_Name" Type="varchar" MaxLength="50" />
+    <Property Name="App_Status" Type="varchar" MaxLength="20" />
+    <Property Name="App_Pan" Type="varchar" MaxLength="10" />
+    <Property Name="App_Doc_Type" Type="varchar" MaxLength="30" />
+    <Property Name="App_Doc_No" Type="varchar" MaxLength="30" />
+    <Property Name="App_Doc_Exp" Type="date" />
+    <Property Name="App_Ckyc_No" Type="varchar" MaxLength="30" />
+    <Property Name="App_Dob" Type="date" />
+    <Property Name="App_Gender" Type="varchar" MaxLength="15" />
+    <Property Name="App_Nationality" Type="varchar" MaxLength="20" />
+    <Property Name="App_Religion" Type="varchar" MaxLength="20" />
+    <Property Name="App_Category" Type="varchar" MaxLength="20" />
+    <Property Name="App_Disability" Type="varchar" MaxLength="3" />
+    <Property Name="App_Education" Type="varchar" MaxLength="30" />
+    <Property Name="App_Marital_Status" Type="varchar" MaxLength="20" />
+    <Property Name="App_Dependants_No" Type="int" />
+    <Property Name="App_Email" Type="varchar" MaxLength="30" />
+    <Property Name="App_Off_Email" Type="varchar" MaxLength="30" />
+    <Property Name="App_Telephone" Type="bigint" />
+    <Property Name="App_Mobile" Type="bigint" />
+    <Property Name="App_Pre_Addr" Type="varchar" MaxLength="50" />
+    <Property Name="App_Pre_Landmark" Type="varchar" MaxLength="30" />
+    <Property Name="App_Pre_Pin" Type="int" />
+    <Property Name="App_Pre_City" Type="varchar" MaxLength="30" />
+    <Property Name="App_Pre_State" Type="varchar" MaxLength="30" />
+    <Property Name="App_Per_Addr" Type="varchar" MaxLength="50" />
+    <Property Name="App_Per_Landmark" Type="varchar" MaxLength="30" />
+    <Property Name="App_Per_Pin" Type="int" />
+    <Property Name="App_Per_City" Type="varchar" MaxLength="30" />
+    <Property Name="App_Per_State" Type="varchar" MaxLength="30" />
+  </EntityType>
+  <EntityType Name="PersonalAppDoc">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="P_ID" Type="int" Nullable="false" />
+    <Property Name="Doc1_Name" Type="varchar" MaxLength="50" />
+    <Property Name="Doc1" Type="varbinary(max)" />
+    <Property Name="Doc1_Status" Type="varchar" MaxLength="50" />
+    <Property Name="Doc2_Name" Type="varchar" MaxLength="50" />
+    <Property Name="Doc2" Type="varbinary(max)" />
+    <Property Name="Doc2_Status" Type="varchar" MaxLength="50" />
+    <Property Name="Doc3_Name" Type="varchar" MaxLength="50" />
+    <Property Name="Doc3" Type="varbinary(max)" />
+    <Property Name="Doc3_Status" Type="varchar" MaxLength="50" />
+    <Property Name="Doc4_Name" Type="varchar" MaxLength="50" />
+    <Property Name="Doc4" Type="varbinary(max)" />
+    <Property Name="Doc4_Status" Type="varchar" MaxLength="50" />
+    <Property Name="Doc5_Name" Type="varchar" MaxLength="50" />
+    <Property Name="Doc5" Type="varbinary(max)" />
+    <Property Name="Doc5_Status" Type="varchar" MaxLength="50" />
+    <Property Name="Doc6_Name" Type="varchar" MaxLength="50" />
+    <Property Name="Doc6" Type="varbinary(max)" />
+    <Property Name="Doc6_Status" Type="varchar" MaxLength="50" />
+    <Property Name="Doc7_Name" Type="varchar" MaxLength="50" />
+    <Property Name="Doc7" Type="varbinary(max)" />
+    <Property Name="Doc7_Status" Type="varchar" MaxLength="50" />
+    <Property Name="Doc8_Name" Type="varchar" MaxLength="50" />
+    <Property Name="Doc8" Type="varbinary(max)" />
+    <Property Name="Doc8_Status" Type="varchar" MaxLength="50" />
+    <Property Name="Doc9_Name" Type="varchar" MaxLength="50" />
+    <Property Name="Doc9" Type="varbinary(max)" />
+    <Property Name="Doc9_Status" Type="varchar" MaxLength="50" />
+    <Property Name="Doc10_Name" Type="varchar" MaxLength="50" />
+    <Property Name="Doc10" Type="varbinary(max)" />
+    <Property Name="Doc10_Status" Type="varchar" MaxLength="50" />
+    <Property Name="Doc11_Name" Type="varchar" MaxLength="50" />
+    <Property Name="Doc11" Type="varbinary(max)" />
+    <Property Name="Doc11_Status" Type="varchar" MaxLength="50" />
+    <Property Name="Doc12_Name" Type="varchar" MaxLength="50" />
+    <Property Name="Doc12" Type="varbinary(max)" />
+    <Property Name="Doc12_Status" Type="varchar" MaxLength="50" />
+    <Property Name="Doc13_Name" Type="varchar" MaxLength="50" />
+    <Property Name="Doc13" Type="varbinary(max)" />
+    <Property Name="Doc13_Status" Type="varchar" MaxLength="50" />
+    <Property Name="Doc14_Name" Type="varchar" MaxLength="50" />
+    <Property Name="Doc14" Type="varbinary(max)" />
+    <Property Name="Doc14_Status" Type="varchar" MaxLength="50" />
+    <Property Name="Doc15_Name" Type="varchar" MaxLength="50" />
+    <Property Name="Doc15" Type="varbinary(max)" />
+    <Property Name="Doc15_Status" Type="varchar" MaxLength="50" />
+    <Property Name="Doc16_Name" Type="varchar" MaxLength="50" />
+    <Property Name="Doc16" Type="varbinary(max)" />
+    <Property Name="Doc16_Status" Type="varchar" MaxLength="50" />
+    <Property Name="Doc17_Name" Type="varchar" MaxLength="50" />
+    <Property Name="Doc17" Type="varbinary(max)" />
+    <Property Name="Doc17_Status" Type="varchar" MaxLength="50" />
+    <Property Name="Doc18_Name" Type="varchar" MaxLength="50" />
+    <Property Name="Doc18" Type="varbinary(max)" />
+    <Property Name="Doc18_Status" Type="varchar" MaxLength="50" />
+    <Property Name="Doc19_Name" Type="varchar" MaxLength="50" />
+    <Property Name="Doc19" Type="varbinary(max)" />
+    <Property Name="Doc19_Status" Type="varchar" MaxLength="50" />
+    <Property Name="Doc20_Name" Type="varchar" MaxLength="50" />
+    <Property Name="Doc20" Type="varbinary(max)" />
+    <Property Name="Doc20_Status" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="PropertyDetails">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="P_ID" Type="int" />
+    <Property Name="Ag_Prop_Type" Type="varchar" MaxLength="30" />
+    <Property Name="Ag_Prop_Classif" Type="varchar" MaxLength="10" />
+    <Property Name="Ag_Building_Age" Type="int" />
+    <Property Name="Ag_Market_Value" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="Ag_Regis_Value" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="Ag_Prop_Land_Area" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="Ag_Buildup_Area" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="Ag_Prop_Addr" Type="varchar" MaxLength="50" />
+    <Property Name="Ag_Landmark" Type="varchar" MaxLength="20" />
+    <Property Name="Ag_Pin" Type="int" />
+    <Property Name="Ag_City" Type="varchar" MaxLength="20" />
+    <Property Name="Ag_State" Type="varchar" MaxLength="20" />
+    <Property Name="Ag_Country" Type="varchar" MaxLength="20" />
+    <Property Name="Ag_Rev_Mortage" Type="varchar" MaxLength="50" />
+    <Property Name="Ag_Lumpsum_Amount" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="Ag_Annuity_Periodicity" Type="varchar" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="PropGold">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="P_ID" Type="int" />
+    <Property Name="Gpr_Loan_Amount" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="Gpr_Tenure_Months" Type="int" />
+    <Property Name="Gpr_Payment_Date" Type="date" />
+    <Property Name="Gpr_Int_Pay_Mode" Type="varchar" MaxLength="30" />
+    <Property Name="Gpr_Disburs_Mode" Type="varchar" MaxLength="30" />
+  </EntityType>
+  <EntityType Name="PropHome">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="P_ID" Type="int" />
+    <Property Name="Pr_Loan_For" Type="varchar" MaxLength="30" />
+    <Property Name="Pr_Amount" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="Pr_Terms" Type="int" />
+    <Property Name="Pr_Loan_Purpose" Type="varchar" MaxLength="30" />
+    <Property Name="Pr_Loan_Prod_Categ" Type="varchar" MaxLength="50" />
+    <Property Name="Pr_Repay_Mode" Type="varchar" MaxLength="10" />
+  </EntityType>
+  <EntityType Name="PropPersonal">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="P_ID" Type="int" />
+    <Property Name="Ppr_Amount" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="Ppr_Terms" Type="int" />
+    <Property Name="Ppr_Proces_Fee" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="Ppr_Roi" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="Ppr_Repayt_Mode" Type="varchar" MaxLength="10" />
+  </EntityType>
+  <EntityType Name="PurpGold">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="P_ID" Type="int" />
+    <Property Name="Gpu_Purpose" Type="varchar" MaxLength="70" />
+  </EntityType>
+  <EntityType Name="PurpPersonal">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="P_ID" Type="int" />
+    <Property Name="Ppu_Reason" Type="varchar" MaxLength="30" />
+  </EntityType>
+  <EntityType Name="Reference">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="P_ID" Type="int" />
+    <Property Name="Ref_Name1" Type="varchar" MaxLength="60" />
+    <Property Name="Ref_Relat1" Type="varchar" MaxLength="75" />
+    <Property Name="Ref_Addr1" Type="varchar" MaxLength="50" />
+    <Property Name="Ref_Pin1" Type="int" />
+    <Property Name="Ref_City1" Type="varchar" MaxLength="30" />
+    <Property Name="Ref_State1" Type="varchar" MaxLength="30" />
+    <Property Name="Ref_Country1" Type="varchar" MaxLength="30" />
+    <Property Name="Ref_Mob_Tel1" Type="bigint" />
+    <Property Name="Ref_Email1" Type="varchar" MaxLength="20" />
+    <Property Name="Ref_Name2" Type="varchar" MaxLength="60" />
+    <Property Name="Ref_Relat2" Type="varchar" MaxLength="75" />
+    <Property Name="Ref_Addr2" Type="varchar" MaxLength="50" />
+    <Property Name="Ref_Pin2" Type="int" />
+    <Property Name="Ref_City2" Type="varchar" MaxLength="30" />
+    <Property Name="Ref_State2" Type="varchar" MaxLength="30" />
+    <Property Name="Ref_Country2" Type="varchar" MaxLength="30" />
+    <Property Name="Ref_Mob_Tel2" Type="bigint" />
+    <Property Name="Ref_Email2" Type="varchar" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="Status">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="P_ID" Type="int" />
+    <Property Name="Personal_Applied" Type="varchar" MaxLength="3" />
+    <Property Name="Personal_Status" Type="varchar" MaxLength="20" />
+    <Property Name="Personal_Correction" Type="varchar" MaxLength="300" />
+    <Property Name="Home_Applied" Type="varchar" MaxLength="3" />
+    <Property Name="Home_Status" Type="varchar" MaxLength="20" />
+    <Property Name="Home_Correction" Type="varchar" MaxLength="300" />
+    <Property Name="Education_Applied" Type="varchar" MaxLength="3" />
+    <Property Name="Education_Status" Type="varchar" MaxLength="20" />
+    <Property Name="Education_Correction" Type="varchar" MaxLength="300" />
+    <Property Name="Gold_Applied" Type="varchar" MaxLength="3" />
+    <Property Name="Gold_Status" Type="varchar" MaxLength="20" />
+    <Property Name="Gold_Correction" Type="varchar" MaxLength="300" />
+  </EntityType>
+  <Association Name="FK__Declar__P_ID__6C190EBB">
+    <End Role="LoginDetails" Type="Self.LoginDetails" Multiplicity="0..1" />
+    <End Role="Declar" Type="Self.Declar" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LoginDetails">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Declar">
+        <PropertyRef Name="P_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__EduAppDoc__P_ID__10566F31">
+    <End Role="LoginDetails" Type="Self.LoginDetails" Multiplicity="1" />
+    <End Role="EduAppDoc" Type="Self.EduAppDoc" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LoginDetails">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="EduAppDoc">
+        <PropertyRef Name="P_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__EduCoDoc__P_ID__1332DBDC">
+    <End Role="LoginDetails" Type="Self.LoginDetails" Multiplicity="1" />
+    <End Role="EduCoDoc" Type="Self.EduCoDoc" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LoginDetails">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="EduCoDoc">
+        <PropertyRef Name="P_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__EduCourse__P_ID__412EB0B6">
+    <End Role="LoginDetails" Type="Self.LoginDetails" Multiplicity="0..1" />
+    <End Role="EduCourse" Type="Self.EduCourse" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LoginDetails">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="EduCourse">
+        <PropertyRef Name="P_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__EmpEduHome__P_ID__440B1D61">
+    <End Role="LoginDetails" Type="Self.LoginDetails" Multiplicity="0..1" />
+    <End Role="EmpEduHome" Type="Self.EmpEduHome" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LoginDetails">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="EmpEduHome">
+        <PropertyRef Name="P_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__EmpGold__P_ID__46E78A0C">
+    <End Role="LoginDetails" Type="Self.LoginDetails" Multiplicity="0..1" />
+    <End Role="EmpGold" Type="Self.EmpGold" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LoginDetails">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="EmpGold">
+        <PropertyRef Name="P_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__FinGoldHom__P_ID__4F7CD00D">
+    <End Role="LoginDetails" Type="Self.LoginDetails" Multiplicity="0..1" />
+    <End Role="Financial" Type="Self.Financial" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LoginDetails">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Financial">
+        <PropertyRef Name="P_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__GoldAppDoc__P_ID__0D7A0286">
+    <End Role="LoginDetails" Type="Self.LoginDetails" Multiplicity="1" />
+    <End Role="GoldAppDoc" Type="Self.GoldAppDoc" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LoginDetails">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="GoldAppDoc">
+        <PropertyRef Name="P_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Gstin__P_ID__3B75D760">
+    <End Role="LoginDetails" Type="Self.LoginDetails" Multiplicity="0..1" />
+    <End Role="Gstin" Type="Self.Gstin" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LoginDetails">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Gstin">
+        <PropertyRef Name="P_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Home__P_ID__5812160E">
+    <End Role="LoginDetails" Type="Self.LoginDetails" Multiplicity="0..1" />
+    <End Role="HomeDetails" Type="Self.HomeDetails" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LoginDetails">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="HomeDetails">
+        <PropertyRef Name="P_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__HomeAppDoc__P_ID__0A9D95DB">
+    <End Role="LoginDetails" Type="Self.LoginDetails" Multiplicity="1" />
+    <End Role="HomeAppDoc" Type="Self.HomeAppDoc" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LoginDetails">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="HomeAppDoc">
+        <PropertyRef Name="P_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__LoanEdu__P_ID__52593CB8">
+    <End Role="LoginDetails" Type="Self.LoginDetails" Multiplicity="0..1" />
+    <End Role="LoanEdu" Type="Self.LoanEdu" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LoginDetails">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="LoanEdu">
+        <PropertyRef Name="P_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Nominee__P_ID__693CA210">
+    <End Role="LoginDetails" Type="Self.LoginDetails" Multiplicity="0..1" />
+    <End Role="Nominee" Type="Self.Nominee" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LoginDetails">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Nominee">
+        <PropertyRef Name="P_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Nri__P_ID__3E52440B">
+    <End Role="LoginDetails" Type="Self.LoginDetails" Multiplicity="0..1" />
+    <End Role="Nri" Type="Self.Nri" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LoginDetails">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Nri">
+        <PropertyRef Name="P_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Personal__P_ID__38996AB5">
+    <End Role="LoginDetails" Type="Self.LoginDetails" Multiplicity="0..1" />
+    <End Role="Personal" Type="Self.Personal" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LoginDetails">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Personal">
+        <PropertyRef Name="P_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__PersonalAp__P_ID__07C12930">
+    <End Role="LoginDetails" Type="Self.LoginDetails" Multiplicity="1" />
+    <End Role="PersonalAppDoc" Type="Self.PersonalAppDoc" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LoginDetails">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="PersonalAppDoc">
+        <PropertyRef Name="P_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Property__P_ID__5AEE82B9">
+    <End Role="LoginDetails" Type="Self.LoginDetails" Multiplicity="0..1" />
+    <End Role="PropertyDetails" Type="Self.PropertyDetails" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LoginDetails">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="PropertyDetails">
+        <PropertyRef Name="P_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__PropGold__P_ID__49C3F6B7">
+    <End Role="LoginDetails" Type="Self.LoginDetails" Multiplicity="0..1" />
+    <End Role="PropGold" Type="Self.PropGold" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LoginDetails">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="PropGold">
+        <PropertyRef Name="P_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__PropHome__P_ID__5535A963">
+    <End Role="LoginDetails" Type="Self.LoginDetails" Multiplicity="0..1" />
+    <End Role="PropHome" Type="Self.PropHome" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LoginDetails">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="PropHome">
+        <PropertyRef Name="P_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__PropPerson__P_ID__5DCAEF64">
+    <End Role="LoginDetails" Type="Self.LoginDetails" Multiplicity="0..1" />
+    <End Role="PropPersonal" Type="Self.PropPersonal" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LoginDetails">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="PropPersonal">
+        <PropertyRef Name="P_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__PurpGold__P_ID__4CA06362">
+    <End Role="LoginDetails" Type="Self.LoginDetails" Multiplicity="0..1" />
+    <End Role="PurpGold" Type="Self.PurpGold" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LoginDetails">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="PurpGold">
+        <PropertyRef Name="P_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__PurpPerson__P_ID__6383C8BA">
+    <End Role="LoginDetails" Type="Self.LoginDetails" Multiplicity="0..1" />
+    <End Role="PurpPersonal" Type="Self.PurpPersonal" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LoginDetails">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="PurpPersonal">
+        <PropertyRef Name="P_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Reference__P_ID__66603565">
+    <End Role="LoginDetails" Type="Self.LoginDetails" Multiplicity="0..1" />
+    <End Role="Reference" Type="Self.Reference" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LoginDetails">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Reference">
+        <PropertyRef Name="P_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Status__P_ID__7D439ABD">
+    <End Role="LoginDetails" Type="Self.LoginDetails" Multiplicity="0..1" />
+    <End Role="Status" Type="Self.Status" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LoginDetails">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Status">
+        <PropertyRef Name="P_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="loandbModelStoreContainer">
+    <EntitySet Name="Declar" EntityType="Self.Declar" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="EduAppDoc" EntityType="Self.EduAppDoc" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="EduCoDoc" EntityType="Self.EduCoDoc" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="EduCourse" EntityType="Self.EduCourse" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="EmpEduHome" EntityType="Self.EmpEduHome" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="EmpGold" EntityType="Self.EmpGold" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Financial" EntityType="Self.Financial" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="GoldAppDoc" EntityType="Self.GoldAppDoc" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Gstin" EntityType="Self.Gstin" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="HomeAppDoc" EntityType="Self.HomeAppDoc" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="HomeDetails" EntityType="Self.HomeDetails" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="LoanDetails" EntityType="Self.LoanDetails" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="LoanEdu" EntityType="Self.LoanEdu" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="LoginDetails" EntityType="Self.LoginDetails" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Nominee" EntityType="Self.Nominee" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Nri" EntityType="Self.Nri" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Personal" EntityType="Self.Personal" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="PersonalAppDoc" EntityType="Self.PersonalAppDoc" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="PropertyDetails" EntityType="Self.PropertyDetails" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="PropGold" EntityType="Self.PropGold" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="PropHome" EntityType="Self.PropHome" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="PropPersonal" EntityType="Self.PropPersonal" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="PurpGold" EntityType="Self.PurpGold" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="PurpPersonal" EntityType="Self.PurpPersonal" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Reference" EntityType="Self.Reference" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Status" EntityType="Self.Status" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__Declar__P_ID__6C190EBB" Association="Self.FK__Declar__P_ID__6C190EBB">
+      <End Role="LoginDetails" EntitySet="LoginDetails" />
+      <End Role="Declar" EntitySet="Declar" />
+    </AssociationSet>
+    <AssociationSet Name="FK__EduAppDoc__P_ID__10566F31" Association="Self.FK__EduAppDoc__P_ID__10566F31">
+      <End Role="LoginDetails" EntitySet="LoginDetails" />
+      <End Role="EduAppDoc" EntitySet="EduAppDoc" />
+    </AssociationSet>
+    <AssociationSet Name="FK__EduCoDoc__P_ID__1332DBDC" Association="Self.FK__EduCoDoc__P_ID__1332DBDC">
+      <End Role="LoginDetails" EntitySet="LoginDetails" />
+      <End Role="EduCoDoc" EntitySet="EduCoDoc" />
+    </AssociationSet>
+    <AssociationSet Name="FK__EduCourse__P_ID__412EB0B6" Association="Self.FK__EduCourse__P_ID__412EB0B6">
+      <End Role="LoginDetails" EntitySet="LoginDetails" />
+      <End Role="EduCourse" EntitySet="EduCourse" />
+    </AssociationSet>
+    <AssociationSet Name="FK__EmpEduHome__P_ID__440B1D61" Association="Self.FK__EmpEduHome__P_ID__440B1D61">
+      <End Role="LoginDetails" EntitySet="LoginDetails" />
+      <End Role="EmpEduHome" EntitySet="EmpEduHome" />
+    </AssociationSet>
+    <AssociationSet Name="FK__EmpGold__P_ID__46E78A0C" Association="Self.FK__EmpGold__P_ID__46E78A0C">
+      <End Role="LoginDetails" EntitySet="LoginDetails" />
+      <End Role="EmpGold" EntitySet="EmpGold" />
+    </AssociationSet>
+    <AssociationSet Name="FK__FinGoldHom__P_ID__4F7CD00D" Association="Self.FK__FinGoldHom__P_ID__4F7CD00D">
+      <End Role="LoginDetails" EntitySet="LoginDetails" />
+      <End Role="Financial" EntitySet="Financial" />
+    </AssociationSet>
+    <AssociationSet Name="FK__GoldAppDoc__P_ID__0D7A0286" Association="Self.FK__GoldAppDoc__P_ID__0D7A0286">
+      <End Role="LoginDetails" EntitySet="LoginDetails" />
+      <End Role="GoldAppDoc" EntitySet="GoldAppDoc" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Gstin__P_ID__3B75D760" Association="Self.FK__Gstin__P_ID__3B75D760">
+      <End Role="LoginDetails" EntitySet="LoginDetails" />
+      <End Role="Gstin" EntitySet="Gstin" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Home__P_ID__5812160E" Association="Self.FK__Home__P_ID__5812160E">
+      <End Role="LoginDetails" EntitySet="LoginDetails" />
+      <End Role="HomeDetails" EntitySet="HomeDetails" />
+    </AssociationSet>
+    <AssociationSet Name="FK__HomeAppDoc__P_ID__0A9D95DB" Association="Self.FK__HomeAppDoc__P_ID__0A9D95DB">
+      <End Role="LoginDetails" EntitySet="LoginDetails" />
+      <End Role="HomeAppDoc" EntitySet="HomeAppDoc" />
+    </AssociationSet>
+    <AssociationSet Name="FK__LoanEdu__P_ID__52593CB8" Association="Self.FK__LoanEdu__P_ID__52593CB8">
+      <End Role="LoginDetails" EntitySet="LoginDetails" />
+      <End Role="LoanEdu" EntitySet="LoanEdu" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Nominee__P_ID__693CA210" Association="Self.FK__Nominee__P_ID__693CA210">
+      <End Role="LoginDetails" EntitySet="LoginDetails" />
+      <End Role="Nominee" EntitySet="Nominee" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Nri__P_ID__3E52440B" Association="Self.FK__Nri__P_ID__3E52440B">
+      <End Role="LoginDetails" EntitySet="LoginDetails" />
+      <End Role="Nri" EntitySet="Nri" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Personal__P_ID__38996AB5" Association="Self.FK__Personal__P_ID__38996AB5">
+      <End Role="LoginDetails" EntitySet="LoginDetails" />
+      <End Role="Personal" EntitySet="Personal" />
+    </AssociationSet>
+    <AssociationSet Name="FK__PersonalAp__P_ID__07C12930" Association="Self.FK__PersonalAp__P_ID__07C12930">
+      <End Role="LoginDetails" EntitySet="LoginDetails" />
+      <End Role="PersonalAppDoc" EntitySet="PersonalAppDoc" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Property__P_ID__5AEE82B9" Association="Self.FK__Property__P_ID__5AEE82B9">
+      <End Role="LoginDetails" EntitySet="LoginDetails" />
+      <End Role="PropertyDetails" EntitySet="PropertyDetails" />
+    </AssociationSet>
+    <AssociationSet Name="FK__PropGold__P_ID__49C3F6B7" Association="Self.FK__PropGold__P_ID__49C3F6B7">
+      <End Role="LoginDetails" EntitySet="LoginDetails" />
+      <End Role="PropGold" EntitySet="PropGold" />
+    </AssociationSet>
+    <AssociationSet Name="FK__PropHome__P_ID__5535A963" Association="Self.FK__PropHome__P_ID__5535A963">
+      <End Role="LoginDetails" EntitySet="LoginDetails" />
+      <End Role="PropHome" EntitySet="PropHome" />
+    </AssociationSet>
+    <AssociationSet Name="FK__PropPerson__P_ID__5DCAEF64" Association="Self.FK__PropPerson__P_ID__5DCAEF64">
+      <End Role="LoginDetails" EntitySet="LoginDetails" />
+      <End Role="PropPersonal" EntitySet="PropPersonal" />
+    </AssociationSet>
+    <AssociationSet Name="FK__PurpGold__P_ID__4CA06362" Association="Self.FK__PurpGold__P_ID__4CA06362">
+      <End Role="LoginDetails" EntitySet="LoginDetails" />
+      <End Role="PurpGold" EntitySet="PurpGold" />
+    </AssociationSet>
+    <AssociationSet Name="FK__PurpPerson__P_ID__6383C8BA" Association="Self.FK__PurpPerson__P_ID__6383C8BA">
+      <End Role="LoginDetails" EntitySet="LoginDetails" />
+      <End Role="PurpPersonal" EntitySet="PurpPersonal" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Reference__P_ID__66603565" Association="Self.FK__Reference__P_ID__66603565">
+      <End Role="LoginDetails" EntitySet="LoginDetails" />
+      <End Role="Reference" EntitySet="Reference" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Status__P_ID__7D439ABD" Association="Self.FK__Status__P_ID__7D439ABD">
+      <End Role="LoginDetails" EntitySet="LoginDetails" />
+      <End Role="Status" EntitySet="Status" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
