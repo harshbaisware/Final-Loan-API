@@ -28,7 +28,6 @@ namespace LoanDataAccess
         public virtual DbSet<Adminlogin> Adminlogins { get; set; }
         public virtual DbSet<Declar> Declars { get; set; }
         public virtual DbSet<EduAppDoc> EduAppDocs { get; set; }
-        public virtual DbSet<EduCoDoc> EduCoDocs { get; set; }
         public virtual DbSet<EduCourse> EduCourses { get; set; }
         public virtual DbSet<EmpEduHome> EmpEduHomes { get; set; }
         public virtual DbSet<EmpGold> EmpGolds { get; set; }

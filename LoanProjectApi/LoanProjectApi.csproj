@@ -288,7 +288,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\LoanDataAccess\LoanDataAccess.csproj">
-      <Project>{33803afa-46c3-4dcd-9f86-1ec588463262}</Project>
+      <Project>{e77f200f-aee5-404a-a3c2-da548258cd38}</Project>
       <Name>LoanDataAccess</Name>
     </ProjectReference>
   </ItemGroup>

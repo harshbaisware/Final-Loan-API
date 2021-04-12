@@ -4,62 +4,60 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="7d9c6792b87a475486458aa4bd20793c" Name="Diagram1">
+      <Diagram DiagramId="ddc48772e3654664854e8b6286916d68" Name="Diagram1">
         <EntityTypeShape EntityType="TrustyloandbModel.Adminlogin" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="TrustyloandbModel.Declar" Width="1.5" PointX="3" PointY="9.5" IsExpanded="true" />
-        <EntityTypeShape EntityType="TrustyloandbModel.EduAppDoc" Width="1.5" PointX="3" PointY="12.625" IsExpanded="true" />
-        <EntityTypeShape EntityType="TrustyloandbModel.EduCoDoc" Width="1.5" PointX="3" PointY="45.875" IsExpanded="true" />
-        <EntityTypeShape EntityType="TrustyloandbModel.EduCourse" Width="1.5" PointX="3" PointY="35.375" IsExpanded="true" />
-        <EntityTypeShape EntityType="TrustyloandbModel.EmpEduHome" Width="1.5" PointX="3" PointY="26.5" IsExpanded="true" />
-        <EntityTypeShape EntityType="TrustyloandbModel.EmpGold" Width="1.5" PointX="3" PointY="31.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="TrustyloandbModel.Financial" Width="1.5" PointX="3" PointY="62.5" IsExpanded="true" />
-        <EntityTypeShape EntityType="TrustyloandbModel.ForgotPassword" Width="1.5" PointX="3" PointY="59.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="TrustyloandbModel.GoldAppDoc" Width="1.5" PointX="3" PointY="73.25" IsExpanded="true" />
-        <EntityTypeShape EntityType="TrustyloandbModel.Gstin" Width="1.5" PointX="3" PointY="68.5" IsExpanded="true" />
-        <EntityTypeShape EntityType="TrustyloandbModel.HomeAppDoc" Width="1.5" PointX="3" PointY="101.625" IsExpanded="true" />
-        <EntityTypeShape EntityType="TrustyloandbModel.HomeDetail" Width="1.5" PointX="3" PointY="87.125" IsExpanded="true" />
-        <EntityTypeShape EntityType="TrustyloandbModel.LoanAppliedDetail" Width="1.5" PointX="3" PointY="94" IsExpanded="true" />
+        <EntityTypeShape EntityType="TrustyloandbModel.Declar" Width="1.5" PointX="3" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TrustyloandbModel.EduAppDoc" Width="1.5" PointX="3" PointY="31.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="TrustyloandbModel.EduCourse" Width="1.5" PointX="3" PointY="20.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="TrustyloandbModel.EmpEduHome" Width="1.5" PointX="3" PointY="11.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="TrustyloandbModel.EmpGold" Width="1.5" PointX="3" PointY="17.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="TrustyloandbModel.Financial" Width="1.5" PointX="3" PointY="47.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="TrustyloandbModel.ForgotPassword" Width="1.5" PointX="3" PointY="45.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="TrustyloandbModel.GoldAppDoc" Width="1.5" PointX="3" PointY="58.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TrustyloandbModel.Gstin" Width="1.5" PointX="3" PointY="53.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="TrustyloandbModel.HomeAppDoc" Width="1.5" PointX="3" PointY="87.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="TrustyloandbModel.HomeDetail" Width="1.5" PointX="3" PointY="72.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="TrustyloandbModel.LoanAppliedDetail" Width="1.5" PointX="3" PointY="79.375" IsExpanded="true" />
         <EntityTypeShape EntityType="TrustyloandbModel.LoanDetail" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="TrustyloandbModel.LoanEdu" Width="1.5" PointX="3" PointY="115.5" IsExpanded="true" />
-        <EntityTypeShape EntityType="TrustyloandbModel.LoginDetail" Width="1.5" PointX="0.75" PointY="92.5" IsExpanded="true" />
-        <EntityTypeShape EntityType="TrustyloandbModel.Nominee" Width="1.5" PointX="3" PointY="121.125" IsExpanded="true" />
-        <EntityTypeShape EntityType="TrustyloandbModel.Nri" Width="1.5" PointX="3" PointY="125.5" IsExpanded="true" />
-        <EntityTypeShape EntityType="TrustyloandbModel.Personal" Width="1.5" PointX="3" PointY="130.125" IsExpanded="true" />
-        <EntityTypeShape EntityType="TrustyloandbModel.PersonalAppDoc" Width="1.5" PointX="3" PointY="150.875" IsExpanded="true" />
-        <EntityTypeShape EntityType="TrustyloandbModel.PropertyDetail" Width="1.5" PointX="3" PointY="138.625" IsExpanded="true" />
-        <EntityTypeShape EntityType="TrustyloandbModel.PropGold" Width="1.5" PointX="3" PointY="144" IsExpanded="true" />
-        <EntityTypeShape EntityType="TrustyloandbModel.PropHome" Width="1.5" PointX="3" PointY="147.375" IsExpanded="true" />
-        <EntityTypeShape EntityType="TrustyloandbModel.PropPersonal" Width="1.5" PointX="3" PointY="164.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="TrustyloandbModel.PurpGold" Width="1.5" PointX="3" PointY="168" IsExpanded="true" />
-        <EntityTypeShape EntityType="TrustyloandbModel.PurpPersonal" Width="1.5" PointX="3" PointY="170.5" IsExpanded="true" />
-        <EntityTypeShape EntityType="TrustyloandbModel.Reference" Width="1.5" PointX="3" PointY="173.125" IsExpanded="true" />
-        <EntityTypeShape EntityType="TrustyloandbModel.Status" Width="1.5" PointX="3" PointY="178.875" IsExpanded="true" />
-        <AssociationConnector Association="TrustyloandbModel.FK__Declar__P_ID__6E01572D" ManuallyRouted="false" />
-        <AssociationConnector Association="TrustyloandbModel.FK__EduAppDoc__P_ID__6B24EA82" ManuallyRouted="false" />
-        <AssociationConnector Association="TrustyloandbModel.FK__EduCoDoc__P_ID__68487DD7" ManuallyRouted="false" />
-        <AssociationConnector Association="TrustyloandbModel.FK__EduCourse__P_ID__656C112C" ManuallyRouted="false" />
-        <AssociationConnector Association="TrustyloandbModel.FK__EmpEduHome__P_ID__628FA481" ManuallyRouted="false" />
-        <AssociationConnector Association="TrustyloandbModel.FK__EmpGold__P_ID__5FB337D6" ManuallyRouted="false" />
-        <AssociationConnector Association="TrustyloandbModel.FK__Financial__P_ID__5CD6CB2B" ManuallyRouted="false" />
-        <AssociationConnector Association="TrustyloandbModel.FK__ForgotPass__P_ID__59FA5E80" ManuallyRouted="false" />
-        <AssociationConnector Association="TrustyloandbModel.FK__GoldAppDoc__P_ID__571DF1D5" ManuallyRouted="false" />
-        <AssociationConnector Association="TrustyloandbModel.FK__Gstin__P_ID__5441852A" ManuallyRouted="false" />
-        <AssociationConnector Association="TrustyloandbModel.FK__HomeAppDoc__P_ID__5165187F" ManuallyRouted="false" />
-        <AssociationConnector Association="TrustyloandbModel.FK__HomeDetail__P_ID__4E88ABD4" ManuallyRouted="false" />
-        <AssociationConnector Association="TrustyloandbModel.FK__LoanApplie__P_ID__73BA3083" ManuallyRouted="false" />
-        <AssociationConnector Association="TrustyloandbModel.FK__LoanEdu__P_ID__49C3F6B7" ManuallyRouted="false" />
-        <AssociationConnector Association="TrustyloandbModel.FK__Nominee__P_ID__46E78A0C" ManuallyRouted="false" />
-        <AssociationConnector Association="TrustyloandbModel.FK__Nri__P_ID__440B1D61" ManuallyRouted="false" />
-        <AssociationConnector Association="TrustyloandbModel.FK__Personal__P_ID__267ABA7A" ManuallyRouted="false" />
-        <AssociationConnector Association="TrustyloandbModel.FK__PersonalAp__P_ID__412EB0B6" ManuallyRouted="false" />
-        <AssociationConnector Association="TrustyloandbModel.FK__PropertyDe__P_ID__3E52440B" ManuallyRouted="false" />
-        <AssociationConnector Association="TrustyloandbModel.FK__PropGold__P_ID__3A81B327" ManuallyRouted="false" />
-        <AssociationConnector Association="TrustyloandbModel.FK__PropHome__P_ID__37A5467C" ManuallyRouted="false" />
-        <AssociationConnector Association="TrustyloandbModel.FK__PropPerson__P_ID__34C8D9D1" ManuallyRouted="false" />
-        <AssociationConnector Association="TrustyloandbModel.FK__PurpGold__P_ID__31EC6D26" ManuallyRouted="false" />
-        <AssociationConnector Association="TrustyloandbModel.FK__PurpPerson__P_ID__2F10007B" ManuallyRouted="false" />
-        <AssociationConnector Association="TrustyloandbModel.FK__Reference__P_ID__2C3393D0" ManuallyRouted="false" />
-        <AssociationConnector Association="TrustyloandbModel.FK__Status__P_ID__29572725" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="TrustyloandbModel.LoanEdu" Width="1.5" PointX="3" PointY="101" IsExpanded="true" />
+        <EntityTypeShape EntityType="TrustyloandbModel.LoginDetail" Width="1.5" PointX="0.75" PointY="84.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="TrustyloandbModel.Nominee" Width="1.5" PointX="3" PointY="106.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="TrustyloandbModel.Nri" Width="1.5" PointX="3" PointY="110.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="TrustyloandbModel.Personal" Width="1.5" PointX="3" PointY="115.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="TrustyloandbModel.PersonalAppDoc" Width="1.5" PointX="3" PointY="136.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="TrustyloandbModel.PropertyDetail" Width="1.5" PointX="3" PointY="124" IsExpanded="true" />
+        <EntityTypeShape EntityType="TrustyloandbModel.PropGold" Width="1.5" PointX="3" PointY="129.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="TrustyloandbModel.PropHome" Width="1.5" PointX="3" PointY="132.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TrustyloandbModel.PropPersonal" Width="1.5" PointX="3" PointY="150.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="TrustyloandbModel.PurpGold" Width="1.5" PointX="3" PointY="153.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="TrustyloandbModel.PurpPersonal" Width="1.5" PointX="3" PointY="156" IsExpanded="true" />
+        <EntityTypeShape EntityType="TrustyloandbModel.Reference" Width="1.5" PointX="3" PointY="158.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="TrustyloandbModel.Status" Width="1.5" PointX="3" PointY="164.375" IsExpanded="true" />
+        <AssociationConnector Association="TrustyloandbModel.FK__Declar__P_ID__6FE99F9F" ManuallyRouted="false" />
+        <AssociationConnector Association="TrustyloandbModel.FK__EduAppDoc__P_ID__6D0D32F4" ManuallyRouted="false" />
+        <AssociationConnector Association="TrustyloandbModel.FK__EduCourse__P_ID__6754599E" ManuallyRouted="false" />
+        <AssociationConnector Association="TrustyloandbModel.FK__EmpEduHome__P_ID__6477ECF3" ManuallyRouted="false" />
+        <AssociationConnector Association="TrustyloandbModel.FK__EmpGold__P_ID__619B8048" ManuallyRouted="false" />
+        <AssociationConnector Association="TrustyloandbModel.FK__Financial__P_ID__5EBF139D" ManuallyRouted="false" />
+        <AssociationConnector Association="TrustyloandbModel.FK__ForgotPass__P_ID__5BE2A6F2" ManuallyRouted="false" />
+        <AssociationConnector Association="TrustyloandbModel.FK__GoldAppDoc__P_ID__59063A47" ManuallyRouted="false" />
+        <AssociationConnector Association="TrustyloandbModel.FK__Gstin__P_ID__5629CD9C" ManuallyRouted="false" />
+        <AssociationConnector Association="TrustyloandbModel.FK__HomeAppDoc__P_ID__534D60F1" ManuallyRouted="false" />
+        <AssociationConnector Association="TrustyloandbModel.FK__HomeDetail__P_ID__5070F446" ManuallyRouted="false" />
+        <AssociationConnector Association="TrustyloandbModel.FK__LoanApplie__P_ID__4D94879B" ManuallyRouted="false" />
+        <AssociationConnector Association="TrustyloandbModel.FK__LoanEdu__P_ID__48CFD27E" ManuallyRouted="false" />
+        <AssociationConnector Association="TrustyloandbModel.FK__Nominee__P_ID__45F365D3" ManuallyRouted="false" />
+        <AssociationConnector Association="TrustyloandbModel.FK__Nri__P_ID__4316F928" ManuallyRouted="false" />
+        <AssociationConnector Association="TrustyloandbModel.FK__Personal__P_ID__403A8C7D" ManuallyRouted="false" />
+        <AssociationConnector Association="TrustyloandbModel.FK__PersonalAp__P_ID__3D5E1FD2" ManuallyRouted="false" />
+        <AssociationConnector Association="TrustyloandbModel.FK__PropertyDe__P_ID__3A81B327" ManuallyRouted="false" />
+        <AssociationConnector Association="TrustyloandbModel.FK__PropGold__P_ID__37A5467C" ManuallyRouted="false" />
+        <AssociationConnector Association="TrustyloandbModel.FK__PropHome__P_ID__34C8D9D1" ManuallyRouted="false" />
+        <AssociationConnector Association="TrustyloandbModel.FK__PropPerson__P_ID__31EC6D26" ManuallyRouted="false" />
+        <AssociationConnector Association="TrustyloandbModel.FK__PurpGold__P_ID__2F10007B" ManuallyRouted="false" />
+        <AssociationConnector Association="TrustyloandbModel.FK__PurpPerson__P_ID__2C3393D0" ManuallyRouted="false" />
+        <AssociationConnector Association="TrustyloandbModel.FK__Reference__P_ID__29572725" ManuallyRouted="false" />
+        <AssociationConnector Association="TrustyloandbModel.FK__Status__P_ID__267ABA7A" ManuallyRouted="false" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

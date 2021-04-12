@@ -19,7 +19,7 @@
     <Property Name="Dec_Date" Type="DateTime" Precision="0" />
     <Property Name="Dec_App_Photo" Type="Binary" MaxLength="Max" FixedLength="false" />
     <Property Name="Dec_App_Sign" Type="Binary" MaxLength="Max" FixedLength="false" />
-    <NavigationProperty Name="LoginDetail" Relationship="Self.FK__Declar__P_ID__6E01572D" FromRole="Declar" ToRole="LoginDetails" />
+    <NavigationProperty Name="LoginDetail" Relationship="Self.FK__Declar__P_ID__6FE99F9F" FromRole="Declar" ToRole="LoginDetails" />
   </EntityType>
   <EntityType Name="EduAppDoc">
     <Key>
@@ -87,75 +87,7 @@
     <Property Name="Doc20_Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
     <Property Name="Doc20" Type="Binary" MaxLength="Max" FixedLength="false" />
     <Property Name="Doc20_Status" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
-    <NavigationProperty Name="LoginDetail" Relationship="Self.FK__EduAppDoc__P_ID__6B24EA82" FromRole="EduAppDoc" ToRole="LoginDetails" />
-  </EntityType>
-  <EntityType Name="EduCoDoc">
-    <Key>
-      <PropertyRef Name="ID" />
-    </Key>
-    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-    <Property Name="P_ID" Type="Int32" Nullable="false" />
-    <Property Name="Doc1_Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
-    <Property Name="Doc1" Type="Binary" MaxLength="Max" FixedLength="false" />
-    <Property Name="Doc1_Status" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
-    <Property Name="Doc2_Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
-    <Property Name="Doc2" Type="Binary" MaxLength="Max" FixedLength="false" />
-    <Property Name="Doc2_Status" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
-    <Property Name="Doc3_Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
-    <Property Name="Doc3" Type="Binary" MaxLength="Max" FixedLength="false" />
-    <Property Name="Doc3_Status" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
-    <Property Name="Doc4_Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
-    <Property Name="Doc4" Type="Binary" MaxLength="Max" FixedLength="false" />
-    <Property Name="Doc4_Status" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
-    <Property Name="Doc5_Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
-    <Property Name="Doc5" Type="Binary" MaxLength="Max" FixedLength="false" />
-    <Property Name="Doc5_Status" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
-    <Property Name="Doc6_Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
-    <Property Name="Doc6" Type="Binary" MaxLength="Max" FixedLength="false" />
-    <Property Name="Doc6_Status" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
-    <Property Name="Doc7_Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
-    <Property Name="Doc7" Type="Binary" MaxLength="Max" FixedLength="false" />
-    <Property Name="Doc7_Status" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
-    <Property Name="Doc8_Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
-    <Property Name="Doc8" Type="Binary" MaxLength="Max" FixedLength="false" />
-    <Property Name="Doc8_Status" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
-    <Property Name="Doc9_Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
-    <Property Name="Doc9" Type="Binary" MaxLength="Max" FixedLength="false" />
-    <Property Name="Doc9_Status" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
-    <Property Name="Doc10_Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
-    <Property Name="Doc10" Type="Binary" MaxLength="Max" FixedLength="false" />
-    <Property Name="Doc10_Status" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
-    <Property Name="Doc11_Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
-    <Property Name="Doc11" Type="Binary" MaxLength="Max" FixedLength="false" />
-    <Property Name="Doc11_Status" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
-    <Property Name="Doc12_Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
-    <Property Name="Doc12" Type="Binary" MaxLength="Max" FixedLength="false" />
-    <Property Name="Doc12_Status" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
-    <Property Name="Doc13_Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
-    <Property Name="Doc13" Type="Binary" MaxLength="Max" FixedLength="false" />
-    <Property Name="Doc13_Status" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
-    <Property Name="Doc14_Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
-    <Property Name="Doc14" Type="Binary" MaxLength="Max" FixedLength="false" />
-    <Property Name="Doc14_Status" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
-    <Property Name="Doc15_Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
-    <Property Name="Doc15" Type="Binary" MaxLength="Max" FixedLength="false" />
-    <Property Name="Doc15_Status" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
-    <Property Name="Doc16_Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
-    <Property Name="Doc16" Type="Binary" MaxLength="Max" FixedLength="false" />
-    <Property Name="Doc16_Status" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
-    <Property Name="Doc17_Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
-    <Property Name="Doc17" Type="Binary" MaxLength="Max" FixedLength="false" />
-    <Property Name="Doc17_Status" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
-    <Property Name="Doc18_Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
-    <Property Name="Doc18" Type="Binary" MaxLength="Max" FixedLength="false" />
-    <Property Name="Doc18_Status" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
-    <Property Name="Doc19_Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
-    <Property Name="Doc19" Type="Binary" MaxLength="Max" FixedLength="false" />
-    <Property Name="Doc19_Status" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
-    <Property Name="Doc20_Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
-    <Property Name="Doc20" Type="Binary" MaxLength="Max" FixedLength="false" />
-    <Property Name="Doc20_Status" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
-    <NavigationProperty Name="LoginDetail" Relationship="Self.FK__EduCoDoc__P_ID__68487DD7" FromRole="EduCoDoc" ToRole="LoginDetails" />
+    <NavigationProperty Name="LoginDetail" Relationship="Self.FK__EduAppDoc__P_ID__6D0D32F4" FromRole="EduAppDoc" ToRole="LoginDetails" />
   </EntityType>
   <EntityType Name="EduCourse">
     <Key>
@@ -205,7 +137,7 @@
     <Property Name="St_Clg_Name" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
     <Property Name="St_Course_Persuid" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
     <Property Name="St_Compl_Date" Type="DateTime" Precision="0" />
-    <NavigationProperty Name="LoginDetail" Relationship="Self.FK__EduCourse__P_ID__656C112C" FromRole="EduCourse" ToRole="LoginDetails" />
+    <NavigationProperty Name="LoginDetail" Relationship="Self.FK__EduCourse__P_ID__6754599E" FromRole="EduCourse" ToRole="LoginDetails" />
   </EntityType>
   <EntityType Name="EmpEduHome">
     <Key>
@@ -228,7 +160,7 @@
     <Property Name="Org_Country" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
     <Property Name="Org_Phone" Type="Int32" />
     <Property Name="Org_UAN" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
-    <NavigationProperty Name="LoginDetail" Relationship="Self.FK__EmpEduHome__P_ID__628FA481" FromRole="EmpEduHome" ToRole="LoginDetails" />
+    <NavigationProperty Name="LoginDetail" Relationship="Self.FK__EmpEduHome__P_ID__6477ECF3" FromRole="EmpEduHome" ToRole="LoginDetails" />
   </EntityType>
   <EntityType Name="EmpGold">
     <Key>
@@ -243,7 +175,7 @@
     <Property Name="Ge_Curr_Work_Years" Type="Int32" />
     <Property Name="Ge_Total_work_Years" Type="Int32" />
     <Property Name="Ge_Net_Ann_Inc" Type="Decimal" Precision="18" Scale="0" />
-    <NavigationProperty Name="LoginDetail" Relationship="Self.FK__EmpGold__P_ID__5FB337D6" FromRole="EmpGold" ToRole="LoginDetails" />
+    <NavigationProperty Name="LoginDetail" Relationship="Self.FK__EmpGold__P_ID__619B8048" FromRole="EmpGold" ToRole="LoginDetails" />
   </EntityType>
   <EntityType Name="Financial">
     <Key>
@@ -270,7 +202,7 @@
     <Property Name="Fin_Mutual_Funds_Inv" Type="Decimal" Precision="18" Scale="0" />
     <Property Name="Fin_Others_Inv" Type="Decimal" Precision="18" Scale="0" />
     <Property Name="Fin_Total_Inv" Type="Decimal" Precision="18" Scale="0" />
-    <NavigationProperty Name="LoginDetail" Relationship="Self.FK__Financial__P_ID__5CD6CB2B" FromRole="Financial" ToRole="LoginDetails" />
+    <NavigationProperty Name="LoginDetail" Relationship="Self.FK__Financial__P_ID__5EBF139D" FromRole="Financial" ToRole="LoginDetails" />
   </EntityType>
   <EntityType Name="ForgotPassword">
     <Key>
@@ -280,7 +212,7 @@
     <Property Name="P_ID" Type="Int32" Nullable="false" />
     <Property Name="U_ID" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
     <Property Name="RequestDateTime" Type="DateTime" Precision="3" />
-    <NavigationProperty Name="LoginDetail" Relationship="Self.FK__ForgotPass__P_ID__59FA5E80" FromRole="ForgotPassword" ToRole="LoginDetails" />
+    <NavigationProperty Name="LoginDetail" Relationship="Self.FK__ForgotPass__P_ID__5BE2A6F2" FromRole="ForgotPassword" ToRole="LoginDetails" />
   </EntityType>
   <EntityType Name="GoldAppDoc">
     <Key>
@@ -348,7 +280,7 @@
     <Property Name="Doc20_Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
     <Property Name="Doc20" Type="Binary" MaxLength="Max" FixedLength="false" />
     <Property Name="Doc20_Status" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
-    <NavigationProperty Name="LoginDetail" Relationship="Self.FK__GoldAppDoc__P_ID__571DF1D5" FromRole="GoldAppDoc" ToRole="LoginDetails" />
+    <NavigationProperty Name="LoginDetail" Relationship="Self.FK__GoldAppDoc__P_ID__59063A47" FromRole="GoldAppDoc" ToRole="LoginDetails" />
   </EntityType>
   <EntityType Name="Gstin">
     <Key>
@@ -369,7 +301,7 @@
     <Property Name="Gst_City" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
     <Property Name="Gst_State" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
     <Property Name="Gst_Country" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
-    <NavigationProperty Name="LoginDetail" Relationship="Self.FK__Gstin__P_ID__5441852A" FromRole="Gstin" ToRole="LoginDetails" />
+    <NavigationProperty Name="LoginDetail" Relationship="Self.FK__Gstin__P_ID__5629CD9C" FromRole="Gstin" ToRole="LoginDetails" />
   </EntityType>
   <EntityType Name="HomeAppDoc">
     <Key>
@@ -437,7 +369,7 @@
     <Property Name="Doc20_Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
     <Property Name="Doc20" Type="Binary" MaxLength="Max" FixedLength="false" />
     <Property Name="Doc20_Status" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
-    <NavigationProperty Name="LoginDetail" Relationship="Self.FK__HomeAppDoc__P_ID__5165187F" FromRole="HomeAppDoc" ToRole="LoginDetails" />
+    <NavigationProperty Name="LoginDetail" Relationship="Self.FK__HomeAppDoc__P_ID__534D60F1" FromRole="HomeAppDoc" ToRole="LoginDetails" />
   </EntityType>
   <EntityType Name="HomeDetail">
     <Key>
@@ -468,7 +400,7 @@
     <Property Name="Prop_Stamp_Cost" Type="Decimal" Precision="18" Scale="0" />
     <Property Name="Prop_Other_Cost" Type="Decimal" Precision="18" Scale="0" />
     <Property Name="Prop_Own_Contrib" Type="Decimal" Precision="18" Scale="0" />
-    <NavigationProperty Name="LoginDetail" Relationship="Self.FK__HomeDetail__P_ID__4E88ABD4" FromRole="HomeDetails" ToRole="LoginDetails" />
+    <NavigationProperty Name="LoginDetail" Relationship="Self.FK__HomeDetail__P_ID__5070F446" FromRole="HomeDetails" ToRole="LoginDetails" />
   </EntityType>
   <EntityType Name="LoanAppliedDetail">
     <Key>
@@ -504,7 +436,7 @@
     <Property Name="Gold_Emi" Type="Decimal" Precision="18" Scale="0" />
     <Property Name="Gold_Last_Emi" Type="Decimal" Precision="18" Scale="0" />
     <Property Name="Gold_Interest" Type="Decimal" Precision="18" Scale="0" />
-    <NavigationProperty Name="LoginDetail" Relationship="Self.FK__LoanApplie__P_ID__73BA3083" FromRole="LoanAppliedDetails" ToRole="LoginDetails" />
+    <NavigationProperty Name="LoginDetail" Relationship="Self.FK__LoanApplie__P_ID__4D94879B" FromRole="LoanAppliedDetails" ToRole="LoginDetails" />
   </EntityType>
   <EntityType Name="LoanDetail">
     <Key>
@@ -560,7 +492,7 @@
     <Property Name="Edu_Tt_Swift_Code" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
     <Property Name="Edu_Rtgs_Neft" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
     <Property Name="Edu_University_Ac" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
-    <NavigationProperty Name="LoginDetail" Relationship="Self.FK__LoanEdu__P_ID__49C3F6B7" FromRole="LoanEdu" ToRole="LoginDetails" />
+    <NavigationProperty Name="LoginDetail" Relationship="Self.FK__LoanEdu__P_ID__48CFD27E" FromRole="LoanEdu" ToRole="LoginDetails" />
   </EntityType>
   <EntityType Name="LoginDetail">
     <Key>
@@ -573,32 +505,31 @@
     <Property Name="Pan" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
     <Property Name="Pass" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
     <Property Name="Contact" Type="Int64" Nullable="false" />
-    <NavigationProperty Name="Declars" Relationship="Self.FK__Declar__P_ID__6E01572D" FromRole="LoginDetails" ToRole="Declar" />
-    <NavigationProperty Name="EduAppDocs" Relationship="Self.FK__EduAppDoc__P_ID__6B24EA82" FromRole="LoginDetails" ToRole="EduAppDoc" />
-    <NavigationProperty Name="EduCoDocs" Relationship="Self.FK__EduCoDoc__P_ID__68487DD7" FromRole="LoginDetails" ToRole="EduCoDoc" />
-    <NavigationProperty Name="EduCourses" Relationship="Self.FK__EduCourse__P_ID__656C112C" FromRole="LoginDetails" ToRole="EduCourse" />
-    <NavigationProperty Name="EmpEduHomes" Relationship="Self.FK__EmpEduHome__P_ID__628FA481" FromRole="LoginDetails" ToRole="EmpEduHome" />
-    <NavigationProperty Name="EmpGolds" Relationship="Self.FK__EmpGold__P_ID__5FB337D6" FromRole="LoginDetails" ToRole="EmpGold" />
-    <NavigationProperty Name="Financials" Relationship="Self.FK__Financial__P_ID__5CD6CB2B" FromRole="LoginDetails" ToRole="Financial" />
-    <NavigationProperty Name="ForgotPasswords" Relationship="Self.FK__ForgotPass__P_ID__59FA5E80" FromRole="LoginDetails" ToRole="ForgotPassword" />
-    <NavigationProperty Name="GoldAppDocs" Relationship="Self.FK__GoldAppDoc__P_ID__571DF1D5" FromRole="LoginDetails" ToRole="GoldAppDoc" />
-    <NavigationProperty Name="Gstins" Relationship="Self.FK__Gstin__P_ID__5441852A" FromRole="LoginDetails" ToRole="Gstin" />
-    <NavigationProperty Name="HomeAppDocs" Relationship="Self.FK__HomeAppDoc__P_ID__5165187F" FromRole="LoginDetails" ToRole="HomeAppDoc" />
-    <NavigationProperty Name="HomeDetails" Relationship="Self.FK__HomeDetail__P_ID__4E88ABD4" FromRole="LoginDetails" ToRole="HomeDetails" />
-    <NavigationProperty Name="LoanAppliedDetails" Relationship="Self.FK__LoanApplie__P_ID__73BA3083" FromRole="LoginDetails" ToRole="LoanAppliedDetails" />
-    <NavigationProperty Name="LoanEdus" Relationship="Self.FK__LoanEdu__P_ID__49C3F6B7" FromRole="LoginDetails" ToRole="LoanEdu" />
-    <NavigationProperty Name="Nominees" Relationship="Self.FK__Nominee__P_ID__46E78A0C" FromRole="LoginDetails" ToRole="Nominee" />
-    <NavigationProperty Name="Nris" Relationship="Self.FK__Nri__P_ID__440B1D61" FromRole="LoginDetails" ToRole="Nri" />
-    <NavigationProperty Name="Personals" Relationship="Self.FK__Personal__P_ID__267ABA7A" FromRole="LoginDetails" ToRole="Personal" />
-    <NavigationProperty Name="PersonalAppDocs" Relationship="Self.FK__PersonalAp__P_ID__412EB0B6" FromRole="LoginDetails" ToRole="PersonalAppDoc" />
-    <NavigationProperty Name="PropertyDetails" Relationship="Self.FK__PropertyDe__P_ID__3E52440B" FromRole="LoginDetails" ToRole="PropertyDetails" />
-    <NavigationProperty Name="PropGolds" Relationship="Self.FK__PropGold__P_ID__3A81B327" FromRole="LoginDetails" ToRole="PropGold" />
-    <NavigationProperty Name="PropHomes" Relationship="Self.FK__PropHome__P_ID__37A5467C" FromRole="LoginDetails" ToRole="PropHome" />
-    <NavigationProperty Name="PropPersonals" Relationship="Self.FK__PropPerson__P_ID__34C8D9D1" FromRole="LoginDetails" ToRole="PropPersonal" />
-    <NavigationProperty Name="PurpGolds" Relationship="Self.FK__PurpGold__P_ID__31EC6D26" FromRole="LoginDetails" ToRole="PurpGold" />
-    <NavigationProperty Name="PurpPersonals" Relationship="Self.FK__PurpPerson__P_ID__2F10007B" FromRole="LoginDetails" ToRole="PurpPersonal" />
-    <NavigationProperty Name="References" Relationship="Self.FK__Reference__P_ID__2C3393D0" FromRole="LoginDetails" ToRole="Reference" />
-    <NavigationProperty Name="Status" Relationship="Self.FK__Status__P_ID__29572725" FromRole="LoginDetails" ToRole="Status" />
+    <NavigationProperty Name="Declars" Relationship="Self.FK__Declar__P_ID__6FE99F9F" FromRole="LoginDetails" ToRole="Declar" />
+    <NavigationProperty Name="EduAppDocs" Relationship="Self.FK__EduAppDoc__P_ID__6D0D32F4" FromRole="LoginDetails" ToRole="EduAppDoc" />
+    <NavigationProperty Name="EduCourses" Relationship="Self.FK__EduCourse__P_ID__6754599E" FromRole="LoginDetails" ToRole="EduCourse" />
+    <NavigationProperty Name="EmpEduHomes" Relationship="Self.FK__EmpEduHome__P_ID__6477ECF3" FromRole="LoginDetails" ToRole="EmpEduHome" />
+    <NavigationProperty Name="EmpGolds" Relationship="Self.FK__EmpGold__P_ID__619B8048" FromRole="LoginDetails" ToRole="EmpGold" />
+    <NavigationProperty Name="Financials" Relationship="Self.FK__Financial__P_ID__5EBF139D" FromRole="LoginDetails" ToRole="Financial" />
+    <NavigationProperty Name="ForgotPasswords" Relationship="Self.FK__ForgotPass__P_ID__5BE2A6F2" FromRole="LoginDetails" ToRole="ForgotPassword" />
+    <NavigationProperty Name="GoldAppDocs" Relationship="Self.FK__GoldAppDoc__P_ID__59063A47" FromRole="LoginDetails" ToRole="GoldAppDoc" />
+    <NavigationProperty Name="Gstins" Relationship="Self.FK__Gstin__P_ID__5629CD9C" FromRole="LoginDetails" ToRole="Gstin" />
+    <NavigationProperty Name="HomeAppDocs" Relationship="Self.FK__HomeAppDoc__P_ID__534D60F1" FromRole="LoginDetails" ToRole="HomeAppDoc" />
+    <NavigationProperty Name="HomeDetails" Relationship="Self.FK__HomeDetail__P_ID__5070F446" FromRole="LoginDetails" ToRole="HomeDetails" />
+    <NavigationProperty Name="LoanAppliedDetails" Relationship="Self.FK__LoanApplie__P_ID__4D94879B" FromRole="LoginDetails" ToRole="LoanAppliedDetails" />
+    <NavigationProperty Name="LoanEdus" Relationship="Self.FK__LoanEdu__P_ID__48CFD27E" FromRole="LoginDetails" ToRole="LoanEdu" />
+    <NavigationProperty Name="Nominees" Relationship="Self.FK__Nominee__P_ID__45F365D3" FromRole="LoginDetails" ToRole="Nominee" />
+    <NavigationProperty Name="Nris" Relationship="Self.FK__Nri__P_ID__4316F928" FromRole="LoginDetails" ToRole="Nri" />
+    <NavigationProperty Name="Personals" Relationship="Self.FK__Personal__P_ID__403A8C7D" FromRole="LoginDetails" ToRole="Personal" />
+    <NavigationProperty Name="PersonalAppDocs" Relationship="Self.FK__PersonalAp__P_ID__3D5E1FD2" FromRole="LoginDetails" ToRole="PersonalAppDoc" />
+    <NavigationProperty Name="PropertyDetails" Relationship="Self.FK__PropertyDe__P_ID__3A81B327" FromRole="LoginDetails" ToRole="PropertyDetails" />
+    <NavigationProperty Name="PropGolds" Relationship="Self.FK__PropGold__P_ID__37A5467C" FromRole="LoginDetails" ToRole="PropGold" />
+    <NavigationProperty Name="PropHomes" Relationship="Self.FK__PropHome__P_ID__34C8D9D1" FromRole="LoginDetails" ToRole="PropHome" />
+    <NavigationProperty Name="PropPersonals" Relationship="Self.FK__PropPerson__P_ID__31EC6D26" FromRole="LoginDetails" ToRole="PropPersonal" />
+    <NavigationProperty Name="PurpGolds" Relationship="Self.FK__PurpGold__P_ID__2F10007B" FromRole="LoginDetails" ToRole="PurpGold" />
+    <NavigationProperty Name="PurpPersonals" Relationship="Self.FK__PurpPerson__P_ID__2C3393D0" FromRole="LoginDetails" ToRole="PurpPersonal" />
+    <NavigationProperty Name="References" Relationship="Self.FK__Reference__P_ID__29572725" FromRole="LoginDetails" ToRole="Reference" />
+    <NavigationProperty Name="Status" Relationship="Self.FK__Status__P_ID__267ABA7A" FromRole="LoginDetails" ToRole="Status" />
   </EntityType>
   <EntityType Name="Nominee">
     <Key>
@@ -616,7 +547,7 @@
     <Property Name="Nom_Guar_Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
     <Property Name="Nom_Guar_Age" Type="Int32" />
     <Property Name="Nom_Guar_Addr" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
-    <NavigationProperty Name="LoginDetail" Relationship="Self.FK__Nominee__P_ID__46E78A0C" FromRole="Nominee" ToRole="LoginDetails" />
+    <NavigationProperty Name="LoginDetail" Relationship="Self.FK__Nominee__P_ID__45F365D3" FromRole="Nominee" ToRole="LoginDetails" />
   </EntityType>
   <EntityType Name="Nri">
     <Key>
@@ -636,7 +567,7 @@
     <Property Name="Nri_State" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
     <Property Name="Nri_Zip_Post_Code" Type="Int32" />
     <Property Name="Nri_Iso" Type="Int32" />
-    <NavigationProperty Name="LoginDetail" Relationship="Self.FK__Nri__P_ID__440B1D61" FromRole="Nri" ToRole="LoginDetails" />
+    <NavigationProperty Name="LoginDetail" Relationship="Self.FK__Nri__P_ID__4316F928" FromRole="Nri" ToRole="LoginDetails" />
   </EntityType>
   <EntityType Name="Personal">
     <Key>
@@ -676,7 +607,7 @@
     <Property Name="App_Per_Pin" Type="Int32" />
     <Property Name="App_Per_City" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
     <Property Name="App_Per_State" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
-    <NavigationProperty Name="LoginDetail" Relationship="Self.FK__Personal__P_ID__267ABA7A" FromRole="Personal" ToRole="LoginDetails" />
+    <NavigationProperty Name="LoginDetail" Relationship="Self.FK__Personal__P_ID__403A8C7D" FromRole="Personal" ToRole="LoginDetails" />
   </EntityType>
   <EntityType Name="PersonalAppDoc">
     <Key>
@@ -744,7 +675,7 @@
     <Property Name="Doc20_Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
     <Property Name="Doc20" Type="Binary" MaxLength="Max" FixedLength="false" />
     <Property Name="Doc20_Status" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
-    <NavigationProperty Name="LoginDetail" Relationship="Self.FK__PersonalAp__P_ID__412EB0B6" FromRole="PersonalAppDoc" ToRole="LoginDetails" />
+    <NavigationProperty Name="LoginDetail" Relationship="Self.FK__PersonalAp__P_ID__3D5E1FD2" FromRole="PersonalAppDoc" ToRole="LoginDetails" />
   </EntityType>
   <EntityType Name="PropertyDetail">
     <Key>
@@ -768,7 +699,7 @@
     <Property Name="Ag_Rev_Mortage" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
     <Property Name="Ag_Lumpsum_Amount" Type="Decimal" Precision="18" Scale="0" />
     <Property Name="Ag_Annuity_Periodicity" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
-    <NavigationProperty Name="LoginDetail" Relationship="Self.FK__PropertyDe__P_ID__3E52440B" FromRole="PropertyDetails" ToRole="LoginDetails" />
+    <NavigationProperty Name="LoginDetail" Relationship="Self.FK__PropertyDe__P_ID__3A81B327" FromRole="PropertyDetails" ToRole="LoginDetails" />
   </EntityType>
   <EntityType Name="PropGold">
     <Key>
@@ -781,7 +712,7 @@
     <Property Name="Gpr_Payment_Date" Type="DateTime" Precision="0" />
     <Property Name="Gpr_Int_Pay_Mode" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
     <Property Name="Gpr_Disburs_Mode" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
-    <NavigationProperty Name="LoginDetail" Relationship="Self.FK__PropGold__P_ID__3A81B327" FromRole="PropGold" ToRole="LoginDetails" />
+    <NavigationProperty Name="LoginDetail" Relationship="Self.FK__PropGold__P_ID__37A5467C" FromRole="PropGold" ToRole="LoginDetails" />
   </EntityType>
   <EntityType Name="PropHome">
     <Key>
@@ -795,7 +726,7 @@
     <Property Name="Pr_Loan_Purpose" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
     <Property Name="Pr_Loan_Prod_Categ" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
     <Property Name="Pr_Repay_Mode" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
-    <NavigationProperty Name="LoginDetail" Relationship="Self.FK__PropHome__P_ID__37A5467C" FromRole="PropHome" ToRole="LoginDetails" />
+    <NavigationProperty Name="LoginDetail" Relationship="Self.FK__PropHome__P_ID__34C8D9D1" FromRole="PropHome" ToRole="LoginDetails" />
   </EntityType>
   <EntityType Name="PropPersonal">
     <Key>
@@ -808,7 +739,7 @@
     <Property Name="Ppr_Proces_Fee" Type="Decimal" Precision="18" Scale="0" />
     <Property Name="Ppr_Roi" Type="Decimal" Precision="18" Scale="0" />
     <Property Name="Ppr_Repayt_Mode" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
-    <NavigationProperty Name="LoginDetail" Relationship="Self.FK__PropPerson__P_ID__34C8D9D1" FromRole="PropPersonal" ToRole="LoginDetails" />
+    <NavigationProperty Name="LoginDetail" Relationship="Self.FK__PropPerson__P_ID__31EC6D26" FromRole="PropPersonal" ToRole="LoginDetails" />
   </EntityType>
   <EntityType Name="PurpGold">
     <Key>
@@ -817,7 +748,7 @@
     <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
     <Property Name="P_ID" Type="Int32" />
     <Property Name="Gpu_Purpose" Type="String" MaxLength="70" FixedLength="false" Unicode="false" />
-    <NavigationProperty Name="LoginDetail" Relationship="Self.FK__PurpGold__P_ID__31EC6D26" FromRole="PurpGold" ToRole="LoginDetails" />
+    <NavigationProperty Name="LoginDetail" Relationship="Self.FK__PurpGold__P_ID__2F10007B" FromRole="PurpGold" ToRole="LoginDetails" />
   </EntityType>
   <EntityType Name="PurpPersonal">
     <Key>
@@ -826,7 +757,7 @@
     <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
     <Property Name="P_ID" Type="Int32" />
     <Property Name="Ppu_Reason" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
-    <NavigationProperty Name="LoginDetail" Relationship="Self.FK__PurpPerson__P_ID__2F10007B" FromRole="PurpPersonal" ToRole="LoginDetails" />
+    <NavigationProperty Name="LoginDetail" Relationship="Self.FK__PurpPerson__P_ID__2C3393D0" FromRole="PurpPersonal" ToRole="LoginDetails" />
   </EntityType>
   <EntityType Name="Reference">
     <Key>
@@ -852,7 +783,7 @@
     <Property Name="Ref_Country2" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
     <Property Name="Ref_Mob_Tel2" Type="Int64" />
     <Property Name="Ref_Email2" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
-    <NavigationProperty Name="LoginDetail" Relationship="Self.FK__Reference__P_ID__2C3393D0" FromRole="Reference" ToRole="LoginDetails" />
+    <NavigationProperty Name="LoginDetail" Relationship="Self.FK__Reference__P_ID__29572725" FromRole="Reference" ToRole="LoginDetails" />
   </EntityType>
   <EntityType Name="Status">
     <Key>
@@ -872,9 +803,9 @@
     <Property Name="Gold_Applied" Type="String" MaxLength="3" FixedLength="false" Unicode="false" />
     <Property Name="Gold_Status" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
     <Property Name="Gold_Correction" Type="String" MaxLength="300" FixedLength="false" Unicode="false" />
-    <NavigationProperty Name="LoginDetail" Relationship="Self.FK__Status__P_ID__29572725" FromRole="Status" ToRole="LoginDetails" />
+    <NavigationProperty Name="LoginDetail" Relationship="Self.FK__Status__P_ID__267ABA7A" FromRole="Status" ToRole="LoginDetails" />
   </EntityType>
-  <Association Name="FK__Declar__P_ID__6E01572D">
+  <Association Name="FK__Declar__P_ID__6FE99F9F">
     <End Role="LoginDetails" Type="Self.LoginDetail" Multiplicity="0..1" />
     <End Role="Declar" Type="Self.Declar" Multiplicity="*" />
     <ReferentialConstraint>
@@ -886,7 +817,7 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
-  <Association Name="FK__EduAppDoc__P_ID__6B24EA82">
+  <Association Name="FK__EduAppDoc__P_ID__6D0D32F4">
     <End Role="LoginDetails" Type="Self.LoginDetail" Multiplicity="1" />
     <End Role="EduAppDoc" Type="Self.EduAppDoc" Multiplicity="*" />
     <ReferentialConstraint>
@@ -898,19 +829,7 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
-  <Association Name="FK__EduCoDoc__P_ID__68487DD7">
-    <End Role="LoginDetails" Type="Self.LoginDetail" Multiplicity="1" />
-    <End Role="EduCoDoc" Type="Self.EduCoDoc" Multiplicity="*" />
-    <ReferentialConstraint>
-      <Principal Role="LoginDetails">
-        <PropertyRef Name="ID" />
-      </Principal>
-      <Dependent Role="EduCoDoc">
-        <PropertyRef Name="P_ID" />
-      </Dependent>
-    </ReferentialConstraint>
-  </Association>
-  <Association Name="FK__EduCourse__P_ID__656C112C">
+  <Association Name="FK__EduCourse__P_ID__6754599E">
     <End Role="LoginDetails" Type="Self.LoginDetail" Multiplicity="0..1" />
     <End Role="EduCourse" Type="Self.EduCourse" Multiplicity="*" />
     <ReferentialConstraint>
@@ -922,7 +841,7 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
-  <Association Name="FK__EmpEduHome__P_ID__628FA481">
+  <Association Name="FK__EmpEduHome__P_ID__6477ECF3">
     <End Role="LoginDetails" Type="Self.LoginDetail" Multiplicity="0..1" />
     <End Role="EmpEduHome" Type="Self.EmpEduHome" Multiplicity="*" />
     <ReferentialConstraint>
@@ -934,7 +853,7 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
-  <Association Name="FK__EmpGold__P_ID__5FB337D6">
+  <Association Name="FK__EmpGold__P_ID__619B8048">
     <End Role="LoginDetails" Type="Self.LoginDetail" Multiplicity="0..1" />
     <End Role="EmpGold" Type="Self.EmpGold" Multiplicity="*" />
     <ReferentialConstraint>
@@ -946,7 +865,7 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
-  <Association Name="FK__Financial__P_ID__5CD6CB2B">
+  <Association Name="FK__Financial__P_ID__5EBF139D">
     <End Role="LoginDetails" Type="Self.LoginDetail" Multiplicity="0..1" />
     <End Role="Financial" Type="Self.Financial" Multiplicity="*" />
     <ReferentialConstraint>
@@ -958,7 +877,7 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
-  <Association Name="FK__ForgotPass__P_ID__59FA5E80">
+  <Association Name="FK__ForgotPass__P_ID__5BE2A6F2">
     <End Role="LoginDetails" Type="Self.LoginDetail" Multiplicity="1" />
     <End Role="ForgotPassword" Type="Self.ForgotPassword" Multiplicity="*" />
     <ReferentialConstraint>
@@ -970,7 +889,7 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
-  <Association Name="FK__GoldAppDoc__P_ID__571DF1D5">
+  <Association Name="FK__GoldAppDoc__P_ID__59063A47">
     <End Role="LoginDetails" Type="Self.LoginDetail" Multiplicity="1" />
     <End Role="GoldAppDoc" Type="Self.GoldAppDoc" Multiplicity="*" />
     <ReferentialConstraint>
@@ -982,7 +901,7 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
-  <Association Name="FK__Gstin__P_ID__5441852A">
+  <Association Name="FK__Gstin__P_ID__5629CD9C">
     <End Role="LoginDetails" Type="Self.LoginDetail" Multiplicity="0..1" />
     <End Role="Gstin" Type="Self.Gstin" Multiplicity="*" />
     <ReferentialConstraint>
@@ -994,7 +913,7 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
-  <Association Name="FK__HomeAppDoc__P_ID__5165187F">
+  <Association Name="FK__HomeAppDoc__P_ID__534D60F1">
     <End Role="LoginDetails" Type="Self.LoginDetail" Multiplicity="1" />
     <End Role="HomeAppDoc" Type="Self.HomeAppDoc" Multiplicity="*" />
     <ReferentialConstraint>
@@ -1006,7 +925,7 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
-  <Association Name="FK__HomeDetail__P_ID__4E88ABD4">
+  <Association Name="FK__HomeDetail__P_ID__5070F446">
     <End Role="LoginDetails" Type="Self.LoginDetail" Multiplicity="0..1" />
     <End Role="HomeDetails" Type="Self.HomeDetail" Multiplicity="*" />
     <ReferentialConstraint>
@@ -1018,7 +937,7 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
-  <Association Name="FK__LoanApplie__P_ID__73BA3083">
+  <Association Name="FK__LoanApplie__P_ID__4D94879B">
     <End Role="LoginDetails" Type="Self.LoginDetail" Multiplicity="0..1" />
     <End Role="LoanAppliedDetails" Type="Self.LoanAppliedDetail" Multiplicity="*" />
     <ReferentialConstraint>
@@ -1030,7 +949,7 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
-  <Association Name="FK__LoanEdu__P_ID__49C3F6B7">
+  <Association Name="FK__LoanEdu__P_ID__48CFD27E">
     <End Role="LoginDetails" Type="Self.LoginDetail" Multiplicity="0..1" />
     <End Role="LoanEdu" Type="Self.LoanEdu" Multiplicity="*" />
     <ReferentialConstraint>
@@ -1042,7 +961,7 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
-  <Association Name="FK__Nominee__P_ID__46E78A0C">
+  <Association Name="FK__Nominee__P_ID__45F365D3">
     <End Role="LoginDetails" Type="Self.LoginDetail" Multiplicity="0..1" />
     <End Role="Nominee" Type="Self.Nominee" Multiplicity="*" />
     <ReferentialConstraint>
@@ -1054,7 +973,7 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
-  <Association Name="FK__Nri__P_ID__440B1D61">
+  <Association Name="FK__Nri__P_ID__4316F928">
     <End Role="LoginDetails" Type="Self.LoginDetail" Multiplicity="0..1" />
     <End Role="Nri" Type="Self.Nri" Multiplicity="*" />
     <ReferentialConstraint>
@@ -1066,7 +985,7 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
-  <Association Name="FK__Personal__P_ID__267ABA7A">
+  <Association Name="FK__Personal__P_ID__403A8C7D">
     <End Role="LoginDetails" Type="Self.LoginDetail" Multiplicity="0..1" />
     <End Role="Personal" Type="Self.Personal" Multiplicity="*" />
     <ReferentialConstraint>
@@ -1078,7 +997,7 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
-  <Association Name="FK__PersonalAp__P_ID__412EB0B6">
+  <Association Name="FK__PersonalAp__P_ID__3D5E1FD2">
     <End Role="LoginDetails" Type="Self.LoginDetail" Multiplicity="1" />
     <End Role="PersonalAppDoc" Type="Self.PersonalAppDoc" Multiplicity="*" />
     <ReferentialConstraint>
@@ -1090,7 +1009,7 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
-  <Association Name="FK__PropertyDe__P_ID__3E52440B">
+  <Association Name="FK__PropertyDe__P_ID__3A81B327">
     <End Role="LoginDetails" Type="Self.LoginDetail" Multiplicity="0..1" />
     <End Role="PropertyDetails" Type="Self.PropertyDetail" Multiplicity="*" />
     <ReferentialConstraint>
@@ -1102,7 +1021,7 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
-  <Association Name="FK__PropGold__P_ID__3A81B327">
+  <Association Name="FK__PropGold__P_ID__37A5467C">
     <End Role="LoginDetails" Type="Self.LoginDetail" Multiplicity="0..1" />
     <End Role="PropGold" Type="Self.PropGold" Multiplicity="*" />
     <ReferentialConstraint>
@@ -1114,7 +1033,7 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
-  <Association Name="FK__PropHome__P_ID__37A5467C">
+  <Association Name="FK__PropHome__P_ID__34C8D9D1">
     <End Role="LoginDetails" Type="Self.LoginDetail" Multiplicity="0..1" />
     <End Role="PropHome" Type="Self.PropHome" Multiplicity="*" />
     <ReferentialConstraint>
@@ -1126,7 +1045,7 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
-  <Association Name="FK__PropPerson__P_ID__34C8D9D1">
+  <Association Name="FK__PropPerson__P_ID__31EC6D26">
     <End Role="LoginDetails" Type="Self.LoginDetail" Multiplicity="0..1" />
     <End Role="PropPersonal" Type="Self.PropPersonal" Multiplicity="*" />
     <ReferentialConstraint>
@@ -1138,7 +1057,7 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
-  <Association Name="FK__PurpGold__P_ID__31EC6D26">
+  <Association Name="FK__PurpGold__P_ID__2F10007B">
     <End Role="LoginDetails" Type="Self.LoginDetail" Multiplicity="0..1" />
     <End Role="PurpGold" Type="Self.PurpGold" Multiplicity="*" />
     <ReferentialConstraint>
@@ -1150,7 +1069,7 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
-  <Association Name="FK__PurpPerson__P_ID__2F10007B">
+  <Association Name="FK__PurpPerson__P_ID__2C3393D0">
     <End Role="LoginDetails" Type="Self.LoginDetail" Multiplicity="0..1" />
     <End Role="PurpPersonal" Type="Self.PurpPersonal" Multiplicity="*" />
     <ReferentialConstraint>
@@ -1162,7 +1081,7 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
-  <Association Name="FK__Reference__P_ID__2C3393D0">
+  <Association Name="FK__Reference__P_ID__29572725">
     <End Role="LoginDetails" Type="Self.LoginDetail" Multiplicity="0..1" />
     <End Role="Reference" Type="Self.Reference" Multiplicity="*" />
     <ReferentialConstraint>
@@ -1174,7 +1093,7 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
-  <Association Name="FK__Status__P_ID__29572725">
+  <Association Name="FK__Status__P_ID__267ABA7A">
     <End Role="LoginDetails" Type="Self.LoginDetail" Multiplicity="0..1" />
     <End Role="Status" Type="Self.Status" Multiplicity="*" />
     <ReferentialConstraint>
@@ -1190,7 +1109,6 @@
     <EntitySet Name="Adminlogins" EntityType="Self.Adminlogin" />
     <EntitySet Name="Declars" EntityType="Self.Declar" />
     <EntitySet Name="EduAppDocs" EntityType="Self.EduAppDoc" />
-    <EntitySet Name="EduCoDocs" EntityType="Self.EduCoDoc" />
     <EntitySet Name="EduCourses" EntityType="Self.EduCourse" />
     <EntitySet Name="EmpEduHomes" EntityType="Self.EmpEduHome" />
     <EntitySet Name="EmpGolds" EntityType="Self.EmpGold" />
@@ -1216,107 +1134,103 @@
     <EntitySet Name="PurpPersonals" EntityType="Self.PurpPersonal" />
     <EntitySet Name="References" EntityType="Self.Reference" />
     <EntitySet Name="Status" EntityType="Self.Status" />
-    <AssociationSet Name="FK__Declar__P_ID__6E01572D" Association="Self.FK__Declar__P_ID__6E01572D">
+    <AssociationSet Name="FK__Declar__P_ID__6FE99F9F" Association="Self.FK__Declar__P_ID__6FE99F9F">
       <End Role="LoginDetails" EntitySet="LoginDetails" />
       <End Role="Declar" EntitySet="Declars" />
     </AssociationSet>
-    <AssociationSet Name="FK__EduAppDoc__P_ID__6B24EA82" Association="Self.FK__EduAppDoc__P_ID__6B24EA82">
+    <AssociationSet Name="FK__EduAppDoc__P_ID__6D0D32F4" Association="Self.FK__EduAppDoc__P_ID__6D0D32F4">
       <End Role="LoginDetails" EntitySet="LoginDetails" />
       <End Role="EduAppDoc" EntitySet="EduAppDocs" />
     </AssociationSet>
-    <AssociationSet Name="FK__EduCoDoc__P_ID__68487DD7" Association="Self.FK__EduCoDoc__P_ID__68487DD7">
-      <End Role="LoginDetails" EntitySet="LoginDetails" />
-      <End Role="EduCoDoc" EntitySet="EduCoDocs" />
-    </AssociationSet>
-    <AssociationSet Name="FK__EduCourse__P_ID__656C112C" Association="Self.FK__EduCourse__P_ID__656C112C">
+    <AssociationSet Name="FK__EduCourse__P_ID__6754599E" Association="Self.FK__EduCourse__P_ID__6754599E">
       <End Role="LoginDetails" EntitySet="LoginDetails" />
       <End Role="EduCourse" EntitySet="EduCourses" />
     </AssociationSet>
-    <AssociationSet Name="FK__EmpEduHome__P_ID__628FA481" Association="Self.FK__EmpEduHome__P_ID__628FA481">
+    <AssociationSet Name="FK__EmpEduHome__P_ID__6477ECF3" Association="Self.FK__EmpEduHome__P_ID__6477ECF3">
       <End Role="LoginDetails" EntitySet="LoginDetails" />
       <End Role="EmpEduHome" EntitySet="EmpEduHomes" />
     </AssociationSet>
-    <AssociationSet Name="FK__EmpGold__P_ID__5FB337D6" Association="Self.FK__EmpGold__P_ID__5FB337D6">
+    <AssociationSet Name="FK__EmpGold__P_ID__619B8048" Association="Self.FK__EmpGold__P_ID__619B8048">
       <End Role="LoginDetails" EntitySet="LoginDetails" />
       <End Role="EmpGold" EntitySet="EmpGolds" />
     </AssociationSet>
-    <AssociationSet Name="FK__Financial__P_ID__5CD6CB2B" Association="Self.FK__Financial__P_ID__5CD6CB2B">
+    <AssociationSet Name="FK__Financial__P_ID__5EBF139D" Association="Self.FK__Financial__P_ID__5EBF139D">
       <End Role="LoginDetails" EntitySet="LoginDetails" />
       <End Role="Financial" EntitySet="Financials" />
     </AssociationSet>
-    <AssociationSet Name="FK__ForgotPass__P_ID__59FA5E80" Association="Self.FK__ForgotPass__P_ID__59FA5E80">
+    <AssociationSet Name="FK__ForgotPass__P_ID__5BE2A6F2" Association="Self.FK__ForgotPass__P_ID__5BE2A6F2">
       <End Role="LoginDetails" EntitySet="LoginDetails" />
       <End Role="ForgotPassword" EntitySet="ForgotPasswords" />
     </AssociationSet>
-    <AssociationSet Name="FK__GoldAppDoc__P_ID__571DF1D5" Association="Self.FK__GoldAppDoc__P_ID__571DF1D5">
+    <AssociationSet Name="FK__GoldAppDoc__P_ID__59063A47" Association="Self.FK__GoldAppDoc__P_ID__59063A47">
       <End Role="LoginDetails" EntitySet="LoginDetails" />
       <End Role="GoldAppDoc" EntitySet="GoldAppDocs" />
     </AssociationSet>
-    <AssociationSet Name="FK__Gstin__P_ID__5441852A" Association="Self.FK__Gstin__P_ID__5441852A">
+    <AssociationSet Name="FK__Gstin__P_ID__5629CD9C" Association="Self.FK__Gstin__P_ID__5629CD9C">
       <End Role="LoginDetails" EntitySet="LoginDetails" />
       <End Role="Gstin" EntitySet="Gstins" />
     </AssociationSet>
-    <AssociationSet Name="FK__HomeAppDoc__P_ID__5165187F" Association="Self.FK__HomeAppDoc__P_ID__5165187F">
+    <AssociationSet Name="FK__HomeAppDoc__P_ID__534D60F1" Association="Self.FK__HomeAppDoc__P_ID__534D60F1">
       <End Role="LoginDetails" EntitySet="LoginDetails" />
       <End Role="HomeAppDoc" EntitySet="HomeAppDocs" />
     </AssociationSet>
-    <AssociationSet Name="FK__HomeDetail__P_ID__4E88ABD4" Association="Self.FK__HomeDetail__P_ID__4E88ABD4">
+    <AssociationSet Name="FK__HomeDetail__P_ID__5070F446" Association="Self.FK__HomeDetail__P_ID__5070F446">
       <End Role="LoginDetails" EntitySet="LoginDetails" />
       <End Role="HomeDetails" EntitySet="HomeDetails" />
     </AssociationSet>
-    <AssociationSet Name="FK__LoanApplie__P_ID__73BA3083" Association="Self.FK__LoanApplie__P_ID__73BA3083">
+    <AssociationSet Name="FK__LoanApplie__P_ID__4D94879B" Association="Self.FK__LoanApplie__P_ID__4D94879B">
       <End Role="LoginDetails" EntitySet="LoginDetails" />
       <End Role="LoanAppliedDetails" EntitySet="LoanAppliedDetails" />
     </AssociationSet>
-    <AssociationSet Name="FK__LoanEdu__P_ID__49C3F6B7" Association="Self.FK__LoanEdu__P_ID__49C3F6B7">
+    <AssociationSet Name="FK__LoanEdu__P_ID__48CFD27E" Association="Self.FK__LoanEdu__P_ID__48CFD27E">
       <End Role="LoginDetails" EntitySet="LoginDetails" />
       <End Role="LoanEdu" EntitySet="LoanEdus" />
     </AssociationSet>
-    <AssociationSet Name="FK__Nominee__P_ID__46E78A0C" Association="Self.FK__Nominee__P_ID__46E78A0C">
+    <AssociationSet Name="FK__Nominee__P_ID__45F365D3" Association="Self.FK__Nominee__P_ID__45F365D3">
       <End Role="LoginDetails" EntitySet="LoginDetails" />
       <End Role="Nominee" EntitySet="Nominees" />
     </AssociationSet>
-    <AssociationSet Name="FK__Nri__P_ID__440B1D61" Association="Self.FK__Nri__P_ID__440B1D61">
+    <AssociationSet Name="FK__Nri__P_ID__4316F928" Association="Self.FK__Nri__P_ID__4316F928">
       <End Role="LoginDetails" EntitySet="LoginDetails" />
       <End Role="Nri" EntitySet="Nris" />
     </AssociationSet>
-    <AssociationSet Name="FK__Personal__P_ID__267ABA7A" Association="Self.FK__Personal__P_ID__267ABA7A">
+    <AssociationSet Name="FK__Personal__P_ID__403A8C7D" Association="Self.FK__Personal__P_ID__403A8C7D">
       <End Role="LoginDetails" EntitySet="LoginDetails" />
       <End Role="Personal" EntitySet="Personals" />
     </AssociationSet>
-    <AssociationSet Name="FK__PersonalAp__P_ID__412EB0B6" Association="Self.FK__PersonalAp__P_ID__412EB0B6">
+    <AssociationSet Name="FK__PersonalAp__P_ID__3D5E1FD2" Association="Self.FK__PersonalAp__P_ID__3D5E1FD2">
       <End Role="LoginDetails" EntitySet="LoginDetails" />
       <End Role="PersonalAppDoc" EntitySet="PersonalAppDocs" />
     </AssociationSet>
-    <AssociationSet Name="FK__PropertyDe__P_ID__3E52440B" Association="Self.FK__PropertyDe__P_ID__3E52440B">
+    <AssociationSet Name="FK__PropertyDe__P_ID__3A81B327" Association="Self.FK__PropertyDe__P_ID__3A81B327">
       <End Role="LoginDetails" EntitySet="LoginDetails" />
       <End Role="PropertyDetails" EntitySet="PropertyDetails" />
     </AssociationSet>
-    <AssociationSet Name="FK__PropGold__P_ID__3A81B327" Association="Self.FK__PropGold__P_ID__3A81B327">
+    <AssociationSet Name="FK__PropGold__P_ID__37A5467C" Association="Self.FK__PropGold__P_ID__37A5467C">
       <End Role="LoginDetails" EntitySet="LoginDetails" />
       <End Role="PropGold" EntitySet="PropGolds" />
     </AssociationSet>
-    <AssociationSet Name="FK__PropHome__P_ID__37A5467C" Association="Self.FK__PropHome__P_ID__37A5467C">
+    <AssociationSet Name="FK__PropHome__P_ID__34C8D9D1" Association="Self.FK__PropHome__P_ID__34C8D9D1">
       <End Role="LoginDetails" EntitySet="LoginDetails" />
       <End Role="PropHome" EntitySet="PropHomes" />
     </AssociationSet>
-    <AssociationSet Name="FK__PropPerson__P_ID__34C8D9D1" Association="Self.FK__PropPerson__P_ID__34C8D9D1">
+    <AssociationSet Name="FK__PropPerson__P_ID__31EC6D26" Association="Self.FK__PropPerson__P_ID__31EC6D26">
       <End Role="LoginDetails" EntitySet="LoginDetails" />
       <End Role="PropPersonal" EntitySet="PropPersonals" />
     </AssociationSet>
-    <AssociationSet Name="FK__PurpGold__P_ID__31EC6D26" Association="Self.FK__PurpGold__P_ID__31EC6D26">
+    <AssociationSet Name="FK__PurpGold__P_ID__2F10007B" Association="Self.FK__PurpGold__P_ID__2F10007B">
       <End Role="LoginDetails" EntitySet="LoginDetails" />
       <End Role="PurpGold" EntitySet="PurpGolds" />
     </AssociationSet>
-    <AssociationSet Name="FK__PurpPerson__P_ID__2F10007B" Association="Self.FK__PurpPerson__P_ID__2F10007B">
+    <AssociationSet Name="FK__PurpPerson__P_ID__2C3393D0" Association="Self.FK__PurpPerson__P_ID__2C3393D0">
       <End Role="LoginDetails" EntitySet="LoginDetails" />
       <End Role="PurpPersonal" EntitySet="PurpPersonals" />
     </AssociationSet>
-    <AssociationSet Name="FK__Reference__P_ID__2C3393D0" Association="Self.FK__Reference__P_ID__2C3393D0">
+    <AssociationSet Name="FK__Reference__P_ID__29572725" Association="Self.FK__Reference__P_ID__29572725">
       <End Role="LoginDetails" EntitySet="LoginDetails" />
       <End Role="Reference" EntitySet="References" />
     </AssociationSet>
-    <AssociationSet Name="FK__Status__P_ID__29572725" Association="Self.FK__Status__P_ID__29572725">
+    <AssociationSet Name="FK__Status__P_ID__267ABA7A" Association="Self.FK__Status__P_ID__267ABA7A">
       <End Role="LoginDetails" EntitySet="LoginDetails" />
       <End Role="Status" EntitySet="Status" />
     </AssociationSet>

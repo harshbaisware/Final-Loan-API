@@ -19,7 +19,6 @@ namespace LoanDataAccess
         {
             this.Declars = new HashSet<Declar>();
             this.EduAppDocs = new HashSet<EduAppDoc>();
-            this.EduCoDocs = new HashSet<EduCoDoc>();
             this.EduCourses = new HashSet<EduCourse>();
             this.EmpEduHomes = new HashSet<EmpEduHome>();
             this.EmpGolds = new HashSet<EmpGold>();
@@ -57,8 +56,6 @@ namespace LoanDataAccess
         public virtual ICollection<Declar> Declars { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<EduAppDoc> EduAppDocs { get; set; }
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<EduCoDoc> EduCoDocs { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<EduCourse> EduCourses { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]

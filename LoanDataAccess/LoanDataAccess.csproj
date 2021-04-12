@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{33803AFA-46C3-4DCD-9F86-1EC588463262}</ProjectGuid>
+    <ProjectGuid>{E77F200F-AEE5-404A-A3C2-DA548258CD38}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>LoanDataAccess</RootNamespace>
@@ -57,9 +57,6 @@
       <DependentUpon>LoanDataModel.tt</DependentUpon>
     </Compile>
     <Compile Include="EduAppDoc.cs">
-      <DependentUpon>LoanDataModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="EduCoDoc.cs">
       <DependentUpon>LoanDataModel.tt</DependentUpon>
     </Compile>
     <Compile Include="EduCourse.cs">
