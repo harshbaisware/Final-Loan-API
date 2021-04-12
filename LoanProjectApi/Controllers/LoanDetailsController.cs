@@ -10,21 +10,21 @@ namespace LoanProjectApi.Controllers
 {
     public class LoanDetailsController : ApiController
     {
-        public IEnumerable<LoginDetail> Get()
+        public IEnumerable<LoanDetail> Get()
         {
-            using (loandbEntities entities = new loandbEntities())
+            using (TrustyloandbEntities entities = new TrustyloandbEntities())
             {
                 entities.Configuration.ProxyCreationEnabled = false;
-                return entities.LoginDetails.ToList();
+                return entities.LoanDetails.ToList();
             }
         }
 
         public HttpResponseMessage Get(int id)
         {
-            using (loandbEntities entities = new loandbEntities())
+            using (TrustyloandbEntities entities = new TrustyloandbEntities())
             {
                 entities.Configuration.ProxyCreationEnabled = false;
-                var entity = entities.LoginDetails.FirstOrDefault(e => e.ID == id);
+                var entity = entities.LoanDetails.FirstOrDefault(e => e.ID == id);
                 if (entity != null)
                 {
                     return Request.CreateResponse(HttpStatusCode.OK, entity);
@@ -40,7 +40,7 @@ namespace LoanProjectApi.Controllers
         {
             try
             {
-                using (loandbEntities entities = new loandbEntities())
+                using (TrustyloandbEntities entities = new TrustyloandbEntities())
                 {
                     entities.Configuration.ProxyCreationEnabled = false;
                     entities.LoanDetails.Add(loandetail);
@@ -61,7 +61,7 @@ namespace LoanProjectApi.Controllers
         {
             try
             {
-                using (loandbEntities entities = new loandbEntities())
+                using (TrustyloandbEntities entities = new TrustyloandbEntities())
                 {
                     var entity = entities.LoanDetails.FirstOrDefault(e => e.ID == id);
                     if (entity == null)
@@ -88,7 +88,7 @@ namespace LoanProjectApi.Controllers
         {
             try
             {
-                using (loandbEntities entities = new loandbEntities())
+                using (TrustyloandbEntities entities = new TrustyloandbEntities())
                 {
                     var entity = entities.LoanDetails.FirstOrDefault(e => e.ID == id);
                     if (entity == null)

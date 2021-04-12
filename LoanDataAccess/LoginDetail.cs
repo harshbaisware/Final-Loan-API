@@ -24,10 +24,12 @@ namespace LoanDataAccess
             this.EmpEduHomes = new HashSet<EmpEduHome>();
             this.EmpGolds = new HashSet<EmpGold>();
             this.Financials = new HashSet<Financial>();
+            this.ForgotPasswords = new HashSet<ForgotPassword>();
             this.GoldAppDocs = new HashSet<GoldAppDoc>();
             this.Gstins = new HashSet<Gstin>();
             this.HomeAppDocs = new HashSet<HomeAppDoc>();
             this.HomeDetails = new HashSet<HomeDetail>();
+            this.LoanAppliedDetails = new HashSet<LoanAppliedDetail>();
             this.LoanEdus = new HashSet<LoanEdu>();
             this.Nominees = new HashSet<Nominee>();
             this.Nris = new HashSet<Nri>();
@@ -44,9 +46,12 @@ namespace LoanDataAccess
         }
     
         public int ID { get; set; }
+        public string First_Name { get; set; }
+        public string Last_Name { get; set; }
         public string Mail { get; set; }
         public string Pan { get; set; }
         public string Pass { get; set; }
+        public long Contact { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Declar> Declars { get; set; }
@@ -63,6 +68,8 @@ namespace LoanDataAccess
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Financial> Financials { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<ForgotPassword> ForgotPasswords { get; set; }
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<GoldAppDoc> GoldAppDocs { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Gstin> Gstins { get; set; }
@@ -70,6 +77,8 @@ namespace LoanDataAccess
         public virtual ICollection<HomeAppDoc> HomeAppDocs { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<HomeDetail> HomeDetails { get; set; }
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<LoanAppliedDetail> LoanAppliedDetails { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<LoanEdu> LoanEdus { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]

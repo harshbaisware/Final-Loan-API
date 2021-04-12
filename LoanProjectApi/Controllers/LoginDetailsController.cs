@@ -12,7 +12,7 @@ namespace LoanProjectApi.Controllers
     {
         public IEnumerable<LoginDetail> Get()
         {
-            using (loandbEntities entities = new loandbEntities())
+            using (TrustyloandbEntities entities = new TrustyloandbEntities())
             {
                 entities.Configuration.ProxyCreationEnabled = false;
                 return entities.LoginDetails.ToList();
@@ -21,7 +21,7 @@ namespace LoanProjectApi.Controllers
 
         public HttpResponseMessage Get(int id)
         {
-            using (loandbEntities entities = new loandbEntities())
+            using (TrustyloandbEntities entities = new TrustyloandbEntities())
             {
                 entities.Configuration.ProxyCreationEnabled = false;
                 var entity = entities.LoginDetails.FirstOrDefault(e => e.ID == id);
@@ -36,18 +36,18 @@ namespace LoanProjectApi.Controllers
             }
         }
 
-        public HttpResponseMessage Post([FromBody] LoginDetail loginDetail)
+        public HttpResponseMessage Post([FromBody] LoginDetail logindetail)
         {
             try
             {
-                using (loandbEntities entities = new loandbEntities())
+                using (TrustyloandbEntities entities = new TrustyloandbEntities())
                 {
                     entities.Configuration.ProxyCreationEnabled = false;
-                    entities.LoginDetails.Add(loginDetail);
+                    entities.LoginDetails.Add(logindetail);
                     entities.SaveChanges();
 
-                    var message = Request.CreateResponse(HttpStatusCode.Created, loginDetail);
-                    message.Headers.Location = new Uri(Request.RequestUri + loginDetail.ID.ToString());
+                    var message = Request.CreateResponse(HttpStatusCode.Created, logindetail);
+                    message.Headers.Location = new Uri(Request.RequestUri + logindetail.ID.ToString());
                     return message;
                 }
             }
@@ -61,7 +61,7 @@ namespace LoanProjectApi.Controllers
         {
             try
             {
-                using (loandbEntities entities = new loandbEntities())
+                using (TrustyloandbEntities entities = new TrustyloandbEntities())
                 {
                     var entity = entities.LoginDetails.FirstOrDefault(e => e.ID == id);
                     if (entity == null)
@@ -84,11 +84,11 @@ namespace LoanProjectApi.Controllers
         }
 
 
-        public HttpResponseMessage Put(int id, [FromBody] LoginDetail loginDetail)
+        public HttpResponseMessage Put(int id, [FromBody] LoginDetail logindetail)
         {
             try
             {
-                using (loandbEntities entities = new loandbEntities())
+                using (TrustyloandbEntities entities = new TrustyloandbEntities())
                 {
                     var entity = entities.LoginDetails.FirstOrDefault(e => e.ID == id);
                     if (entity == null)
@@ -97,9 +97,12 @@ namespace LoanProjectApi.Controllers
                     }
                     else
                     {
-                        entity.Mail = loginDetail.Mail;
-                        entity.Pan = loginDetail.Pan;
-                        entity.Pass = loginDetail.Pass;
+                        entity.First_Name = logindetail.First_Name;
+                        entity.Last_Name = logindetail.Last_Name;
+                        entity.Mail = logindetail.Mail;
+                        entity.Pan = logindetail.Pan;
+                        entity.Pass = logindetail.Pass;
+                        entity.Contact = logindetail.Contact;
 
                         entities.SaveChanges();
 

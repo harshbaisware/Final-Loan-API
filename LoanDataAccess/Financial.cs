@@ -29,9 +29,6 @@ namespace LoanDataAccess
         public string Fin_Bank2_Branch { get; set; }
         public string Fin_Bank2_Ac_Type { get; set; }
         public string Fin_Bank2_Ac_No { get; set; }
-        public string Fin_Loan1_Bank { get; set; }
-        public string Fin_Loan1_Type { get; set; }
-        public Nullable<decimal> Fin_Loan1_Amount { get; set; }
         public Nullable<decimal> Fin_Deposits_Inv { get; set; }
         public Nullable<decimal> Fin_Shares_Inv { get; set; }
         public Nullable<decimal> Fin_Insurance_Inv { get; set; }

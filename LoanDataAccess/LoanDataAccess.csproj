@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{FA423BF9-D60A-4EE5-B338-C4CBD5DC4328}</ProjectGuid>
+    <ProjectGuid>{33803AFA-46C3-4DCD-9F86-1EC588463262}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>LoanDataAccess</RootNamespace>
@@ -50,6 +50,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Adminlogin.cs">
+      <DependentUpon>LoanDataModel.tt</DependentUpon>
+    </Compile>
     <Compile Include="Declar.cs">
       <DependentUpon>LoanDataModel.tt</DependentUpon>
     </Compile>
@@ -71,6 +74,9 @@
     <Compile Include="Financial.cs">
       <DependentUpon>LoanDataModel.tt</DependentUpon>
     </Compile>
+    <Compile Include="ForgotPassword.cs">
+      <DependentUpon>LoanDataModel.tt</DependentUpon>
+    </Compile>
     <Compile Include="GoldAppDoc.cs">
       <DependentUpon>LoanDataModel.tt</DependentUpon>
     </Compile>
@@ -81,6 +87,9 @@
       <DependentUpon>LoanDataModel.tt</DependentUpon>
     </Compile>
     <Compile Include="HomeDetail.cs">
+      <DependentUpon>LoanDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LoanAppliedDetail.cs">
       <DependentUpon>LoanDataModel.tt</DependentUpon>
     </Compile>
     <Compile Include="LoanDataModel.Context.cs">

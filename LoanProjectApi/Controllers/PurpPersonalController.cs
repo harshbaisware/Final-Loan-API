@@ -12,7 +12,7 @@ namespace LoanProjectApi.Controllers
     {
         public IEnumerable<PurpPersonal> Get()
         {
-            using (loandbEntities entities = new loandbEntities())
+            using (TrustyloandbEntities entities = new TrustyloandbEntities())
             {
                 entities.Configuration.ProxyCreationEnabled = false;
                 return entities.PurpPersonals.ToList();
@@ -21,7 +21,7 @@ namespace LoanProjectApi.Controllers
 
         public HttpResponseMessage Get(int id)
         {
-            using (loandbEntities entities = new loandbEntities())
+            using (TrustyloandbEntities entities = new TrustyloandbEntities())
             {
                 entities.Configuration.ProxyCreationEnabled = false;
                 var entity = entities.PurpPersonals.FirstOrDefault(e => e.P_ID == id);
@@ -40,7 +40,7 @@ namespace LoanProjectApi.Controllers
         {
             try
             {
-                using (loandbEntities entities = new loandbEntities())
+                using (TrustyloandbEntities entities = new TrustyloandbEntities())
                 {
                     entities.Configuration.ProxyCreationEnabled = false;
                     entities.PurpPersonals.Add(purppersonal);
@@ -61,7 +61,7 @@ namespace LoanProjectApi.Controllers
         {
             try
             {
-                using (loandbEntities entities = new loandbEntities())
+                using (TrustyloandbEntities entities = new TrustyloandbEntities())
                 {
                     var entity = entities.PurpPersonals.FirstOrDefault(e => e.P_ID == id);
                     if (entity == null)
@@ -88,7 +88,7 @@ namespace LoanProjectApi.Controllers
         {
             try
             {
-                using (loandbEntities entities = new loandbEntities())
+                using (TrustyloandbEntities entities = new TrustyloandbEntities())
                 {
                     var entity = entities.PurpPersonals.FirstOrDefault(e => e.P_ID == id);
                     if (entity == null)

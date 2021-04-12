@@ -13,10 +13,10 @@ namespace LoanDataAccess
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class loandbEntities : DbContext
+    public partial class TrustyloandbEntities : DbContext
     {
-        public loandbEntities()
-            : base("name=loandbEntities")
+        public TrustyloandbEntities()
+            : base("name=TrustyloandbEntities")
         {
         }
     
@@ -25,6 +25,7 @@ namespace LoanDataAccess
             throw new UnintentionalCodeFirstException();
         }
     
+        public virtual DbSet<Adminlogin> Adminlogins { get; set; }
         public virtual DbSet<Declar> Declars { get; set; }
         public virtual DbSet<EduAppDoc> EduAppDocs { get; set; }
         public virtual DbSet<EduCoDoc> EduCoDocs { get; set; }
@@ -32,10 +33,12 @@ namespace LoanDataAccess
         public virtual DbSet<EmpEduHome> EmpEduHomes { get; set; }
         public virtual DbSet<EmpGold> EmpGolds { get; set; }
         public virtual DbSet<Financial> Financials { get; set; }
+        public virtual DbSet<ForgotPassword> ForgotPasswords { get; set; }
         public virtual DbSet<GoldAppDoc> GoldAppDocs { get; set; }
         public virtual DbSet<Gstin> Gstins { get; set; }
         public virtual DbSet<HomeAppDoc> HomeAppDocs { get; set; }
         public virtual DbSet<HomeDetail> HomeDetails { get; set; }
+        public virtual DbSet<LoanAppliedDetail> LoanAppliedDetails { get; set; }
         public virtual DbSet<LoanDetail> LoanDetails { get; set; }
         public virtual DbSet<LoanEdu> LoanEdus { get; set; }
         public virtual DbSet<LoginDetail> LoginDetails { get; set; }

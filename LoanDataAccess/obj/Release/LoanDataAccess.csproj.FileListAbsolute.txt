@@ -5,7 +5,6 @@ C:\Users\harsh\source\repos\LoanProjectApi\LoanDataAccess\bin\Release\EntityFram
 C:\Users\harsh\source\repos\LoanProjectApi\LoanDataAccess\bin\Release\EntityFramework.SqlServer.dll
 C:\Users\harsh\source\repos\LoanProjectApi\LoanDataAccess\bin\Release\EntityFramework.xml
 C:\Users\harsh\source\repos\LoanProjectApi\LoanDataAccess\bin\Release\EntityFramework.SqlServer.xml
-C:\Users\harsh\source\repos\LoanProjectApi\LoanDataAccess\obj\Release\LoanDataAccess.csprojAssemblyReference.cache
 C:\Users\harsh\source\repos\LoanProjectApi\LoanDataAccess\obj\Release\LoanDataAccess.csproj.CoreCompileInputs.cache
 C:\Users\harsh\source\repos\LoanProjectApi\LoanDataAccess\obj\Release\LoanDataAccess.csproj.CopyComplete
 C:\Users\harsh\source\repos\LoanProjectApi\LoanDataAccess\obj\Release\LoanDataAccess.dll

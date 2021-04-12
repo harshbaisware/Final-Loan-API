@@ -51,6 +51,8 @@ C:\Users\harsh\source\repos\LoanProjectApi\LoanProjectApi\bin\roslyn\vbc.rsp
 C:\Users\harsh\source\repos\LoanProjectApi\LoanProjectApi\bin\roslyn\VBCSCompiler.exe
 C:\Users\harsh\source\repos\LoanProjectApi\LoanProjectApi\bin\roslyn\VBCSCompiler.exe.config
 C:\Users\harsh\source\repos\LoanProjectApi\LoanProjectApi\bin\Antlr3.Runtime.dll
+C:\Users\harsh\source\repos\LoanProjectApi\LoanProjectApi\bin\EntityFramework.dll
+C:\Users\harsh\source\repos\LoanProjectApi\LoanProjectApi\bin\EntityFramework.SqlServer.dll
 C:\Users\harsh\source\repos\LoanProjectApi\LoanProjectApi\bin\LoanDataAccess.dll
 C:\Users\harsh\source\repos\LoanProjectApi\LoanProjectApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 C:\Users\harsh\source\repos\LoanProjectApi\LoanProjectApi\bin\Microsoft.Web.Infrastructure.dll
@@ -66,9 +68,10 @@ C:\Users\harsh\source\repos\LoanProjectApi\LoanProjectApi\bin\System.Web.WebPage
 C:\Users\harsh\source\repos\LoanProjectApi\LoanProjectApi\bin\System.Web.WebPages.dll
 C:\Users\harsh\source\repos\LoanProjectApi\LoanProjectApi\bin\System.Web.WebPages.Razor.dll
 C:\Users\harsh\source\repos\LoanProjectApi\LoanProjectApi\bin\WebGrease.dll
-C:\Users\harsh\source\repos\LoanProjectApi\LoanProjectApi\bin\EntityFramework.dll
 C:\Users\harsh\source\repos\LoanProjectApi\LoanProjectApi\bin\LoanDataAccess.pdb
 C:\Users\harsh\source\repos\LoanProjectApi\LoanProjectApi\bin\LoanDataAccess.dll.config
+C:\Users\harsh\source\repos\LoanProjectApi\LoanProjectApi\bin\EntityFramework.xml
+C:\Users\harsh\source\repos\LoanProjectApi\LoanProjectApi\bin\EntityFramework.SqlServer.xml
 C:\Users\harsh\source\repos\LoanProjectApi\LoanProjectApi\bin\Newtonsoft.Json.xml
 C:\Users\harsh\source\repos\LoanProjectApi\LoanProjectApi\bin\System.Net.Http.Formatting.xml
 C:\Users\harsh\source\repos\LoanProjectApi\LoanProjectApi\bin\System.Web.Helpers.xml
@@ -82,11 +85,8 @@ C:\Users\harsh\source\repos\LoanProjectApi\LoanProjectApi\bin\System.Web.WebPage
 C:\Users\harsh\source\repos\LoanProjectApi\LoanProjectApi\bin\System.Web.WebPages.Razor.xml
 C:\Users\harsh\source\repos\LoanProjectApi\LoanProjectApi\bin\Antlr3.Runtime.pdb
 C:\Users\harsh\source\repos\LoanProjectApi\LoanProjectApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\harsh\source\repos\LoanProjectApi\LoanProjectApi\bin\EntityFramework.xml
 C:\Users\harsh\source\repos\LoanProjectApi\LoanProjectApi\obj\Debug\LoanProjectApi.csprojAssemblyReference.cache
 C:\Users\harsh\source\repos\LoanProjectApi\LoanProjectApi\obj\Debug\LoanProjectApi.csproj.CoreCompileInputs.cache
 C:\Users\harsh\source\repos\LoanProjectApi\LoanProjectApi\obj\Debug\LoanProjectApi.csproj.CopyComplete
 C:\Users\harsh\source\repos\LoanProjectApi\LoanProjectApi\obj\Debug\LoanProjectApi.dll
 C:\Users\harsh\source\repos\LoanProjectApi\LoanProjectApi\obj\Debug\LoanProjectApi.pdb
-C:\Users\harsh\source\repos\LoanProjectApi\LoanProjectApi\bin\EntityFramework.SqlServer.dll
-C:\Users\harsh\source\repos\LoanProjectApi\LoanProjectApi\bin\EntityFramework.SqlServer.xml

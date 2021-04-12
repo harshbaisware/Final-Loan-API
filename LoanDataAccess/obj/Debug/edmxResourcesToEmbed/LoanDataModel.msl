@@ -1,8 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
-  <EntityContainerMapping StorageEntityContainer="loandbModelStoreContainer" CdmEntityContainer="loandbEntities">
+  <EntityContainerMapping StorageEntityContainer="TrustyloandbModelStoreContainer" CdmEntityContainer="TrustyloandbEntities">
+    <EntitySetMapping Name="Adminlogins">
+      <EntityTypeMapping TypeName="TrustyloandbModel.Adminlogin">
+        <MappingFragment StoreEntitySet="Adminlogin">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
     <EntitySetMapping Name="Declars">
-      <EntityTypeMapping TypeName="loandbModel.Declar">
+      <EntityTypeMapping TypeName="TrustyloandbModel.Declar">
         <MappingFragment StoreEntitySet="Declar">
           <ScalarProperty Name="ID" ColumnName="ID" />
           <ScalarProperty Name="P_ID" ColumnName="P_ID" />
@@ -14,7 +24,7 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="EduAppDocs">
-      <EntityTypeMapping TypeName="loandbModel.EduAppDoc">
+      <EntityTypeMapping TypeName="TrustyloandbModel.EduAppDoc">
         <MappingFragment StoreEntitySet="EduAppDoc">
           <ScalarProperty Name="ID" ColumnName="ID" />
           <ScalarProperty Name="P_ID" ColumnName="P_ID" />
@@ -82,7 +92,7 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="EduCoDocs">
-      <EntityTypeMapping TypeName="loandbModel.EduCoDoc">
+      <EntityTypeMapping TypeName="TrustyloandbModel.EduCoDoc">
         <MappingFragment StoreEntitySet="EduCoDoc">
           <ScalarProperty Name="ID" ColumnName="ID" />
           <ScalarProperty Name="P_ID" ColumnName="P_ID" />
@@ -150,7 +160,7 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="EduCourses">
-      <EntityTypeMapping TypeName="loandbModel.EduCourse">
+      <EntityTypeMapping TypeName="TrustyloandbModel.EduCourse">
         <MappingFragment StoreEntitySet="EduCourse">
           <ScalarProperty Name="ID" ColumnName="ID" />
           <ScalarProperty Name="P_ID" ColumnName="P_ID" />
@@ -200,7 +210,7 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="EmpEduHomes">
-      <EntityTypeMapping TypeName="loandbModel.EmpEduHome">
+      <EntityTypeMapping TypeName="TrustyloandbModel.EmpEduHome">
         <MappingFragment StoreEntitySet="EmpEduHome">
           <ScalarProperty Name="ID" ColumnName="ID" />
           <ScalarProperty Name="P_ID" ColumnName="P_ID" />
@@ -223,7 +233,7 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="EmpGolds">
-      <EntityTypeMapping TypeName="loandbModel.EmpGold">
+      <EntityTypeMapping TypeName="TrustyloandbModel.EmpGold">
         <MappingFragment StoreEntitySet="EmpGold">
           <ScalarProperty Name="ID" ColumnName="ID" />
           <ScalarProperty Name="P_ID" ColumnName="P_ID" />
@@ -238,7 +248,7 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="Financials">
-      <EntityTypeMapping TypeName="loandbModel.Financial">
+      <EntityTypeMapping TypeName="TrustyloandbModel.Financial">
         <MappingFragment StoreEntitySet="Financial">
           <ScalarProperty Name="ID" ColumnName="ID" />
           <ScalarProperty Name="P_ID" ColumnName="P_ID" />
@@ -255,9 +265,6 @@
           <ScalarProperty Name="Fin_Bank2_Branch" ColumnName="Fin_Bank2_Branch" />
           <ScalarProperty Name="Fin_Bank2_Ac_Type" ColumnName="Fin_Bank2_Ac_Type" />
           <ScalarProperty Name="Fin_Bank2_Ac_No" ColumnName="Fin_Bank2_Ac_No" />
-          <ScalarProperty Name="Fin_Loan1_Bank" ColumnName="Fin_Loan1_Bank" />
-          <ScalarProperty Name="Fin_Loan1_Type" ColumnName="Fin_Loan1_Type" />
-          <ScalarProperty Name="Fin_Loan1_Amount" ColumnName="Fin_Loan1_Amount" />
           <ScalarProperty Name="Fin_Deposits_Inv" ColumnName="Fin_Deposits_Inv" />
           <ScalarProperty Name="Fin_Shares_Inv" ColumnName="Fin_Shares_Inv" />
           <ScalarProperty Name="Fin_Insurance_Inv" ColumnName="Fin_Insurance_Inv" />
@@ -267,8 +274,18 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
+    <EntitySetMapping Name="ForgotPasswords">
+      <EntityTypeMapping TypeName="TrustyloandbModel.ForgotPassword">
+        <MappingFragment StoreEntitySet="ForgotPassword">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="P_ID" ColumnName="P_ID" />
+          <ScalarProperty Name="U_ID" ColumnName="U_ID" />
+          <ScalarProperty Name="RequestDateTime" ColumnName="RequestDateTime" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
     <EntitySetMapping Name="GoldAppDocs">
-      <EntityTypeMapping TypeName="loandbModel.GoldAppDoc">
+      <EntityTypeMapping TypeName="TrustyloandbModel.GoldAppDoc">
         <MappingFragment StoreEntitySet="GoldAppDoc">
           <ScalarProperty Name="ID" ColumnName="ID" />
           <ScalarProperty Name="P_ID" ColumnName="P_ID" />
@@ -336,7 +353,7 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="Gstins">
-      <EntityTypeMapping TypeName="loandbModel.Gstin">
+      <EntityTypeMapping TypeName="TrustyloandbModel.Gstin">
         <MappingFragment StoreEntitySet="Gstin">
           <ScalarProperty Name="ID" ColumnName="ID" />
           <ScalarProperty Name="P_ID" ColumnName="P_ID" />
@@ -357,7 +374,7 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="HomeAppDocs">
-      <EntityTypeMapping TypeName="loandbModel.HomeAppDoc">
+      <EntityTypeMapping TypeName="TrustyloandbModel.HomeAppDoc">
         <MappingFragment StoreEntitySet="HomeAppDoc">
           <ScalarProperty Name="ID" ColumnName="ID" />
           <ScalarProperty Name="P_ID" ColumnName="P_ID" />
@@ -425,7 +442,7 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="HomeDetails">
-      <EntityTypeMapping TypeName="loandbModel.HomeDetail">
+      <EntityTypeMapping TypeName="TrustyloandbModel.HomeDetail">
         <MappingFragment StoreEntitySet="HomeDetails">
           <ScalarProperty Name="ID" ColumnName="ID" />
           <ScalarProperty Name="P_ID" ColumnName="P_ID" />
@@ -455,8 +472,44 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
+    <EntitySetMapping Name="LoanAppliedDetails">
+      <EntityTypeMapping TypeName="TrustyloandbModel.LoanAppliedDetail">
+        <MappingFragment StoreEntitySet="LoanAppliedDetails">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="P_ID" ColumnName="P_ID" />
+          <ScalarProperty Name="Per_ID" ColumnName="Per_ID" />
+          <ScalarProperty Name="Per_Amount" ColumnName="Per_Amount" />
+          <ScalarProperty Name="Per_Rate" ColumnName="Per_Rate" />
+          <ScalarProperty Name="Per_Tenure" ColumnName="Per_Tenure" />
+          <ScalarProperty Name="Per_Emi" ColumnName="Per_Emi" />
+          <ScalarProperty Name="Per_Last_Emi" ColumnName="Per_Last_Emi" />
+          <ScalarProperty Name="Per_Interest" ColumnName="Per_Interest" />
+          <ScalarProperty Name="Home_ID" ColumnName="Home_ID" />
+          <ScalarProperty Name="Home_Amount" ColumnName="Home_Amount" />
+          <ScalarProperty Name="Home_Rate" ColumnName="Home_Rate" />
+          <ScalarProperty Name="Home_Tenure" ColumnName="Home_Tenure" />
+          <ScalarProperty Name="Home_Emi" ColumnName="Home_Emi" />
+          <ScalarProperty Name="Home_Last_Emi" ColumnName="Home_Last_Emi" />
+          <ScalarProperty Name="Home_Interest" ColumnName="Home_Interest" />
+          <ScalarProperty Name="Edu_ID" ColumnName="Edu_ID" />
+          <ScalarProperty Name="Edu_Amount" ColumnName="Edu_Amount" />
+          <ScalarProperty Name="Edu_Rate" ColumnName="Edu_Rate" />
+          <ScalarProperty Name="Edu_Tenure" ColumnName="Edu_Tenure" />
+          <ScalarProperty Name="Edu_Emi" ColumnName="Edu_Emi" />
+          <ScalarProperty Name="Edu_Last_Emi" ColumnName="Edu_Last_Emi" />
+          <ScalarProperty Name="Edu_Interest" ColumnName="Edu_Interest" />
+          <ScalarProperty Name="Gold_ID" ColumnName="Gold_ID" />
+          <ScalarProperty Name="Gold_Amount" ColumnName="Gold_Amount" />
+          <ScalarProperty Name="Gold_Rate" ColumnName="Gold_Rate" />
+          <ScalarProperty Name="Gold_Tenure" ColumnName="Gold_Tenure" />
+          <ScalarProperty Name="Gold_Emi" ColumnName="Gold_Emi" />
+          <ScalarProperty Name="Gold_Last_Emi" ColumnName="Gold_Last_Emi" />
+          <ScalarProperty Name="Gold_Interest" ColumnName="Gold_Interest" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
     <EntitySetMapping Name="LoanDetails">
-      <EntityTypeMapping TypeName="loandbModel.LoanDetail">
+      <EntityTypeMapping TypeName="TrustyloandbModel.LoanDetail">
         <MappingFragment StoreEntitySet="LoanDetails">
           <ScalarProperty Name="ID" ColumnName="ID" />
           <ScalarProperty Name="Personal_Interest_Rate" ColumnName="Personal_Interest_Rate" />
@@ -488,7 +541,7 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="LoanEdus">
-      <EntityTypeMapping TypeName="loandbModel.LoanEdu">
+      <EntityTypeMapping TypeName="TrustyloandbModel.LoanEdu">
         <MappingFragment StoreEntitySet="LoanEdu">
           <ScalarProperty Name="ID" ColumnName="ID" />
           <ScalarProperty Name="P_ID" ColumnName="P_ID" />
@@ -513,17 +566,20 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="LoginDetails">
-      <EntityTypeMapping TypeName="loandbModel.LoginDetail">
+      <EntityTypeMapping TypeName="TrustyloandbModel.LoginDetail">
         <MappingFragment StoreEntitySet="LoginDetails">
           <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="First_Name" ColumnName="First_Name" />
+          <ScalarProperty Name="Last_Name" ColumnName="Last_Name" />
           <ScalarProperty Name="Mail" ColumnName="Mail" />
           <ScalarProperty Name="Pan" ColumnName="Pan" />
           <ScalarProperty Name="Pass" ColumnName="Pass" />
+          <ScalarProperty Name="Contact" ColumnName="Contact" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="Nominees">
-      <EntityTypeMapping TypeName="loandbModel.Nominee">
+      <EntityTypeMapping TypeName="TrustyloandbModel.Nominee">
         <MappingFragment StoreEntitySet="Nominee">
           <ScalarProperty Name="ID" ColumnName="ID" />
           <ScalarProperty Name="P_ID" ColumnName="P_ID" />
@@ -541,7 +597,7 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="Nris">
-      <EntityTypeMapping TypeName="loandbModel.Nri">
+      <EntityTypeMapping TypeName="TrustyloandbModel.Nri">
         <MappingFragment StoreEntitySet="Nri">
           <ScalarProperty Name="ID" ColumnName="ID" />
           <ScalarProperty Name="P_ID" ColumnName="P_ID" />
@@ -561,7 +617,7 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="Personals">
-      <EntityTypeMapping TypeName="loandbModel.Personal">
+      <EntityTypeMapping TypeName="TrustyloandbModel.Personal">
         <MappingFragment StoreEntitySet="Personal">
           <ScalarProperty Name="ID" ColumnName="ID" />
           <ScalarProperty Name="P_ID" ColumnName="P_ID" />
@@ -601,7 +657,7 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="PersonalAppDocs">
-      <EntityTypeMapping TypeName="loandbModel.PersonalAppDoc">
+      <EntityTypeMapping TypeName="TrustyloandbModel.PersonalAppDoc">
         <MappingFragment StoreEntitySet="PersonalAppDoc">
           <ScalarProperty Name="ID" ColumnName="ID" />
           <ScalarProperty Name="P_ID" ColumnName="P_ID" />
@@ -669,7 +725,7 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="PropertyDetails">
-      <EntityTypeMapping TypeName="loandbModel.PropertyDetail">
+      <EntityTypeMapping TypeName="TrustyloandbModel.PropertyDetail">
         <MappingFragment StoreEntitySet="PropertyDetails">
           <ScalarProperty Name="ID" ColumnName="ID" />
           <ScalarProperty Name="P_ID" ColumnName="P_ID" />
@@ -693,7 +749,7 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="PropGolds">
-      <EntityTypeMapping TypeName="loandbModel.PropGold">
+      <EntityTypeMapping TypeName="TrustyloandbModel.PropGold">
         <MappingFragment StoreEntitySet="PropGold">
           <ScalarProperty Name="ID" ColumnName="ID" />
           <ScalarProperty Name="P_ID" ColumnName="P_ID" />
@@ -706,7 +762,7 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="PropHomes">
-      <EntityTypeMapping TypeName="loandbModel.PropHome">
+      <EntityTypeMapping TypeName="TrustyloandbModel.PropHome">
         <MappingFragment StoreEntitySet="PropHome">
           <ScalarProperty Name="ID" ColumnName="ID" />
           <ScalarProperty Name="P_ID" ColumnName="P_ID" />
@@ -720,7 +776,7 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="PropPersonals">
-      <EntityTypeMapping TypeName="loandbModel.PropPersonal">
+      <EntityTypeMapping TypeName="TrustyloandbModel.PropPersonal">
         <MappingFragment StoreEntitySet="PropPersonal">
           <ScalarProperty Name="ID" ColumnName="ID" />
           <ScalarProperty Name="P_ID" ColumnName="P_ID" />
@@ -733,7 +789,7 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="PurpGolds">
-      <EntityTypeMapping TypeName="loandbModel.PurpGold">
+      <EntityTypeMapping TypeName="TrustyloandbModel.PurpGold">
         <MappingFragment StoreEntitySet="PurpGold">
           <ScalarProperty Name="ID" ColumnName="ID" />
           <ScalarProperty Name="P_ID" ColumnName="P_ID" />
@@ -742,7 +798,7 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="PurpPersonals">
-      <EntityTypeMapping TypeName="loandbModel.PurpPersonal">
+      <EntityTypeMapping TypeName="TrustyloandbModel.PurpPersonal">
         <MappingFragment StoreEntitySet="PurpPersonal">
           <ScalarProperty Name="ID" ColumnName="ID" />
           <ScalarProperty Name="P_ID" ColumnName="P_ID" />
@@ -751,7 +807,7 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="References">
-      <EntityTypeMapping TypeName="loandbModel.Reference">
+      <EntityTypeMapping TypeName="TrustyloandbModel.Reference">
         <MappingFragment StoreEntitySet="Reference">
           <ScalarProperty Name="ID" ColumnName="ID" />
           <ScalarProperty Name="P_ID" ColumnName="P_ID" />
@@ -777,7 +833,7 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="Status">
-      <EntityTypeMapping TypeName="loandbModel.Status">
+      <EntityTypeMapping TypeName="TrustyloandbModel.Status">
         <MappingFragment StoreEntitySet="Status">
           <ScalarProperty Name="ID" ColumnName="ID" />
           <ScalarProperty Name="P_ID" ColumnName="P_ID" />

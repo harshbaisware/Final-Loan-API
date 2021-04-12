@@ -161,18 +161,23 @@
     <Compile Include="Areas\HelpPage\SampleGeneration\SampleDirection.cs" />
     <Compile Include="Areas\HelpPage\SampleGeneration\TextSample.cs" />
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
+    <Compile Include="Controllers\AdminLoginController.cs" />
     <Compile Include="Controllers\DeclarController.cs" />
     <Compile Include="Controllers\EduAppDocController.cs" />
-    <Compile Include="Controllers\EduCoDocController.cs" />
     <Compile Include="Controllers\EduCourseController.cs" />
     <Compile Include="Controllers\EmpEduHomeController.cs" />
     <Compile Include="Controllers\EmpGoldController.cs" />
     <Compile Include="Controllers\FinancialController.cs" />
+    <Compile Include="Controllers\ForgotPasswordController.cs" />
     <Compile Include="Controllers\GoldAppDocController.cs" />
     <Compile Include="Controllers\GstinController.cs" />
     <Compile Include="Controllers\HomeAppDocController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\HomeDetailsController.cs" />
+    <Compile Include="Controllers\LoanAppliedDetailsEducationController.cs" />
+    <Compile Include="Controllers\LoanAppliedDetailsGoldController.cs" />
+    <Compile Include="Controllers\LoanAppliedDetailsHomeController.cs" />
+    <Compile Include="Controllers\LoanAppliedDetailsPersonalController.cs" />
     <Compile Include="Controllers\LoanDetailsController.cs" />
     <Compile Include="Controllers\LoanEduController.cs" />
     <Compile Include="Controllers\LoginDetailsController.cs" />
@@ -187,7 +192,10 @@
     <Compile Include="Controllers\PurpGoldController.cs" />
     <Compile Include="Controllers\PurpPersonalController.cs" />
     <Compile Include="Controllers\ReferenceController.cs" />
-    <Compile Include="Controllers\StatusController.cs" />
+    <Compile Include="Controllers\StatusEducationController.cs" />
+    <Compile Include="Controllers\StatusGoldController.cs" />
+    <Compile Include="Controllers\StatusHomeController.cs" />
+    <Compile Include="Controllers\StatusPersonalController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -280,7 +288,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\LoanDataAccess\LoanDataAccess.csproj">
-      <Project>{fa423bf9-d60a-4ee5-b338-c4cbd5dc4328}</Project>
+      <Project>{33803afa-46c3-4dcd-9f86-1ec588463262}</Project>
       <Name>LoanDataAccess</Name>
     </ProjectReference>
   </ItemGroup>
